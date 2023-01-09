@@ -2,13 +2,7 @@
 
 Live at https://sebranly.github.io/portfolio/
 
-- [ ] On GitHub go to Settings > Pages and activate it for `master`
-  - [ ] A GitHub Action should be queued for publishing the website live
-- [ ] Go back to `main`
-- [ ] Favicon: use a website like https://favicon.io/favicon-generator/ and edit `manifest.json` as needed
-- [ ] Edit the metadata for social media sharing and other files
-  - [ ] The project should not contain any of these strings anymore:
-    - [ ] `placeholder`
+- [ ] Remove `placeholder` image
 
 ## Development
 
