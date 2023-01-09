@@ -1,5 +1,6 @@
-import { returnTemplate } from '../index';
+// TODO: replace
+import { returnTemplate } from "../index";
 
-test('returnTemplate', () => {
-  expect(returnTemplate('-ts')).toBe('template-ts');
+test("returnTemplate", () => {
+  expect(returnTemplate("-ts")).toBe("template-ts");
 });
