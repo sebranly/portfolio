@@ -2,7 +2,7 @@
 
 Live at https://sebranly.github.io/portfolio/
 
-- [ ] Remove `placeholder` image
+- [ ] TODO: Remove `placeholder` image
 
 ## Development
 

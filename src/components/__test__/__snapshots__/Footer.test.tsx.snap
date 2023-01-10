@@ -3,12 +3,13 @@
 exports[`Footer 1`] = `
 NodeList [
   <div
-    class="App-footer"
+    class="my-4 text-lg text-center"
   >
     <div>
       Developed by
        
       <a
+        class="underline"
         href="https://github.com/sebranly/portfolio"
         rel="noopener noreferrer"
         target="_blank"
@@ -17,12 +18,13 @@ NodeList [
         sebranly
       </a>
        
-      with ❤️
+      with 🖤
     </div>
     <div>
       Website version
        
       <a
+        class="underline"
         href="https://github.com/sebranly/portfolio/releases"
         rel="noopener noreferrer"
         target="_blank"

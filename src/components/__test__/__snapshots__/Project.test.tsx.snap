@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project 1`] = `
+NodeList [
+  <div
+    class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+  >
+    <h2
+      class="font-bold text-xl"
+    >
+      Some project
+    </h2>
+    <h3
+      class="text-lg"
+    >
+      Some subtitle
+    </h3>
+    <div
+      class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+    >
+      <div
+        class="mb-2"
+      >
+        Some description
+      </div>
+      <div
+        class="mb-2"
+      >
+        And another sentence
+      </div>
+    </div>
+    <div
+      class="grow h-4"
+    />
+    <div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+      >
+        2013
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+      >
+        archived
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+      >
+        JavaScript
+      </div>
+    </div>
+  </div>,
+]
+`;
