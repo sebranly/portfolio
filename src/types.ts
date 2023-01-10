@@ -19,10 +19,26 @@ export enum Tag {
   Windows = 'Windows'
 }
 
+export enum Color {
+  Black = 'black',
+  White = 'white',
+  Gray = 'gray',
+  Red = 'red',
+  Orange = 'orange',
+  Amber = 'amber',
+  Yellow = 'yellow',
+  Green = 'green',
+  Blue = 'blue',
+  Indigo = 'indigo',
+  Purple = 'purple',
+  Pink = 'pink',
+  Rose = 'rose'
+}
+
 export enum Role {
   Algorithm = 'Algorithm',
   Developer = 'Developer',
-  GraphicDesigner = 'Graphic Designer',
+  Designer = 'Designer',
   Tester = 'Tester'
 }
 
@@ -34,7 +50,7 @@ export type Contributor = {
 export type Project = {
   title: string;
   contributors?: Contributor[];
-  subtitle?: string;
+  subtitle: string;
   description: string[];
   tags: Tag[];
   years: number[];

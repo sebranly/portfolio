@@ -1,1 +1,1 @@
-export const STEPHANE = 'Stéphane Branly';
+export const STEPHANE = 'Stéphane';
