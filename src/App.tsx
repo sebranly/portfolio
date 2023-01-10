@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>{WEBSITE_TITLE}</p>
+        <h2 className="text-3xl font-bold">Tailwind test!</h2>
         <div>
           More information in the:{' '}
           <a href={PROJECT_URL} rel="noopener noreferrer" title="README.md file" target="_blank">
