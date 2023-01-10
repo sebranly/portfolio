@@ -45,7 +45,7 @@ const Project: React.FC<ProjectProps> = (props) => {
         </div>
       )}
       <div className="grow h-4" />
-      <div className="">
+      <div>
         {allTags.map((tag: TagType | number) => {
           return <Tag key={tag} tag={tag} />;
         })}

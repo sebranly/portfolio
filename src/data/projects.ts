@@ -132,7 +132,7 @@ const projects: Project[] = [
     ],
     tags: [Tag.Archived, Tag.JavaScript, Tag.Website, Tag.HTML, Tag.CSS, Tag.PHP, Tag.SQL],
     title: 'GTAV Show Your Cars',
-    subtitle: '',
+    subtitle: 'Our first real website',
     years: [2014]
   }
 ];

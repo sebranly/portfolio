@@ -6,8 +6,8 @@ import { Project } from '../Project';
 test('Project', () => {
   const project: ProjectType = {
     description: ['Some description', 'And another sentence'],
-    title: 'Some Project',
-    subtitle: 'Some subtitles',
+    title: 'Some project',
+    subtitle: 'Some subtitle',
     tags: [Tag.Archived, Tag.JavaScript],
     years: [2013]
   };
