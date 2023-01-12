@@ -31,7 +31,7 @@ NodeList [
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
     >
-      archived
+      projects.general.tags.archived
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
@@ -91,12 +91,12 @@ NodeList [
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
     >
-      video game
+      projects.general.tags.video game
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-500 hover:bg-purple-600"
     >
-      website
+      projects.general.tags.website
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
