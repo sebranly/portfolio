@@ -1,0 +1,969 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders text 1`] = `
+NodeList [
+  <header
+    class="mx-4 my-8 text-center"
+  >
+    <h1
+      class="font-bold sm:text-6xl text-2xl"
+    >
+      header.welcome
+    </h1>
+    <h2
+      class="sm:text-4xl text-2xl"
+    >
+      header.author.prefix
+      <div
+        class="italic inline"
+      >
+        sebranly
+      </div>
+      header.author.suffix
+    </h2>
+    <div
+      class="sm:text-2xl text-xl"
+    >
+      header.introduction
+    </div>
+    <div
+      class="my-4 max-w-3xl mx-auto"
+    >
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+      >
+        2011
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+      >
+        2012
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+      >
+        2013
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+      >
+        2014
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+      >
+        3D
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+      >
+        projects.general.tags.archived
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+      >
+        C
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
+      >
+        CSS
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+      >
+        HTML
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+      >
+        JavaScript
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+      >
+        myProjects
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+      >
+        Nintendo DS
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
+      >
+        OpenGL
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+      >
+        PAlib
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
+      >
+        PHP
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+      >
+        SDL
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+      >
+        SQL
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
+      >
+        projects.general.tags.video game
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-500 hover:bg-purple-600"
+      >
+        projects.general.tags.website
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+      >
+        Windows
+      </div>
+    </div>
+    <div>
+      <button
+        class="rounded mr-2"
+        style="font-weight: normal;"
+        type="submit"
+      >
+        English
+      </button>
+      <button
+        class="rounded mr-2"
+        style="font-weight: normal;"
+        type="submit"
+      >
+        Français
+      </button>
+    </div>
+  </header>,
+  <div
+    class="py-4 flex flex-wrap  justify-center bg-black"
+  >
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        Crash Team Racing 2D
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.ctr2d.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.ctr2d.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.ctr2d.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.ctr2d.desc3
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2011
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          SDL
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
+        >
+          projects.general.tags.video game
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          Windows
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        TETRISpace
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.tetrisSpace.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.tetrisSpace.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.tetrisSpace.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.tetrisSpace.desc3
+        </div>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.contributor
+          : 
+        </div>
+        <div
+          class="inline"
+        >
+          Stéphane (projects.general.roles.Designer, projects.general.roles.Tester)
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2011
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+        >
+          Nintendo DS
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
+        >
+          projects.general.tags.video game
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          PAlib
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        myDraw
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.myDraw.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.myDraw.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myDraw.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myDraw.desc3
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2012
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+        >
+          myProjects
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          SDL
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          Windows
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        Bobol's Sokoban 3D
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.bobolsSokoban3d.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.bobolsSokoban3d.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.bobolsSokoban3d.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.bobolsSokoban3d.desc3
+        </div>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.contributor
+          : 
+        </div>
+        <div
+          class="inline"
+        >
+          Stéphane (projects.general.roles.Designer, projects.general.roles.Tester)
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2012
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+        >
+          Nintendo DS
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
+        >
+          projects.general.tags.video game
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          PAlib
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        myLife
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.myLife.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.myLife.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myLife.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myLife.desc3
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2013
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+        >
+          myProjects
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+        >
+          Nintendo DS
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          PAlib
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        myPixelArt
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.myPixelArt.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.myPixelArt.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myPixelArt.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myPixelArt.desc3
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2013
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          SDL
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+        >
+          myProjects
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+        >
+          Nintendo DS
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          PAlib
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        myTetris
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.myTetris.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.myTetris.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myTetris.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myTetris.desc3
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myTetris.desc4
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2013
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+        >
+          3D
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
+        >
+          OpenGL
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+        >
+          myProjects
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
+        >
+          Nintendo DS
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
+        >
+          projects.general.tags.video game
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          PAlib
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        mySudokuTool
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.mySudokuTool.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.mySudokuTool.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.mySudokuTool.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.mySudokuTool.desc3
+        </div>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.contributor
+          : 
+        </div>
+        <div
+          class="inline"
+        >
+          Julien (projects.general.roles.Algorithm)
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2013
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+        >
+          myProjects
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          SDL
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          Windows
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        myEnglishGame
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.myEnglishGame.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.myEnglishGame.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myEnglishGame.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.myEnglishGame.desc3
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2013
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2014
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          C
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
+        >
+          myProjects
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          SDL
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
+        >
+          projects.general.tags.video game
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
+        >
+          Windows
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        GTAV Show Your Cars
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.GTAV.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.GTAV.desc1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.GTAV.desc2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.GTAV.desc3
+        </div>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.contributor
+          : 
+        </div>
+        <div
+          class="inline"
+        >
+          Stéphane (projects.general.roles.Developer)
+        </div>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+        >
+          2014
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
+        >
+          projects.general.tags.archived
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
+        >
+          JavaScript
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-500 hover:bg-purple-600"
+        >
+          projects.general.tags.website
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          HTML
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
+        >
+          CSS
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
+        >
+          PHP
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
+        >
+          SQL
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="my-4 text-lg text-center"
+  >
+    <div>
+      footer.author.prefix
+      <a
+        class="underline"
+        href="https://github.com/sebranly/portfolio"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="GitHub page for repository"
+      >
+        sebranly
+      </a>
+      footer.author.suffix
+    </div>
+    <div>
+      footer.website
+      <a
+        class="underline"
+        href="https://github.com/sebranly/portfolio/releases"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="Website changelog"
+      >
+        0.0.1
+      </a>
+    </div>
+  </div>,
+]
+`;

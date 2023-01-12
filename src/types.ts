@@ -55,3 +55,8 @@ export type Project = {
   tags: Tag[];
   years: number[];
 };
+
+export type Language = {
+  shortName: string;
+  name: string;
+};

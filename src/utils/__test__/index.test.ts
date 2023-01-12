@@ -4,6 +4,7 @@ import {
   getTagColor,
   getTailwindBackgroundColor,
   getTailwindHoverBackgroundColor,
+  hasTagTranslation,
   pluralize
 } from '../index';
 import { Tag, Color, Project } from '../../types';
@@ -35,6 +36,14 @@ const projects: Project[] = [
 // TODO: add more tests once sure about colors
 test('getTagColor', () => {
   expect(getTagColor(Tag.ThreeDimensional)).toBe(Color.Red);
+});
+
+test('hasTagTranslation', () => {
+  expect(hasTagTranslation(Tag.Archived)).toBe(true);
+  expect(hasTagTranslation(Tag.VideoGame)).toBe(true);
+  expect(hasTagTranslation(Tag.Website)).toBe(true);
+  expect(hasTagTranslation(Tag.C)).toBe(false);
+  expect(hasTagTranslation(2014)).toBe(false);
 });
 
 test('pluralize', () => {
