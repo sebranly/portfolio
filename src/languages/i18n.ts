@@ -13,15 +13,25 @@ i18n
     resources: {
       en: {
         translation: {
-          description: {
-            test1: 'Language is English',
+          header: {
+            author: {
+              prefix: `I'm `,
+              suffix: ', a Software Engineer.'
+            },
+            introduction: 'Here are some of my personal projects.',
+            welcome: 'Welcome to my Portfolio!',
           }
         }
       },
       fr: {
         translation: {
-          description: {
-            test1: 'Language is French',
+          header: {
+            author: {
+              prefix: 'Je suis ',
+              suffix: ', un Ingénieur en Développement Web.'
+            },
+            introduction: 'Voici quelques uns de mes projets personnels.',
+            welcome: 'Bienvenue sur mon Portfolio !',
           }
         }
       }

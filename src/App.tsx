@@ -14,12 +14,13 @@ function App() {
   return (
     <>
       <header className="mx-4 my-8 text-center">
-        <h1 className="font-bold sm:text-6xl text-2xl">{t('description.test1')}</h1>
-        <h1 className="font-bold sm:text-6xl text-2xl">Welcome to my Portfolio!</h1>
+        <h1 className="font-bold sm:text-6xl text-2xl">{t('header.welcome')}</h1>
         <h2 className="sm:text-4xl text-2xl">
-          I'm <div className="italic inline">sebranly</div>, a Software Engineer.
+          {t('header.author.prefix')}
+          <div className="italic inline">sebranly</div>
+          {t('header.author.suffix')}
         </h2>
-        <div className="sm:text-2xl text-xl">Here are some of my personal projects.</div>
+        <div className="sm:text-2xl text-xl">{t('header.introduction')}</div>
         <Filter className="my-4 max-w-3xl mx-auto" />
         <div>
           {languages.map((language: Language) => {
