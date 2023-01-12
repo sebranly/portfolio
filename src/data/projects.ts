@@ -5,36 +5,37 @@ import { Project, Role, Tag } from '../types';
 const projects: Project[] = [
   {
     description: [
-      'Being a fan of the PS1 video game, I decide to practice my programming skills by creating a simplified version of Crash Team Racing.',
-      'Despite focusing on one track only, I carefully make sure to include all weapons from the original game as well as the whole character roster (including Penta Penguin through a cheat code).',
-      'The turn-based nature of the game allows me to create my first 4-player game.'
+      'projects.ctr2d.desc1',
+      'projects.ctr2d.desc2',
+      'projects.ctr2d.desc3'
     ],
     title: 'Crash Team Racing 2D',
-    subtitle: 'Turn-based multiplayer game',
+    subtitle: 'projects.ctr2d.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.VideoGame, Tag.Windows],
     years: [2011]
   },
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
     description: [
-      'Following pieces of advice from the OpenClassrooms community, I create a version of the famous Tetris videogame over a weekend.',
-      'I decide to challenge myself by programming it for the Nintendo DS known for its limitations on sprites.',
-      'It becomes TETRISpace, a 4-bit Tetris playable on a 11x11 squared map. The first version includes a scoring system and a save for the hi-score.'
+      'projects.tetrisSpace.desc1',
+      'projects.tetrisSpace.desc2',
+      'projects.tetrisSpace.desc3',
+      
     ],
     title: 'TETRISpace',
-    subtitle: 'Nintendo DS playable version of Tetris',
+    subtitle: 'projects.tetrisSpace.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib],
     years: [2011]
   },
   // TODO: video
   {
     description: [
-      'Intrigued by image processing, I decide to create my own version of Paint.',
-      'The final version offers lots of tools: pen, eraser, color picker, brush, rectangle, mirror and inverted modes, etc.',
-      'The most complicated tool I implement happens to be the bucket tool which makes me practice recursion.'
+      'projects.myDraw.desc1',
+      'projects.myDraw.desc2',
+      'projects.myDraw.desc3'
     ],
     title: 'myDraw',
-    subtitle: 'Mini version of Paint',
+    subtitle: 'projects.myDraw.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.MyProjects, Tag.SDL, Tag.Windows],
     years: [2012]
   },

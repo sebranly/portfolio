@@ -45,6 +45,16 @@ const getTagColor = (tag: Tag | number) => {
 };
 
 /**
+ * @name hasTagTranslation
+ * @description Returns whether a tag needs a translation
+ */
+const hasTagTranslation = (tag: Tag | number) => {
+  if (typeof tag === 'number') return false;
+  const tags = [Tag.Archived, Tag.VideoGame, Tag.Website];
+  return tags.includes(tag);
+};
+
+/**
  * @name pluralize
  * @description Returns the same string or plural version if applicable
  */
@@ -112,4 +122,4 @@ const getAllTags = (projects: Project[]) => {
   return allTagsSort;
 };
 
-export { getAllTags, getAllYears, getTagColor, getTailwindBackgroundColor, getTailwindHoverBackgroundColor, pluralize };
+export { getAllTags, getAllYears, getTagColor, getTailwindBackgroundColor, getTailwindHoverBackgroundColor, hasTagTranslation, pluralize };
