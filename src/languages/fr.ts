@@ -2,6 +2,13 @@ import { Role, Tag } from "../types"
 
 const fr = {
   translation: {
+    footer: {
+      author: {
+        prefix: 'Développé par ',
+        suffix: ' avec 🖤'
+      },
+      website: 'Site web version '
+    },
     header: {
       author: {
         prefix: 'Je suis ',
