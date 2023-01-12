@@ -53,7 +53,7 @@ const fr = {
         desc1:
           "Mon frère accepte mon aide avec joie sur un projet qu'il a entrepris. Ensemble nous développons notre premier vrai site web.",
         desc2:
-          "Les utilisateurs peuvent parcourir la liste complète de véhicules (voitures, avions, bateaux, etc.) du jeu vidéo Gran Theft Auto V. Ils peuvent créer un compte, publier une photo du véhicule qu'ils ont customisé dans le jeu sur notre site web, et recevoir des notes d'autres membres.",
+          "Les utilisateurs peuvent parcourir la liste complète de véhicules (voitures, avions, bateaux, etc.) du jeu vidéo Grand Theft Auto V. Ils peuvent créer un compte, publier une photo du véhicule qu'ils ont customisé dans le jeu sur notre site web, et recevoir des notes d'autres membres.",
         desc3:
           "Notre base d'utilisateurs grandit pour accueillir quelques centaines d'utilisateurs qui envoient des centaines d'images et des milliers de notes, ce qui nous pousse à peaufiner notre section administrateur afin de pouvoir modérer un tel volume.",
         subtitle: 'Notre premier site web'

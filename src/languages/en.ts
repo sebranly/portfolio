@@ -52,7 +52,7 @@ const en = {
         desc1:
           'My brother welcomes my help on a project he started. Together we develop our first website from scratch.',
         desc2:
-          'Users can browse the full list of vehicles (cars, planes, boats, etc.) from the video game Gran Theft Auto V. They can create an account, post a picture of the vehicle they customized within GTA onto our website and receive ratings from other users for said pictures.',
+          'Users can browse the full list of vehicles (cars, planes, boats, etc.) from the video game Grand Theft Auto V. They can create an account, post a picture of the vehicle they customized within GTA onto our website and receive ratings from other users for said pictures.',
         desc3:
           'Our user base grows to welcome a few hundreds users who submit hundreds of pictures and thousands of ratings, pushing us to tweak our admin section in order to support such a volume.',
         subtitle: 'Our first real website'
