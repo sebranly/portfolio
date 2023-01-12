@@ -59,4 +59,4 @@ export type Project = {
 export type Language = {
   shortName: string;
   name: string;
-}
+};

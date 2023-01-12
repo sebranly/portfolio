@@ -10,7 +10,7 @@ i18n
   .init({
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false,
+      escapeValue: false
     },
     resources: {
       en,

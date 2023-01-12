@@ -122,4 +122,12 @@ const getAllTags = (projects: Project[]) => {
   return allTagsSort;
 };
 
-export { getAllTags, getAllYears, getTagColor, getTailwindBackgroundColor, getTailwindHoverBackgroundColor, hasTagTranslation, pluralize };
+export {
+  getAllTags,
+  getAllYears,
+  getTagColor,
+  getTailwindBackgroundColor,
+  getTailwindHoverBackgroundColor,
+  hasTagTranslation,
+  pluralize
+};

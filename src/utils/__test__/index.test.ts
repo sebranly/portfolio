@@ -39,11 +39,11 @@ test('getTagColor', () => {
 });
 
 test('hasTagTranslation', () => {
-  expect(hasTagTranslation(Tag.Archived)).toBe(true)
-  expect(hasTagTranslation(Tag.VideoGame)).toBe(true)
-  expect(hasTagTranslation(Tag.Website)).toBe(true)
-  expect(hasTagTranslation(Tag.C)).toBe(false)
-  expect(hasTagTranslation(2014)).toBe(false)
+  expect(hasTagTranslation(Tag.Archived)).toBe(true);
+  expect(hasTagTranslation(Tag.VideoGame)).toBe(true);
+  expect(hasTagTranslation(Tag.Website)).toBe(true);
+  expect(hasTagTranslation(Tag.C)).toBe(false);
+  expect(hasTagTranslation(2014)).toBe(false);
 });
 
 test('pluralize', () => {
