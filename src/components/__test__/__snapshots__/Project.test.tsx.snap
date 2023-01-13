@@ -41,7 +41,7 @@ NodeList [
       <div
         class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
       >
-        archived
+        projects.general.tags.archived
       </div>
       <div
         class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"

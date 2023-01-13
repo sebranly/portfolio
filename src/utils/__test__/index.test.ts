@@ -1,9 +1,11 @@
 import {
   getAllTags,
   getAllYears,
+  getGitHubRepo,
   getTagColor,
   getTailwindBackgroundColor,
   getTailwindHoverBackgroundColor,
+  getWebsite,
   hasTagTranslation,
   pluralize
 } from '../index';
@@ -40,6 +42,7 @@ test('getTagColor', () => {
 
 test('hasTagTranslation', () => {
   expect(hasTagTranslation(Tag.Archived)).toBe(true);
+  expect(hasTagTranslation(Tag.SchoolProject)).toBe(true);
   expect(hasTagTranslation(Tag.VideoGame)).toBe(true);
   expect(hasTagTranslation(Tag.Website)).toBe(true);
   expect(hasTagTranslation(Tag.C)).toBe(false);
@@ -74,4 +77,12 @@ test('getAllYears', () => {
 test('getAllTags', () => {
   expect(getAllTags([])).toStrictEqual([]);
   expect(getAllTags(projects)).toStrictEqual([Tag.Archived, Tag.C, Tag.CSS]);
+});
+
+test('getGitHubRepo', () => {
+  expect(getGitHubRepo('connect-four')).toBe('https://github.com/sebranly/connect-four')
+});
+
+test('getWebsite', () => {
+  expect(getWebsite('dmz')).toBe('https://sebranly.github.io/dmz');
 });

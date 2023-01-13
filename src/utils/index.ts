@@ -1,5 +1,18 @@
 import { Color, Project, Tag } from '../types';
 import { flatten, uniq } from 'lodash';
+import { AUTHOR_GITHUB, GITHUB_PAGES_URL } from '../constants/general';
+
+/**
+ * @name getGitHubRepo
+ * @description Returns the link to the project repository
+ */
+const getGitHubRepo = (project: string) => `${AUTHOR_GITHUB}/${project}`;
+
+/**
+ * @name getWebsite
+ * @description Returns the link to the project website
+ */
+const getWebsite = (project: string) => `${GITHUB_PAGES_URL}/${project}`;
 
 /**
  * @name getTagColor
@@ -50,7 +63,7 @@ const getTagColor = (tag: Tag | number) => {
  */
 const hasTagTranslation = (tag: Tag | number) => {
   if (typeof tag === 'number') return false;
-  const tags = [Tag.Archived, Tag.VideoGame, Tag.Website];
+  const tags = [Tag.Archived, Tag.SchoolProject, Tag.VideoGame, Tag.Website];
   return tags.includes(tag);
 };
 
@@ -125,9 +138,11 @@ const getAllTags = (projects: Project[]) => {
 export {
   getAllTags,
   getAllYears,
+  getGitHubRepo,
   getTagColor,
   getTailwindBackgroundColor,
   getTailwindHoverBackgroundColor,
+  getWebsite,
   hasTagTranslation,
   pluralize
 };

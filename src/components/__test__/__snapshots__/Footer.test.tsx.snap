@@ -6,8 +6,7 @@ NodeList [
     class="my-4 text-lg text-center"
   >
     <div>
-      Developed by
-       
+      footer.author.prefix
       <a
         class="underline"
         href="https://github.com/sebranly/portfolio"
@@ -17,12 +16,10 @@ NodeList [
       >
         sebranly
       </a>
-       
-      with 🖤
+      footer.author.suffix
     </div>
     <div>
-      Website version
-       
+      footer.website
       <a
         class="underline"
         href="https://github.com/sebranly/portfolio/releases"

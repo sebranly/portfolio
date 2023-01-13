@@ -24,9 +24,44 @@ NodeList [
       2014
     </div>
     <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      2016
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      2017
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      2018
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      2021
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      2022
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      2023
+    </div>
+    <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-500 hover:bg-red-600"
     >
       3D
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      AIML
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-500 hover:bg-gray-600"
@@ -39,9 +74,29 @@ NodeList [
       C
     </div>
     <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      CLI
+    </div>
+    <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-500 hover:bg-indigo-600"
     >
       CSS
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      DNS
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      GitHub
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      GUI
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
@@ -52,6 +107,11 @@ NodeList [
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
     >
       JavaScript
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      live
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-500 hover:bg-green-600"
@@ -79,6 +139,26 @@ NodeList [
       PHP
     </div>
     <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      puzzle
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      Python
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      React
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      projects.general.tags.school project
+    </div>
+    <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-500 hover:bg-blue-600"
     >
       SDL
@@ -87,6 +167,11 @@ NodeList [
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
     >
       SQL
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      TypeScript
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-500 hover:bg-amber-600"
