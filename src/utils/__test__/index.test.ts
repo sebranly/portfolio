@@ -80,7 +80,7 @@ test('getAllTags', () => {
 });
 
 test('getGitHubRepo', () => {
-  expect(getGitHubRepo('connect-four')).toBe('https://github.com/sebranly/connect-four')
+  expect(getGitHubRepo('connect-four')).toBe('https://github.com/sebranly/connect-four');
 });
 
 test('getWebsite', () => {

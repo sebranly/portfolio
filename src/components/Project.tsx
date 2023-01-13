@@ -31,7 +31,10 @@ const Project: React.FC<ProjectProps> = (props) => {
       </div>
       {hasContributors && (
         <div className="inline">
-          <div className="font-bold inline">{contributorText}{t('projects.general.colon')} </div>
+          <div className="font-bold inline">
+            {contributorText}
+            {t('projects.general.colon')}{' '}
+          </div>
           {contributors!.map((contributor: Contributor, index: number) => {
             const { name, roles } = contributor;
             const isLastContributor = index === contributors!.length - 1;
@@ -48,24 +51,40 @@ const Project: React.FC<ProjectProps> = (props) => {
           })}
         </div>
       )}
-      {github &&  <div className="inline"><div className="font-bold inline">{t('projects.general.code')}{t('projects.general.colon')} </div><a
-          className="underline inline"
-          href={github}
-          rel="noopener noreferrer"
-          title={`GitHub page for ${title}`}
-          target="_blank"
-        >
-          GitHub
-        </a></div>}
-        {website &&  <div className="inline"><div className="font-bold inline">{t('projects.general.website')}{t('projects.general.colon')} </div><a
-          className="underline inline"
-          href={website}
-          rel="noopener noreferrer"
-          title={`Website for ${title}`}
-          target="_blank"
-        >
-          {t('projects.general.link')}
-        </a></div>}
+      {github && (
+        <div className="inline">
+          <div className="font-bold inline">
+            {t('projects.general.code')}
+            {t('projects.general.colon')}{' '}
+          </div>
+          <a
+            className="underline inline"
+            href={github}
+            rel="noopener noreferrer"
+            title={`GitHub page for ${title}`}
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </div>
+      )}
+      {website && (
+        <div className="inline">
+          <div className="font-bold inline">
+            {t('projects.general.website')}
+            {t('projects.general.colon')}{' '}
+          </div>
+          <a
+            className="underline inline"
+            href={website}
+            rel="noopener noreferrer"
+            title={`Website for ${title}`}
+            target="_blank"
+          >
+            {t('projects.general.link')}
+          </a>
+        </div>
+      )}
       <div className="grow h-4" />
       <div>
         {allTags.map((tag: TagType | number) => {

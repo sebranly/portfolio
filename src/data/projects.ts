@@ -20,7 +20,11 @@ const projects: Project[] = [
     years: [2011]
   },
   {
-    description: ['projects.eightQueensPuzzle.desc1', 'projects.eightQueensPuzzle.desc2', 'projects.eightQueensPuzzle.desc3'],
+    description: [
+      'projects.eightQueensPuzzle.desc1',
+      'projects.eightQueensPuzzle.desc2',
+      'projects.eightQueensPuzzle.desc3'
+    ],
     github: getGitHubRepo('eight-queens-puzzle'),
     title: 'Eight Queens Puzzle',
     subtitle: 'projects.eightQueensPuzzle.subtitle',
@@ -150,7 +154,7 @@ const projects: Project[] = [
     years: [2017]
   },
   {
-    description: ['projects.projectEuler.desc1','projects.projectEuler.desc2' ],
+    description: ['projects.projectEuler.desc1', 'projects.projectEuler.desc2'],
     github: getGitHubRepo('project-euler'),
     tags: [Tag.Archived, Tag.Python, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'Project Euler',
@@ -189,7 +193,7 @@ const projects: Project[] = [
     title: 'Coolr',
     subtitle: 'projects.coolr.subtitle',
     years: [2021],
-    website: getWebsite('coolr'),
+    website: getWebsite('coolr')
   },
   {
     description: ['projects.ctrOcr.desc1', 'projects.ctrOcr.desc2', 'projects.ctrOcr.desc3'],

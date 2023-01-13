@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <header className="mx-4 my-8 text-center">
-      <div>
+        <div>
           {languages.map((language: Language) => {
             const { shortName, name } = language;
 
