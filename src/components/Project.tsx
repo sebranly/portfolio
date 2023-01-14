@@ -22,6 +22,9 @@ const Project: React.FC<ProjectProps> = (props) => {
     contributors ? contributors.length : 0
   );
 
+  const githubAltText = `${t('projects.general.altText.github')} ${t(title)}`;
+  const websiteAltText = `${t('projects.general.altText.website')} ${t(title)}`;
+
   return (
     <div className="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50">
       <h2 className="font-bold text-xl">{t(title)}</h2>
@@ -64,13 +67,7 @@ const Project: React.FC<ProjectProps> = (props) => {
             {t('projects.general.code')}
             {t('projects.general.colon')}{' '}
           </div>
-          <a
-            className="underline inline"
-            href={github}
-            rel="noopener noreferrer"
-            title={`GitHub repository for ${title}`}
-            target="_blank"
-          >
+          <a className="underline inline" href={github} rel="noopener noreferrer" title={githubAltText} target="_blank">
             GitHub
           </a>
         </div>
@@ -85,7 +82,7 @@ const Project: React.FC<ProjectProps> = (props) => {
             className="underline inline"
             href={website}
             rel="noopener noreferrer"
-            title={`Website for ${title}`}
+            title={websiteAltText}
             target="_blank"
           >
             {t('projects.general.link')}

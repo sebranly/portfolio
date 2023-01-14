@@ -108,6 +108,10 @@ const en = {
           male: 'Contributor'
         },
         code: 'Source code',
+        altText: {
+          github: 'GitHub repository for',
+          website: 'Website for'
+        },
         link: 'link',
         website: 'Website',
         roles: {

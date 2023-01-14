@@ -1,6 +1,7 @@
 import { STEPHANE } from '../constants';
 import { Project, Role, Tag } from '../types';
 import { getGitHubRepo, getWebsite } from '../utils';
+import { isMobile } from 'react-device-detect';
 
 const projects: Project[] = [
   {
@@ -203,7 +204,7 @@ const projects: Project[] = [
     tags: [Tag.Archived, Tag.GitHub, Tag.HTML, Tag.JavaScript, Tag.Live, Tag.Website, Tag.CSS],
     title: 'projects.resume.title',
     subtitle: 'projects.resume.subtitle',
-    website: getWebsite('sebranly-resume'),
+    website: isMobile ? undefined : getWebsite('sebranly-resume'),
     years: [2018]
   },
   {
@@ -241,7 +242,7 @@ const projects: Project[] = [
     title: 'projects.coolr.title',
     subtitle: 'projects.coolr.subtitle',
     years: [2021],
-    website: getWebsite('coolr')
+    website: isMobile ? undefined : getWebsite('coolr')
   },
   {
     description: ['projects.ctrOcr.desc1', 'projects.ctrOcr.desc2', 'projects.ctrOcr.desc3'],

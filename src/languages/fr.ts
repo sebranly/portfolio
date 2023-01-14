@@ -53,7 +53,7 @@ const fr = {
         desc3:
           "Le résultat final comprend un mode 2 joueurs ainsi qu'une intelligence artificielle basique pour jouer seul contre l'ordinateur.",
         subtitle: "Jouez contre votre ami ou contre l'ordinateur",
-        title: "Puissance 4"
+        title: 'Puissance 4'
       },
       coolr: {
         desc1:
@@ -96,7 +96,7 @@ const fr = {
         desc3:
           'Après avoir appris que le problème des huit dames est en fait très proche de celui des permutations, nous résolvons le problème principal.',
         subtitle: "Un problème d'échecs connu",
-        title: "Problème des huit dames"
+        title: 'Problème des huit dames'
       },
       englishPronunciation: {
         desc1:
@@ -106,9 +106,13 @@ const fr = {
         desc3:
           "Le site web est disponible sur GitHub Pages pour permettre à tout un chacun d'en apprendre davantage sur la prononciation en Anglais. Avec l'absence de date butoir après 2020, une version optimisée pour mobile voit le jour en 2022.",
         subtitle: 'Site web pour une thèse',
-        title: "Prononciation en anglais"
+        title: 'Prononciation en anglais'
       },
       general: {
+        altText: {
+          github: 'Dépôt GitHub pour',
+          website: 'Site web pour'
+        },
         colon: ' :',
         contributor: {
           male: 'Collaborateur',
@@ -140,7 +144,7 @@ const fr = {
         desc3:
           "Notre base d'utilisateurs grandit pour accueillir quelques centaines d'utilisateurs qui envoient des centaines d'images et des milliers de notes, ce qui nous pousse à peaufiner notre section administrateur afin de pouvoir modérer un tel volume.",
         subtitle: 'Notre premier site web',
-        title: "GTAV : Montrez vos véhicules"
+        title: 'GTAV : Montrez vos véhicules'
       },
       kaleidoscope: {
         desc1:
@@ -158,7 +162,7 @@ const fr = {
           'Ce sont des carrés de nombres dans lesquels la somme de chaque ligne, colonne et diagonale, est identique.',
         desc3: 'Aimant le concept, je suis un algorithme afin de créer des carrés magiques.',
         subtitle: 'Des carrés aux propriétés étonnantes',
-        title: "Carrés magiques"
+        title: 'Carrés magiques'
       },
       myDraw: {
         desc1: "Intrigué par le traitement d'images, je décide de créer ma propre version de Paint.",
@@ -238,7 +242,7 @@ const fr = {
           'En parallèle de la compétition appelée Advent of Code, je prends part à quelques défis du Projet Euler.',
         desc2: 'Je complète les 20+ premiers défis en utilisant Python cette fois-ci.',
         subtitle: 'Quelques défis supplémentaires',
-        title: "Projet Euler"
+        title: 'Projet Euler'
       },
       resume: {
         desc1:
@@ -265,7 +269,7 @@ const fr = {
         desc3:
           'Grâce à ce modèle, plusieurs sites web voient le jour y compris Kaleidoscope, DMZ et ce Portfolio que vous êtes en train de consulter.',
         subtitle: 'Modèle React + TypeScript pour sites web',
-        title: "Modèle TS"
+        title: 'Modèle TS'
       },
       tetrisSpace: {
         desc1:
