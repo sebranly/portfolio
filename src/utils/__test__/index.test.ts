@@ -1,9 +1,11 @@
 import {
   getAllTags,
   getAllYears,
+  getGitHubRepo,
   getTagColor,
   getTailwindBackgroundColor,
   getTailwindHoverBackgroundColor,
+  getWebsite,
   hasTagTranslation,
   pluralize
 } from '../index';
@@ -40,6 +42,8 @@ test('getTagColor', () => {
 
 test('hasTagTranslation', () => {
   expect(hasTagTranslation(Tag.Archived)).toBe(true);
+  expect(hasTagTranslation(Tag.Live)).toBe(true);
+  expect(hasTagTranslation(Tag.SchoolProject)).toBe(true);
   expect(hasTagTranslation(Tag.VideoGame)).toBe(true);
   expect(hasTagTranslation(Tag.Website)).toBe(true);
   expect(hasTagTranslation(Tag.C)).toBe(false);
@@ -57,13 +61,13 @@ test('pluralize', () => {
 test('getTailwindBackgroundColor', () => {
   expect(getTailwindBackgroundColor(Color.Black)).toBe('bg-black');
   expect(getTailwindBackgroundColor(Color.White)).toBe('bg-white');
-  expect(getTailwindBackgroundColor(Color.Blue)).toBe('bg-blue-500');
+  expect(getTailwindBackgroundColor(Color.Blue)).toBe('bg-blue-600');
 });
 
 test('getTailwindHoverBackgroundColor', () => {
   expect(getTailwindHoverBackgroundColor(Color.Black)).toBe('hover:bg-gray-700');
   expect(getTailwindHoverBackgroundColor(Color.White)).toBe('hover:bg-gray-300');
-  expect(getTailwindHoverBackgroundColor(Color.Blue)).toBe('hover:bg-blue-600');
+  expect(getTailwindHoverBackgroundColor(Color.Blue)).toBe('hover:bg-blue-700');
 });
 
 test('getAllYears', () => {
@@ -74,4 +78,12 @@ test('getAllYears', () => {
 test('getAllTags', () => {
   expect(getAllTags([])).toStrictEqual([]);
   expect(getAllTags(projects)).toStrictEqual([Tag.Archived, Tag.C, Tag.CSS]);
+});
+
+test('getGitHubRepo', () => {
+  expect(getGitHubRepo('connect-four')).toBe('https://github.com/sebranly/connect-four');
+});
+
+test('getWebsite', () => {
+  expect(getWebsite('dmz')).toBe('https://sebranly.github.io/dmz');
 });

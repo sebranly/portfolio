@@ -2,20 +2,33 @@
 // TODO: explain myProjects series
 export enum Tag {
   ThreeDimensional = '3D',
+  AIML = 'AIML',
   Archived = 'archived',
   C = 'C',
   CSS = 'CSS',
+  CLI = 'CLI',
+  DNS = 'DNS',
+  GitHub = 'GitHub',
+  GUI = 'GUI',
   HTML = 'HTML',
+  i18n = 'i18n',
   JavaScript = 'JavaScript',
+  Live = 'live',
   MyProjects = 'myProjects',
   NintendoDS = 'Nintendo DS',
   OpenGL = 'OpenGL',
+  Puzzle = 'puzzle',
+  Python = 'Python',
+  React = 'React',
+  SchoolProject = 'school project',
   SDL = 'SDL',
   VideoGame = 'video game',
   Website = 'website',
   PAlib = 'PAlib',
   PHP = 'PHP',
   SQL = 'SQL',
+  TailwindCSS = 'TailwindCSS',
+  TypeScript = 'TypeScript',
   Windows = 'Windows'
 }
 
@@ -39,10 +52,12 @@ export enum Role {
   Algorithm = 'Algorithm',
   Developer = 'Developer',
   Designer = 'Designer',
-  Tester = 'Tester'
+  Tester = 'Tester',
+  WebsiteConcept = 'Website Concept'
 }
 
 export type Contributor = {
+  female?: boolean;
   name: string;
   roles: Role[];
 };
@@ -50,9 +65,11 @@ export type Contributor = {
 export type Project = {
   title: string;
   contributors?: Contributor[];
+  github?: string;
   subtitle: string;
   description: string[];
   tags: Tag[];
+  website?: string;
   years: number[];
 };
 

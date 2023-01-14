@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Tag as TagType } from '../types';
+import { Color, Tag as TagType } from '../types';
 import classnames from 'classnames';
 import { getTagColor, getTailwindBackgroundColor, getTailwindHoverBackgroundColor, hasTagTranslation } from '../utils';
 import { useTranslation } from 'react-i18next';
@@ -13,10 +13,11 @@ const Tag: React.FC<TagProps> = (props) => {
   const { tag } = props;
   const color = getTagColor(tag);
   const tagText = hasTagTranslation(tag) ? t(`projects.general.tags.${tag}`) : tag;
+  const isWhite = color === Color.White;
 
   const classnamesTag = classnames(
     'border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1',
-    'text-white',
+    { 'text-white': !isWhite, 'text-black': isWhite },
     getTailwindBackgroundColor(color),
     getTailwindHoverBackgroundColor(color)
   );
