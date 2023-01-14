@@ -15,6 +15,35 @@ const getGitHubRepo = (project: string) => `${AUTHOR_GITHUB}/${project}`;
 const getWebsite = (project: string) => `${GITHUB_PAGES_URL}/${project}`;
 
 /**
+ * @name alphabetizeTags
+ * @description Returns an alphabetized list of the tags
+ * TODO: alphabetize with translation if possible
+ */
+const alphabetizeTags = (tags: Tag[]) => {
+  const sortedTags = tags.sort((a: Tag, b: Tag) => {
+    const aLowercase = a.toLowerCase();
+    const bLowercase = b.toLowerCase();
+    if (aLowercase === bLowercase) return 0;
+    return aLowercase > bLowercase ? 1 : -1;
+  });
+
+  return sortedTags;
+};
+
+/**
+ * @name enhanceTags
+ * @description Returns tags enhanced by some tags that might have been forgotten
+ */
+const enhanceTags = (project: Project) => {
+  const { github, tags, website } = project;
+
+  if (github && !tags.includes(Tag.GitHub)) tags.push(Tag.GitHub);
+  if (website && !tags.includes(Tag.Website)) tags.push(Tag.Website);
+
+  return tags;
+};
+
+/**
  * @name getTagColor
  * @description Returns the arbitrary color for each tag
  */
@@ -122,7 +151,6 @@ const hasTagTranslation = (tag: Tag | number) => {
 /**
  * @name areFemaleContributors
  * @description Returns whether a team is fully made of female contributors
- * TODO: test
  */
 const areFemaleContributors = (contributors: Contributor[]) => {
   return contributors.every((contributor: Contributor) => contributor.female);
@@ -186,18 +214,15 @@ const getAllTags = (projects: Project[]) => {
 
   const allTagsFlatten = flatten(allTags);
   const allTagsUniq = uniq(allTagsFlatten);
-  const allTagsSort = allTagsUniq.sort((a: Tag, b: Tag) => {
-    const aLowercase = a.toLowerCase();
-    const bLowercase = b.toLowerCase();
-    if (aLowercase === bLowercase) return 0;
-    return aLowercase > bLowercase ? 1 : -1;
-  });
+  const allTagsSort = alphabetizeTags(allTagsUniq);
 
   return allTagsSort;
 };
 
 export {
+  alphabetizeTags,
   areFemaleContributors,
+  enhanceTags,
   getAllTags,
   getAllYears,
   getGitHubRepo,

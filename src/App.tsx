@@ -6,11 +6,11 @@ import { Language, Project as ProjectType } from './types';
 import { Filter } from './components/Filter';
 import { useTranslation } from 'react-i18next';
 import { languages } from './languages';
+import { HeaderText } from './components/HeaderText';
 
 function App() {
-  const { i18n, t } = useTranslation();
+  const { i18n } = useTranslation();
 
-  // TODO: create Header component
   return (
     <>
       <header className="mx-4 my-8 text-center">
@@ -31,13 +31,7 @@ function App() {
             );
           })}
         </div>
-        <h1 className="font-bold sm:text-6xl text-2xl">{t('header.welcome')}</h1>
-        <h2 className="sm:text-4xl text-2xl">
-          {t('header.author.prefix')}
-          <div className="italic inline">sebranly</div>
-          {t('header.author.suffix')}
-        </h2>
-        <div className="sm:text-2xl text-xl">{t('header.introduction')}</div>
+        <HeaderText />
         <Filter className="my-4 max-w-3xl mx-auto" />
       </header>
       <div className="py-4 flex flex-wrap  justify-center bg-black">

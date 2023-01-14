@@ -25,7 +25,8 @@ const fr = {
           "Cette fois, je le fais en JavaScript plutôt qu'en C, étant donné que ce dernier est trop verbeux ce qui s'oppose au classement basé sur la rapidité de résolution. Je crée plusieurs fichiers d'aide au fur et à mesure que je résous les défis.",
         desc3:
           "Je tire profit de ces fichiers et leurs fonctions lorsque je me penche sur l'édition 2018 en Décembre de la même année avec chaque puzzle journalier.",
-        subtitle: 'Ensemble de puzzles par année'
+        subtitle: 'Ensemble de puzzles par année',
+        title: 'Advent of Code 2016 et 2018'
       },
       aoc2017: {
         desc1:
@@ -51,7 +52,8 @@ const fr = {
           'Le language de programmation imposé est Python donc nous y apprenons quelques unes de ses bibliothèques graphiques.',
         desc3:
           "Le résultat final comprend un mode 2 joueurs ainsi qu'une intelligence artificielle basique pour jouer seul contre l'ordinateur.",
-        subtitle: "Jouez contre votre ami ou contre l'ordinateur"
+        subtitle: "Jouez contre votre ami ou contre l'ordinateur",
+        title: 'Puissance 4'
       },
       coolr: {
         desc1:
@@ -83,7 +85,8 @@ const fr = {
         desc2:
           "Je crée un site pour y pallier, il permet la mise en place de minuteurs et affiche la conversion en temps réel de l'équivalent en argent virtuel.",
         desc3: 'La communauté sur reddit accueille ce projet de manière très positive.',
-        subtitle: "Convertisseur d'argent/minuteurs"
+        subtitle: "Le temps c'est de l'argent !",
+        title: 'Convertisseur pour DMZ'
       },
       eightQueensPuzzle: {
         desc1:
@@ -92,7 +95,8 @@ const fr = {
           'Nous commençons à générer toutes les permutations possibles pour un ensemble de lettres grâce à un système de piles.',
         desc3:
           'Après avoir appris que le problème des huit dames est en fait très proche de celui des permutations, nous résolvons le problème principal.',
-        subtitle: "Un problème d'échecs connu"
+        subtitle: "Un problème d'échecs connu",
+        title: 'Problème des huit dames'
       },
       englishPronunciation: {
         desc1:
@@ -101,9 +105,14 @@ const fr = {
           "J'implémente les tableaux de prononciation rassemblant ses fichiers audio, ainsi que les quiz qu'elle invente.",
         desc3:
           "Le site web est disponible sur GitHub Pages pour permettre à tout un chacun d'en apprendre davantage sur la prononciation en Anglais. Avec l'absence de date butoir après 2020, une version optimisée pour mobile voit le jour en 2022.",
-        subtitle: 'Site web pour une thèse'
+        subtitle: 'Site web pour une thèse',
+        title: 'Prononciation en anglais'
       },
       general: {
+        altText: {
+          github: 'Dépôt GitHub pour',
+          website: 'Site web pour'
+        },
         colon: ' :',
         contributor: {
           male: 'Collaborateur',
@@ -134,7 +143,8 @@ const fr = {
           "Les utilisateurs peuvent parcourir la liste complète de véhicules (voitures, avions, bateaux, etc.) du jeu vidéo Grand Theft Auto V. Ils peuvent créer un compte, publier une photo du véhicule qu'ils ont customisé dans le jeu sur notre site web, et recevoir des notes d'autres membres.",
         desc3:
           "Notre base d'utilisateurs grandit pour accueillir quelques centaines d'utilisateurs qui envoient des centaines d'images et des milliers de notes, ce qui nous pousse à peaufiner notre section administrateur afin de pouvoir modérer un tel volume.",
-        subtitle: 'Notre premier site web'
+        subtitle: 'Notre premier site web',
+        title: 'GTAV : Montrez vos véhicules'
       },
       kaleidoscope: {
         desc1:
@@ -151,7 +161,8 @@ const fr = {
         desc2:
           'Ce sont des carrés de nombres dans lesquels la somme de chaque ligne, colonne et diagonale, est identique.',
         desc3: 'Aimant le concept, je suis un algorithme afin de créer des carrés magiques.',
-        subtitle: 'Des carrés aux propriétés étonnantes'
+        subtitle: 'Des carrés aux propriétés étonnantes',
+        title: 'Carrés magiques'
       },
       myDraw: {
         desc1: "Intrigué par le traitement d'images, je décide de créer ma propre version de Paint.",
@@ -168,7 +179,8 @@ const fr = {
         desc3:
           "L'implémentation en C que je mets en place inclut aussi une résolution de chemin pour naviguer du coin supérieur gauche au coin inférieur droit.",
         desc4: 'Dans un projet parallèle sur la Nintendo DS, je crée une vue 3D du labyrinthe.',
-        subtitle: 'Création et navigation à travers des labyrinthes parfaits'
+        subtitle: 'Création et navigation à travers des labyrinthes parfaits',
+        title: 'Générateur de labyrinthes'
       },
       myEnglishGame: {
         desc1:
@@ -227,9 +239,10 @@ const fr = {
       },
       projectEuler: {
         desc1:
-          'En parallèle de la compétition appelée Advent of Code, je prends part à quelques défis du Project Euler.',
+          'En parallèle de la compétition appelée Advent of Code, je prends part à quelques défis du Projet Euler.',
         desc2: 'Je complète les 20+ premiers défis en utilisant Python cette fois-ci.',
-        subtitle: 'Quelques défis supplémentaires'
+        subtitle: 'Quelques défis supplémentaires',
+        title: 'Projet Euler'
       },
       resume: {
         desc1:
@@ -238,7 +251,8 @@ const fr = {
           "Je m'inspire directement d'ebay dans le but de créer une parodie de ce site pour lequel le produit est moi-même. Cela constitue également ma première introduction à GitHub Pages.",
         desc3:
           "Ce projet est désormais vraiment obsolète mais j'ai décidé de le garder pour son aspect graphique marrant.",
-        subtitle: "Une parodie d'ebay me concernant"
+        subtitle: "Une parodie d'ebay me concernant",
+        title: 'CV interactif'
       },
       simpleBot: {
         desc1: "Pour un projet scolaire, nous travaillons sur la création d'un chatbot en binôme.",
@@ -254,7 +268,8 @@ const fr = {
           'Une après-midi, je crée un dossier modèle qui me permet de commencer des sites web hébergés sur GitHub Pages gratuitement avec les technologies les plus récentes, de manière rapide.',
         desc3:
           'Grâce à ce modèle, plusieurs sites web voient le jour y compris Kaleidoscope, DMZ et ce Portfolio que vous êtes en train de consulter.',
-        subtitle: 'Modèle React + TypeScript pour sites web'
+        subtitle: 'Modèle React + TypeScript pour sites web',
+        title: 'Modèle TS'
       },
       tetrisSpace: {
         desc1:

@@ -71,6 +71,7 @@ export type Project = {
   tags: Tag[];
   website?: string;
   years: number[];
+  textualSnapshot?: string[];
 };
 
 export type Language = {
