@@ -2,7 +2,6 @@ import { STEPHANE } from '../constants';
 import { Project, Role, Tag } from '../types';
 import { getGitHubRepo, getWebsite } from '../utils';
 
-// TODO: add myMaze (perfect mazes only)
 const projects: Project[] = [
   {
     description: ['projects.ctr2d.desc1', 'projects.ctr2d.desc2', 'projects.ctr2d.desc3'],

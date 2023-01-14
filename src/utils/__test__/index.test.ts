@@ -1,4 +1,7 @@
 import {
+  alphabetizeTags,
+  areFemaleContributors,
+  enhanceTags,
   getAllTags,
   getAllYears,
   getGitHubRepo,
@@ -9,7 +12,7 @@ import {
   hasTagTranslation,
   pluralize
 } from '../index';
-import { Tag, Color, Project } from '../../types';
+import { Tag, Color, Project, Role } from '../../types';
 
 const projects: Project[] = [
   {
@@ -34,6 +37,97 @@ const projects: Project[] = [
     years: [2013]
   }
 ];
+
+test('alphabetizeTags', () => {
+  expect(alphabetizeTags([])).toStrictEqual([]);
+  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website])).toStrictEqual([Tag.CSS, Tag.GitHub, Tag.Website]);
+});
+
+test('enhanceTags', () => {
+  expect(
+    enhanceTags({
+      description: ['Some description'],
+      title: 'Project 1',
+      subtitle: 'Some subtitle',
+      tags: [Tag.Archived, Tag.C],
+      years: [2012]
+    })
+  ).toStrictEqual([Tag.Archived, Tag.C]);
+
+  expect(
+    enhanceTags({
+      description: ['Some description'],
+      title: 'Project 1',
+      subtitle: 'Some subtitle',
+      tags: [Tag.Archived, Tag.C],
+      website: 'something',
+      years: [2012]
+    })
+  ).toStrictEqual([Tag.Archived, Tag.C, Tag.Website]);
+
+  expect(
+    enhanceTags({
+      description: ['Some description'],
+      title: 'Project 1',
+      subtitle: 'Some subtitle',
+      tags: [Tag.Archived, Tag.C],
+      github: 'something',
+      years: [2012]
+    })
+  ).toStrictEqual([Tag.Archived, Tag.C, Tag.GitHub]);
+
+  expect(
+    enhanceTags({
+      description: ['Some description'],
+      title: 'Project 1',
+      subtitle: 'Some subtitle',
+      tags: [Tag.Archived, Tag.C],
+      github: 'something',
+      years: [2012],
+      website: 'something'
+    })
+  ).toStrictEqual([Tag.Archived, Tag.C, Tag.GitHub, Tag.Website]);
+
+  expect(
+    enhanceTags({
+      description: ['Some description'],
+      title: 'Project 1',
+      subtitle: 'Some subtitle',
+      tags: [Tag.Archived, Tag.C, Tag.GitHub, Tag.Website],
+      github: 'something',
+      years: [2012],
+      website: 'something'
+    })
+  ).toStrictEqual([Tag.Archived, Tag.C, Tag.GitHub, Tag.Website]);
+});
+
+test('areFemaleContributors', () => {
+  expect(areFemaleContributors([])).toBe(true);
+  expect(areFemaleContributors([{ name: 'Somebody', roles: [Role.Developer] }])).toBe(false);
+
+  expect(areFemaleContributors([{ female: true, name: 'Somebody', roles: [Role.Developer] }])).toBe(true);
+
+  expect(
+    areFemaleContributors([
+      { name: 'Somebody', roles: [Role.Developer] },
+      { name: 'Somebody', roles: [Role.Developer] }
+    ])
+  ).toBe(false);
+
+  expect(
+    areFemaleContributors([
+      { female: true, name: 'Somebody', roles: [Role.Developer] },
+      { name: 'Somebody', roles: [Role.Developer] }
+    ])
+  ).toBe(false);
+
+  expect(
+    areFemaleContributors([
+      { female: true, name: 'Somebody', roles: [Role.Developer] },
+      { female: true, name: 'Somebody', roles: [Role.Developer] }
+    ])
+  ).toBe(true);
+});
 
 // TODO: add more tests once sure about colors
 test('getTagColor', () => {

@@ -6,11 +6,15 @@ export interface CodeProps {
 }
 
 const Code: React.FC<CodeProps> = (props) => {
-  const { className, lines } = props;
+  const { className, lines } = props;
 
-  return <code className={className}>{lines.map((line: string, index: number) => {
-    return <pre key={index}>{line}</pre>
-  })}</code>
+  return (
+    <code className={className}>
+      {lines.map((line: string, index: number) => {
+        return <pre key={index}>{line}</pre>;
+      })}
+    </code>
+  );
 };
 
-export { Code };
+export { Code };

@@ -15,7 +15,7 @@ test('Code', () => {
     '| . | . | Q | . |',
     '+---+---+---+---+'
   ];
-  
+
   const createComponent = () => <Code lines={lines} />;
 
   const { container } = render(createComponent());
