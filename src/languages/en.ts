@@ -94,7 +94,10 @@ const en = {
       },
       general: {
         colon: ':',
-        contributor: 'Contributor',
+        contributor: {
+          female: 'Contributor',
+          male: 'Contributor'
+        },
         code: 'Source code',
         link: 'link',
         website: 'Website',
@@ -107,6 +110,7 @@ const en = {
         },
         tags: {
           [Tag.Archived]: Tag.Archived,
+          [Tag.Live]: Tag.Live,
           [Tag.SchoolProject]: Tag.SchoolProject,
           [Tag.VideoGame]: Tag.VideoGame,
           [Tag.Website]: Tag.Website

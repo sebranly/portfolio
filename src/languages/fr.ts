@@ -105,7 +105,10 @@ const fr = {
       },
       general: {
         colon: ' :',
-        contributor: 'Collaborateur',
+        contributor: {
+          male: 'Collaborateur',
+          female: 'Collaboratrice'
+        },
         code: 'Code source',
         link: 'lien',
         website: 'Site web',
@@ -118,6 +121,7 @@ const fr = {
         },
         tags: {
           [Tag.Archived]: 'archivé',
+          [Tag.Live]: 'en ligne',
           [Tag.SchoolProject]: 'projet scolaire',
           [Tag.VideoGame]: 'jeu vidéo',
           [Tag.Website]: 'site web'

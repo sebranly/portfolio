@@ -189,6 +189,7 @@ const projects: Project[] = [
   {
     contributors: [
       {
+        female: true,
         name: 'Faith',
         roles: [Role.WebsiteConcept]
       }

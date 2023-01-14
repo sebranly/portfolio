@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Contributor, Project as ProjectType, Role, Tag as TagType } from '../types';
-import { pluralize } from '../utils';
+import { areFemaleContributors, pluralize } from '../utils';
 import { Tag } from './Tag';
 import { useTranslation } from 'react-i18next';
 
@@ -14,7 +14,11 @@ const Project: React.FC<ProjectProps> = (props) => {
   const { contributors, description, github, tags, subtitle, title, website, years } = project;
   const allTags = [...years, ...tags];
   const hasContributors = contributors ? contributors.length > 0 : false;
-  const contributorText = pluralize(t('projects.general.contributor'), contributors ? contributors.length : 0);
+  const contributorGender = hasContributors && areFemaleContributors(contributors!) ? 'female' : 'male';
+  const contributorText = pluralize(
+    t(`projects.general.contributor.${contributorGender}`),
+    contributors ? contributors.length : 0
+  );
 
   return (
     <div className="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50">

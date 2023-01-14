@@ -8,10 +8,10 @@ module.exports = {
     'bg-color-black',
     'bg-color-white',
     ...colors.map((color) => {
-      return `bg-${color}-500`;
+      return `bg-${color}-600`;
     }),
     ...colors.map((color) => {
-      return `hover:bg-${color}-600`;
+      return `hover:bg-${color}-700`;
     })
   ],
   theme: {

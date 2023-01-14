@@ -57,6 +57,7 @@ export enum Role {
 }
 
 export type Contributor = {
+  female?: boolean;
   name: string;
   roles: Role[];
 };
