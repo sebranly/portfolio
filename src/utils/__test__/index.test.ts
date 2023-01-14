@@ -104,7 +104,6 @@ test('enhanceTags', () => {
 test('areFemaleContributors', () => {
   expect(areFemaleContributors([])).toBe(true);
   expect(areFemaleContributors([{ name: 'Somebody', roles: [Role.Developer] }])).toBe(false);
-
   expect(areFemaleContributors([{ female: true, name: 'Somebody', roles: [Role.Developer] }])).toBe(true);
 
   expect(
