@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code 1`] = `
+NodeList [
+  <code>
+    <pre>
+      +---+---+---+---+
+    </pre>
+    <pre>
+      | . | Q | . | . |
+    </pre>
+    <pre>
+      +---+---+---+---+
+    </pre>
+    <pre>
+      | . | . | . | Q |
+    </pre>
+    <pre>
+      +---+---+---+---+
+    </pre>
+    <pre>
+      | Q | . | . | . |
+    </pre>
+    <pre>
+      +---+---+---+---+
+    </pre>
+    <pre>
+      | . | . | Q | . |
+    </pre>
+    <pre>
+      +---+---+---+---+
+    </pre>
+  </code>,
+]
+`;

@@ -29,7 +29,18 @@ const projects: Project[] = [
     title: 'Eight Queens Puzzle',
     subtitle: 'projects.eightQueensPuzzle.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SchoolProject, Tag.CLI, Tag.GitHub, Tag.Puzzle],
-    years: [2012]
+    years: [2012],
+    textualSnapshot: [
+      '+---+---+---+---+',
+      '| . | Q | . | . |',
+      '+---+---+---+---+',
+      '| . | . | . | Q |',
+      '+---+---+---+---+',
+      '| Q | . | . | . |',
+      '+---+---+---+---+',
+      '| . | . | Q | . |',
+      '+---+---+---+---+'
+    ]
   },
   // TODO: video
   {
@@ -53,7 +64,16 @@ const projects: Project[] = [
     title: 'Magic Squares',
     subtitle: 'projects.magicSquares.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.CLI, Tag.GitHub, Tag.Puzzle],
-    years: [2013]
+    years: [2013],
+    textualSnapshot: [
+      '+---+---+---+',
+      '| 4 | 9 | 2 |',
+      '+---+---+---+',
+      '| 3 | 5 | 7 |',
+      '+---+---+---+',
+      '| 8 | 1 | 6 |',
+      '+---+---+---+'
+    ]
   },
   {
     description: ['projects.myLife.desc1', 'projects.myLife.desc2', 'projects.myLife.desc3'],
@@ -167,7 +187,16 @@ const projects: Project[] = [
     tags: [Tag.Archived, Tag.C, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'Maze Generator',
     subtitle: 'projects.maze.subtitle',
-    years: [2018]
+    years: [2018],
+    textualSnapshot: [
+      '+---+---+---+---+',
+      '| #   # |       |',
+      '+---+   +   +---+',
+      '|     # |   |   |',
+      '+   +   +   +   +',
+      '|   | #   #   # |',
+      '+---+---+---+---+'
+    ]
   },
   {
     description: ['projects.resume.desc1', 'projects.resume.desc2', 'projects.resume.desc3'],

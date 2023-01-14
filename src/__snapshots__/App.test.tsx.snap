@@ -425,6 +425,37 @@ NodeList [
       >
         projects.eightQueensPuzzle.subtitle
       </h3>
+      <code
+        class="text-black text-sm"
+      >
+        <pre>
+          +---+---+---+---+
+        </pre>
+        <pre>
+          | . | Q | . | . |
+        </pre>
+        <pre>
+          +---+---+---+---+
+        </pre>
+        <pre>
+          | . | . | . | Q |
+        </pre>
+        <pre>
+          +---+---+---+---+
+        </pre>
+        <pre>
+          | Q | . | . | . |
+        </pre>
+        <pre>
+          +---+---+---+---+
+        </pre>
+        <pre>
+          | . | . | Q | . |
+        </pre>
+        <pre>
+          +---+---+---+---+
+        </pre>
+      </code>
       <div
         class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
       >
@@ -680,6 +711,31 @@ NodeList [
       >
         projects.magicSquares.subtitle
       </h3>
+      <code
+        class="text-black text-sm"
+      >
+        <pre>
+          +---+---+---+
+        </pre>
+        <pre>
+          | 4 | 9 | 2 |
+        </pre>
+        <pre>
+          +---+---+---+
+        </pre>
+        <pre>
+          | 3 | 5 | 7 |
+        </pre>
+        <pre>
+          +---+---+---+
+        </pre>
+        <pre>
+          | 8 | 1 | 6 |
+        </pre>
+        <pre>
+          +---+---+---+
+        </pre>
+      </code>
       <div
         class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
       >
@@ -1641,6 +1697,31 @@ NodeList [
       >
         projects.maze.subtitle
       </h3>
+      <code
+        class="text-black text-sm"
+      >
+        <pre>
+          +---+---+---+---+
+        </pre>
+        <pre>
+          | #   # |       |
+        </pre>
+        <pre>
+          +---+   +   +---+
+        </pre>
+        <pre>
+          |     # |   |   |
+        </pre>
+        <pre>
+          +   +   +   +   +
+        </pre>
+        <pre>
+          |   | #   #   # |
+        </pre>
+        <pre>
+          +---+---+---+---+
+        </pre>
+      </code>
       <div
         class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
       >
