@@ -187,6 +187,19 @@ const projects: Project[] = [
     years: [2018]
   },
   {
+    contributors: [{
+      name: 'Faith',
+      roles: [Role.WebsiteConcept]
+    }],
+    description: ['projects.englishPronunciation.desc1', 'projects.englishPronunciation.desc2', 'projects.englishPronunciation.desc3'],
+    github: 'https://github.com/fbpellas/fbpellas.github.io',
+    tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
+    title: 'English Pronunciation',
+    subtitle: 'projects.englishPronunciation.subtitle',
+    website: 'https://fbpellas.github.io/',
+    years: [2020, 2022]
+  },
+  {
     description: ['projects.coolr.desc1', 'projects.coolr.desc2', 'projects.coolr.desc3'],
     github: getGitHubRepo('coolr'),
     tags: [Tag.Archived, Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Puzzle, Tag.Website],
@@ -227,6 +240,24 @@ const projects: Project[] = [
     subtitle: 'projects.kaleidoscope.subtitle',
     years: [2022, 2023],
     website: getWebsite('kaleidoscope')
+  },
+  {
+    description: ['projects.dmz.desc1', 'projects.dmz.desc2', 'projects.dmz.desc3'],
+    github: getGitHubRepo('dmz'),
+    tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
+    title: 'DMZ Converter',
+    subtitle: 'projects.dmz.subtitle',
+    years: [2023],
+    website: getWebsite('dmz')
+  },
+  {
+    description: ['projects.portfolio.desc1','projects.portfolio.desc2','projects.portfolio.desc3'],
+    github: getGitHubRepo('portfolio'),
+    tags: [Tag.React, Tag.TailwindCSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website, Tag.i18n],
+    title: "Portfolio",
+    subtitle: 'projects.portfolio.subtitle',
+    years: [2023],
+    website: getWebsite('portfolio')
   }
 ];
 

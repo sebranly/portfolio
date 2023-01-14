@@ -11,6 +11,7 @@ export enum Tag {
   GitHub = 'GitHub',
   GUI = 'GUI',
   HTML = 'HTML',
+  i18n = 'i18n',
   JavaScript = 'JavaScript',
   Live = 'live',
   MyProjects = 'myProjects',
@@ -26,6 +27,7 @@ export enum Tag {
   PAlib = 'PAlib',
   PHP = 'PHP',
   SQL = 'SQL',
+  TailwindCSS = 'TailwindCSS',
   TypeScript = 'TypeScript',
   Windows = 'Windows'
 }
@@ -50,7 +52,8 @@ export enum Role {
   Algorithm = 'Algorithm',
   Developer = 'Developer',
   Designer = 'Designer',
-  Tester = 'Tester'
+  Tester = 'Tester',
+  WebsiteConcept = 'Website Concept'
 }
 
 export type Contributor = {

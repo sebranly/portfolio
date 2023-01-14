@@ -61,7 +61,7 @@ const Project: React.FC<ProjectProps> = (props) => {
             className="underline inline"
             href={github}
             rel="noopener noreferrer"
-            title={`GitHub page for ${title}`}
+            title={`GitHub repository for ${title}`}
             target="_blank"
           >
             GitHub
