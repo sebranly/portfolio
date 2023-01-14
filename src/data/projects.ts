@@ -187,11 +187,17 @@ const projects: Project[] = [
     years: [2018]
   },
   {
-    contributors: [{
-      name: 'Faith',
-      roles: [Role.WebsiteConcept]
-    }],
-    description: ['projects.englishPronunciation.desc1', 'projects.englishPronunciation.desc2', 'projects.englishPronunciation.desc3'],
+    contributors: [
+      {
+        name: 'Faith',
+        roles: [Role.WebsiteConcept]
+      }
+    ],
+    description: [
+      'projects.englishPronunciation.desc1',
+      'projects.englishPronunciation.desc2',
+      'projects.englishPronunciation.desc3'
+    ],
     github: 'https://github.com/fbpellas/fbpellas.github.io',
     tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
     title: 'English Pronunciation',
@@ -251,10 +257,10 @@ const projects: Project[] = [
     website: getWebsite('dmz')
   },
   {
-    description: ['projects.portfolio.desc1','projects.portfolio.desc2','projects.portfolio.desc3'],
+    description: ['projects.portfolio.desc1', 'projects.portfolio.desc2', 'projects.portfolio.desc3'],
     github: getGitHubRepo('portfolio'),
     tags: [Tag.React, Tag.TailwindCSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website, Tag.i18n],
-    title: "Portfolio",
+    title: 'Portfolio',
     subtitle: 'projects.portfolio.subtitle',
     years: [2023],
     website: getWebsite('portfolio')

@@ -76,16 +76,21 @@ const en = {
         subtitle: 'Optical character recognition'
       },
       dmz: {
-        desc1: "With the recent release of the Warzone 2.0 video game, I take part in its DMZ mode and notice that a gameplay element is a bit confusing for fans.",
-        desc2: "I create a website around it, it focuses on setting up timers and displaying a live conversion of the virtual money equivalent.",
-        desc3: "The reddit community welcomes this project in a very positive way.",
+        desc1:
+          'With the recent release of the Warzone 2.0 video game, I take part in its DMZ mode and notice that a gameplay element is a bit confusing for fans.',
+        desc2:
+          'I create a website around it, it focuses on setting up timers and displaying a live conversion of the virtual money equivalent.',
+        desc3: 'The reddit community welcomes this project in a very positive way.',
         subtitle: 'Currency to Cooldown Converter'
       },
       englishPronunciation: {
-        desc1: "For her Master's Degree's thesis, Faith asks my help for gathering her resources into a website I develop for her.",
-        desc2: "I implement the pronunciation tables with the audio files she provides as well as the quizzes she invents.",
-        desc3: "The website is hosted on GitHub Pages for anyone to learn more about English pronunciation. With no more strict deadline, a mobile-optimized version is developed in 2022.",
-        subtitle: "Website for a Thesis"
+        desc1:
+          "For her Master's Degree's thesis, Faith asks my help for gathering her resources into a website I develop for her.",
+        desc2:
+          'I implement the pronunciation tables with the audio files she provides as well as the quizzes she invents.',
+        desc3:
+          'The website is hosted on GitHub Pages for anyone to learn more about English pronunciation. With no more strict deadline, a mobile-optimized version is developed in 2022.',
+        subtitle: 'Website for a Thesis'
       },
       general: {
         colon: ':',
@@ -196,10 +201,12 @@ const en = {
         subtitle: 'TETRISpace++'
       },
       portfolio: {
-        desc1: "Before moving on to another exciting project I have in mind, I take a step back and work towards a portfolio.",
-        desc2: "This is the website you are currently browsing. After learning about recursion and loving Inception movie that much, I knew it only made sense to include this project as part of my Portfolio.",
-        desc3: "I use TailwindCSS to have cleaner CSS and make sure that French speakers can select their language.",
-        subtitle: "Overview of my personal projects"
+        desc1:
+          'Before moving on to another exciting project I have in mind, I take a step back and work towards a portfolio.',
+        desc2:
+          'This is the website you are currently browsing. After learning about recursion and loving Inception movie that much, I knew it only made sense to include this project as part of my Portfolio.',
+        desc3: 'I use TailwindCSS to have cleaner CSS and make sure that French speakers can select their language.',
+        subtitle: 'Overview of my personal projects'
       },
       projectEuler: {
         desc1:

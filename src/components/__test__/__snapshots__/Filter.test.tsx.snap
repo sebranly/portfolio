@@ -41,6 +41,11 @@ NodeList [
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
     >
+      2020
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
       2021
     </div>
     <div
@@ -102,6 +107,11 @@ NodeList [
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
     >
       HTML
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      i18n
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-500 hover:bg-yellow-600"
@@ -167,6 +177,11 @@ NodeList [
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-500 hover:bg-orange-600"
     >
       SQL
+    </div>
+    <div
+      class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+    >
+      TailwindCSS
     </div>
     <div
       class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"

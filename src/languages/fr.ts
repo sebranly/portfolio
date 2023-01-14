@@ -78,9 +78,11 @@ const fr = {
         subtitle: 'Reconnaissance optique de caractères'
       },
       dmz: {
-        desc1: "Suite à la sortie récente du jeu vidéo Warzone 2.0, je joue au mode DMZ et remarque qu'un élément de gameplay est un peu confus pour ses fans.",
-        desc2: "Je crée un site pour y pallier, il permet la mise en place de minuteurs et affiche la conversion en temps réel de l'équivalent en argent virtuel.",
-        desc3: "La communauté sur reddit accueille ce projet de manière très positive.",
+        desc1:
+          "Suite à la sortie récente du jeu vidéo Warzone 2.0, je joue au mode DMZ et remarque qu'un élément de gameplay est un peu confus pour ses fans.",
+        desc2:
+          "Je crée un site pour y pallier, il permet la mise en place de minuteurs et affiche la conversion en temps réel de l'équivalent en argent virtuel.",
+        desc3: 'La communauté sur reddit accueille ce projet de manière très positive.',
         subtitle: "Convertisseur d'argent/minuteurs"
       },
       eightQueensPuzzle: {
@@ -93,9 +95,12 @@ const fr = {
         subtitle: "Un problème d'échecs connu"
       },
       englishPronunciation: {
-        desc1: "Pour la thèse de son Master, Faith demande mon aide afin que je rassemble les ressources, qu'elle a créées, dans un site web que je lui développe.",
-        desc2: "J'implémente les tableaux de prononciation rassemblant ses fichiers audio, ainsi que les quiz qu'elle invente.",
-        desc3: "Le site web est disponible sur GitHub Pages pour permettre à tout un chacun d'en apprendre davantage sur la prononciation en Anglais. Avec l'absence de date butoir après 2020, une version optimisée pour mobile voit le jour en 2022.",
+        desc1:
+          "Pour la thèse de son Master, Faith demande mon aide afin que je rassemble les ressources, qu'elle a créées, dans un site web que je lui développe.",
+        desc2:
+          "J'implémente les tableaux de prononciation rassemblant ses fichiers audio, ainsi que les quiz qu'elle invente.",
+        desc3:
+          "Le site web est disponible sur GitHub Pages pour permettre à tout un chacun d'en apprendre davantage sur la prononciation en Anglais. Avec l'absence de date butoir après 2020, une version optimisée pour mobile voit le jour en 2022.",
         subtitle: 'Site web pour une thèse'
       },
       general: {
@@ -109,7 +114,7 @@ const fr = {
           [Role.Developer]: 'Développeur',
           [Role.Designer]: 'Graphiste',
           [Role.Tester]: 'Testeur',
-          [Role.WebsiteConcept]: "Concept du site web"
+          [Role.WebsiteConcept]: 'Concept du site web'
         },
         tags: {
           [Tag.Archived]: 'archivé',
@@ -208,10 +213,13 @@ const fr = {
         subtitle: 'TETRISpace++'
       },
       portfolio: {
-        desc1: "Avant d'entamer un nouveau projet que j'ai en tête, je préfère prendre du recul et travailler sur la mise en place d'un portfolio.",
-        desc2: "C'est ce même site que vous êtes en train de consulter. Ayant appris la récursivité et aimant le film Inception, je me sentais obligé d'inclure ce projet dans le Portfolio.",
-        desc3: "J'utilise TailwindCSS pour produire un code CSS plus propre, et je m'assure que les francophones puissent consulter le site en français.",
-        subtitle: "Présentation de mes projets personnels"
+        desc1:
+          "Avant d'entamer un nouveau projet que j'ai en tête, je préfère prendre du recul et travailler sur la mise en place d'un portfolio.",
+        desc2:
+          "C'est ce même site que vous êtes en train de consulter. Ayant appris la récursivité et aimant le film Inception, je me sentais obligé d'inclure ce projet dans le Portfolio.",
+        desc3:
+          "J'utilise TailwindCSS pour produire un code CSS plus propre, et je m'assure que les francophones puissent consulter le site en français.",
+        subtitle: 'Présentation de mes projets personnels'
       },
       projectEuler: {
         desc1:
