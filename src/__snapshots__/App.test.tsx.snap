@@ -256,7 +256,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Crash Team Racing 2D
+        projects.ctr2d.title
       </h2>
       <h3
         class="text-lg"
@@ -329,7 +329,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        TETRISpace
+        projects.tetrisSpace.title
       </h2>
       <h3
         class="text-lg"
@@ -418,7 +418,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Eight Queens Puzzle
+        projects.eightQueensPuzzle.title
       </h2>
       <h3
         class="text-lg"
@@ -490,7 +490,7 @@ NodeList [
           href="https://github.com/sebranly/eight-queens-puzzle"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Eight Queens Puzzle"
+          title="GitHub repository for projects.eightQueensPuzzle.title"
         >
           GitHub
         </a>
@@ -542,7 +542,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        myDraw
+        projects.myDraw.title
       </h2>
       <h3
         class="text-lg"
@@ -615,7 +615,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Bobol's Sokoban 3D
+        projects.bobolsSokoban3d.title
       </h2>
       <h3
         class="text-lg"
@@ -704,7 +704,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Magic Squares
+        projects.magicSquares.title
       </h2>
       <h3
         class="text-lg"
@@ -770,7 +770,7 @@ NodeList [
           href="https://github.com/sebranly/magic-squares"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Magic Squares"
+          title="GitHub repository for projects.magicSquares.title"
         >
           GitHub
         </a>
@@ -817,7 +817,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        myLife
+        projects.myLife.title
       </h2>
       <h3
         class="text-lg"
@@ -890,7 +890,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        myPixelArt
+        projects.myPixelArt.title
       </h2>
       <h3
         class="text-lg"
@@ -968,7 +968,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        myTetris
+        projects.myTetris.title
       </h2>
       <h3
         class="text-lg"
@@ -1061,7 +1061,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        mySudokuTool
+        projects.mySudokuTool.title
       </h2>
       <h3
         class="text-lg"
@@ -1150,7 +1150,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Connect Four
+        projects.connectFour.title
       </h2>
       <h3
         class="text-lg"
@@ -1207,7 +1207,7 @@ NodeList [
           href="https://github.com/sebranly/connect-four"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Connect Four"
+          title="GitHub repository for projects.connectFour.title"
         >
           GitHub
         </a>
@@ -1259,7 +1259,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        myEnglishGame
+        projects.myEnglishGame.title
       </h2>
       <h3
         class="text-lg"
@@ -1342,7 +1342,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        GTAV Show Your Cars
+        projects.GTAV.title
       </h2>
       <h3
         class="text-lg"
@@ -1436,7 +1436,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Simple Bot
+        projects.simpleBot.title
       </h2>
       <h3
         class="text-lg"
@@ -1477,7 +1477,7 @@ NodeList [
           href="https://github.com/sebranly/simple-bot"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Simple Bot"
+          title="GitHub repository for projects.simpleBot.title"
         >
           GitHub
         </a>
@@ -1524,7 +1524,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Advent of Code 2017
+        projects.aoc2017.title
       </h2>
       <h3
         class="text-lg"
@@ -1565,7 +1565,7 @@ NodeList [
           href="https://github.com/sebranly/advent-of-code-2017"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Advent of Code 2017"
+          title="GitHub repository for projects.aoc2017.title"
         >
           GitHub
         </a>
@@ -1612,7 +1612,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Project Euler
+        projects.projectEuler.title
       </h2>
       <h3
         class="text-lg"
@@ -1648,7 +1648,7 @@ NodeList [
           href="https://github.com/sebranly/project-euler"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Project Euler"
+          title="GitHub repository for projects.projectEuler.title"
         >
           GitHub
         </a>
@@ -1695,7 +1695,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Maze Generator
+        projects.maze.title
       </h2>
       <h3
         class="text-lg"
@@ -1766,7 +1766,7 @@ NodeList [
           href="https://github.com/sebranly/maze-generators"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Maze Generator"
+          title="GitHub repository for projects.maze.title"
         >
           GitHub
         </a>
@@ -1813,7 +1813,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Online Résumé
+        projects.resume.title
       </h2>
       <h3
         class="text-lg"
@@ -1854,7 +1854,7 @@ NodeList [
           href="https://github.com/sebranly/sebranly-resume"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Online Résumé"
+          title="GitHub repository for projects.resume.title"
         >
           GitHub
         </a>
@@ -1874,7 +1874,7 @@ NodeList [
           href="https://sebranly.github.io/sebranly-resume"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for Online Résumé"
+          title="Website for projects.resume.title"
         >
           projects.general.link
         </a>
@@ -1931,7 +1931,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Advent of Code 2016 and 2018
+        projects.aoc.title
       </h2>
       <h3
         class="text-lg"
@@ -1972,7 +1972,7 @@ NodeList [
           href="https://github.com/sebranly/advent-of-code"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Advent of Code 2016 and 2018"
+          title="GitHub repository for projects.aoc.title"
         >
           GitHub
         </a>
@@ -2019,7 +2019,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        English Pronunciation
+        projects.englishPronunciation.title
       </h2>
       <h3
         class="text-lg"
@@ -2076,7 +2076,7 @@ NodeList [
           href="https://github.com/fbpellas/fbpellas.github.io"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for English Pronunciation"
+          title="GitHub repository for projects.englishPronunciation.title"
         >
           GitHub
         </a>
@@ -2096,7 +2096,7 @@ NodeList [
           href="https://fbpellas.github.io/"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for English Pronunciation"
+          title="Website for projects.englishPronunciation.title"
         >
           projects.general.link
         </a>
@@ -2153,7 +2153,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Coolr
+        projects.coolr.title
       </h2>
       <h3
         class="text-lg"
@@ -2194,7 +2194,7 @@ NodeList [
           href="https://github.com/sebranly/coolr"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Coolr"
+          title="GitHub repository for projects.coolr.title"
         >
           GitHub
         </a>
@@ -2214,7 +2214,7 @@ NodeList [
           href="https://sebranly.github.io/coolr"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for Coolr"
+          title="Website for projects.coolr.title"
         >
           projects.general.link
         </a>
@@ -2276,7 +2276,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Crash Team Results
+        projects.ctrOcr.title
       </h2>
       <h3
         class="text-lg"
@@ -2317,7 +2317,7 @@ NodeList [
           href="https://github.com/sebranly/ctr-ocr"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Crash Team Results"
+          title="GitHub repository for projects.ctrOcr.title"
         >
           GitHub
         </a>
@@ -2337,7 +2337,7 @@ NodeList [
           href="https://www.crashteamresults.com"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for Crash Team Results"
+          title="Website for projects.ctrOcr.title"
         >
           projects.general.link
         </a>
@@ -2394,7 +2394,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Template TS
+        projects.templateTs.title
       </h2>
       <h3
         class="text-lg"
@@ -2435,7 +2435,7 @@ NodeList [
           href="https://github.com/sebranly/template-ts"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Template TS"
+          title="GitHub repository for projects.templateTs.title"
         >
           GitHub
         </a>
@@ -2455,7 +2455,7 @@ NodeList [
           href="https://sebranly.github.io/template-ts"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for Template TS"
+          title="Website for projects.templateTs.title"
         >
           projects.general.link
         </a>
@@ -2507,7 +2507,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Kaleidoscope
+        projects.kaleidoscope.title
       </h2>
       <h3
         class="text-lg"
@@ -2564,7 +2564,7 @@ NodeList [
           href="https://github.com/sebranly/kaleidoscope"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Kaleidoscope"
+          title="GitHub repository for projects.kaleidoscope.title"
         >
           GitHub
         </a>
@@ -2584,7 +2584,7 @@ NodeList [
           href="https://sebranly.github.io/kaleidoscope"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for Kaleidoscope"
+          title="Website for projects.kaleidoscope.title"
         >
           projects.general.link
         </a>
@@ -2641,7 +2641,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        DMZ Converter
+        projects.dmz.title
       </h2>
       <h3
         class="text-lg"
@@ -2682,7 +2682,7 @@ NodeList [
           href="https://github.com/sebranly/dmz"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for DMZ Converter"
+          title="GitHub repository for projects.dmz.title"
         >
           GitHub
         </a>
@@ -2702,7 +2702,7 @@ NodeList [
           href="https://sebranly.github.io/dmz"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for DMZ Converter"
+          title="Website for projects.dmz.title"
         >
           projects.general.link
         </a>
@@ -2754,7 +2754,7 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        Portfolio
+        projects.portfolio.title
       </h2>
       <h3
         class="text-lg"
@@ -2795,7 +2795,7 @@ NodeList [
           href="https://github.com/sebranly/portfolio"
           rel="noopener noreferrer"
           target="_blank"
-          title="GitHub repository for Portfolio"
+          title="GitHub repository for projects.portfolio.title"
         >
           GitHub
         </a>
@@ -2815,7 +2815,7 @@ NodeList [
           href="https://sebranly.github.io/portfolio"
           rel="noopener noreferrer"
           target="_blank"
-          title="Website for Portfolio"
+          title="Website for projects.portfolio.title"
         >
           projects.general.link
         </a>

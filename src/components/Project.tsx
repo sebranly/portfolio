@@ -24,14 +24,14 @@ const Project: React.FC<ProjectProps> = (props) => {
 
   return (
     <div className="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50">
-      <h2 className="font-bold text-xl">{title}</h2>
-      <h3 className="text-lg">{subtitle.startsWith('projects') ? t(subtitle) : subtitle}</h3>
+      <h2 className="font-bold text-xl">{t(title)}</h2>
+      <h3 className="text-lg">{t(subtitle)}</h3>
       {textualSnapshot && <Code className="text-black text-sm" lines={textualSnapshot} />}
       <div className="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify">
         {description.map((sentence: string, index: number) => {
           return (
             <div className="mb-2" key={index}>
-              {sentence.startsWith('projects') ? t(sentence) : sentence}
+              {t(sentence)}
             </div>
           );
         })}
