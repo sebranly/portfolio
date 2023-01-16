@@ -1,5 +1,4 @@
 import { Color, Contributor, Project, Tag } from '../types';
-import { flatten, uniq } from 'lodash';
 import { AUTHOR_GITHUB, GITHUB_PAGES_URL } from '../constants/general';
 import { PROJECTS_PER_PAGE } from '../constants';
 
@@ -187,40 +186,6 @@ const getTailwindHoverBackgroundColor = (color: Color) => {
 };
 
 /**
- * @name getAllYears
- * @description Returns all unique years from projects
- */
-const getAllYears = (projects: Project[]) => {
-  const allYears = projects.map((project: Project) => {
-    const { years } = project;
-    return years;
-  });
-
-  const allYearsFlatten = flatten(allYears);
-  const allYearsUniq = uniq(allYearsFlatten);
-  const allYearsSort = allYearsUniq.sort();
-
-  return allYearsSort;
-};
-
-/**
- * @name getAllTags
- * @description Returns all unique tags from projects
- */
-const getAllTags = (projects: Project[]) => {
-  const allTags = projects.map((project: Project) => {
-    const { tags } = project;
-    return tags;
-  });
-
-  const allTagsFlatten = flatten(allTags);
-  const allTagsUniq = uniq(allTagsFlatten);
-  const allTagsSort = alphabetizeTags(allTagsUniq);
-
-  return allTagsSort;
-};
-
-/**
  * @name filterProjectsByTag
  * @description Returns all projects filtered by selected tag
  */
@@ -275,8 +240,6 @@ export {
   enhanceTags,
   filterProjectsByTag,
   generatePages,
-  getAllTags,
-  getAllYears,
   getGitHubRepo,
   getProjectsForPage,
   getTagColor,

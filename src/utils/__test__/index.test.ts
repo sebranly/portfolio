@@ -4,8 +4,6 @@ import {
   enhanceTags,
   filterProjectsByTag,
   generatePages,
-  getAllTags,
-  getAllYears,
   getGitHubRepo,
   getProjectsForPage,
   getTagColor,
@@ -17,30 +15,6 @@ import {
   pluralize
 } from '../index';
 import { Tag, Color, Project, Role } from '../../types';
-
-const projects: Project[] = [
-  {
-    description: ['Some description'],
-    title: 'Project 1',
-    subtitle: 'Some subtitle',
-    tags: [Tag.Archived, Tag.C],
-    years: [2012]
-  },
-  {
-    description: ['Some description'],
-    title: 'Project 2',
-    subtitle: 'Some subtitle',
-    tags: [Tag.C],
-    years: [2011, 2012]
-  },
-  {
-    description: ['Some description'],
-    title: 'Project 3',
-    subtitle: 'Some subtitle',
-    tags: [Tag.Archived, Tag.CSS],
-    years: [2013]
-  }
-];
 
 test('alphabetizeTags', () => {
   expect(alphabetizeTags([])).toStrictEqual([]);
@@ -165,16 +139,6 @@ test('getTailwindHoverBackgroundColor', () => {
   expect(getTailwindHoverBackgroundColor(Color.Black)).toBe('hover:bg-gray-700');
   expect(getTailwindHoverBackgroundColor(Color.White)).toBe('hover:bg-gray-300');
   expect(getTailwindHoverBackgroundColor(Color.Blue)).toBe('hover:bg-blue-700');
-});
-
-test('getAllYears', () => {
-  expect(getAllYears([])).toStrictEqual([]);
-  expect(getAllYears(projects)).toStrictEqual([2011, 2012, 2013]);
-});
-
-test('getAllTags', () => {
-  expect(getAllTags([])).toStrictEqual([]);
-  expect(getAllTags(projects)).toStrictEqual([Tag.Archived, Tag.C, Tag.CSS]);
 });
 
 test('getGitHubRepo', () => {

@@ -70,7 +70,7 @@ function App() {
               'rounded-tl-lg': isSelected && index !== 0,
               'rounded-tr-lg': isSelected && index !== TAB_COUNT - 1
             },
-            `p-2 w-1/${TAB_COUNT}`
+            'p-2 flex-1'
           );
 
           return (
