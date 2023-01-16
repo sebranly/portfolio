@@ -9,6 +9,7 @@ import { HeaderText } from './components/HeaderText';
 import { Tag } from './types';
 import classnames from 'classnames';
 import { filterProjectsByTag } from './utils';
+import { TAB_COUNT } from './constants';
 
 function App() {
   const onClickTab = (tag: Tag) => {
@@ -56,9 +57,9 @@ function App() {
               'bg-black': isSelected,
               'text-white': isSelected,
               'rounded-tl-lg': isSelected && index !== 0,
-              'rounded-tr-lg': isSelected && index !== 3
+              'rounded-tr-lg': isSelected && index !== TAB_COUNT - 1
             },
-            'p-2 w-1/4'
+            `p-2 w-1/${TAB_COUNT}`
           );
 
           return (
