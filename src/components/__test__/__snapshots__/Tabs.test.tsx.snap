@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs 1`] = `
+NodeList [
+  <div
+    class="mt-4 flex w-full"
+  >
+    <button
+      class="p-2 flex-1"
+      style="font-weight: normal;"
+      type="submit"
+    >
+      selector.All
+    </button>
+    <button
+      class="bg-black text-white rounded-tl-lg rounded-tr-lg p-2 flex-1"
+      style="font-weight: bold;"
+      type="submit"
+    >
+      selector.CLI
+    </button>
+    <button
+      class="p-2 flex-1"
+      style="font-weight: normal;"
+      type="submit"
+    >
+      selector.GUI
+    </button>
+    <button
+      class="p-2 flex-1"
+      style="font-weight: normal;"
+      type="submit"
+    >
+      selector.website
+    </button>
+  </div>,
+]
+`;

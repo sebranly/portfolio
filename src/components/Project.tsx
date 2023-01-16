@@ -26,7 +26,7 @@ const Project: React.FC<ProjectProps> = (props) => {
   const websiteAltText = `${t('projects.general.altText.website')} ${t(title)}`;
 
   return (
-    <div className="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50">
+    <div className="flex flex-col bg-white px-4 py-4 border-2 mx-4 lg:w-2/5 w-full my-2 rounded-lg border-solid border-gray-50">
       <h2 className="font-bold text-xl">{t(title)}</h2>
       <h3 className="text-lg">{t(subtitle)}</h3>
       {textualSnapshot && <Code className="text-black text-sm" lines={textualSnapshot} />}

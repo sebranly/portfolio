@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination 1`] = `
+NodeList [
+  <div
+    class="flex w-full"
+  >
+    <button
+      class="p-2 flex-1"
+      style="font-weight: normal;"
+      type="submit"
+    >
+      1
+    </button>
+    <button
+      class="bg-black text-white rounded-bl-lg p-2 flex-1"
+      style="font-weight: bold;"
+      type="submit"
+    >
+      2
+    </button>
+  </div>,
+]
+`;

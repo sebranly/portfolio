@@ -9,6 +9,12 @@ const fr = {
       },
       website: 'Site web version '
     },
+    selector: {
+      [Tag.All]: 'Tous',
+      [Tag.CLI]: 'CLI',
+      [Tag.GUI]: 'GUI',
+      [Tag.Website]: 'Site Web'
+    },
     header: {
       author: {
         prefix: 'Je suis ',
@@ -125,8 +131,8 @@ const fr = {
           [Role.Algorithm]: 'Algorithme',
           [Role.Developer]: 'Développeur',
           [Role.Designer]: 'Graphiste',
-          [Role.Tester]: 'Testeur',
-          [Role.WebsiteConcept]: 'Concept du site web'
+          [Role.ProductOwner]: 'Responsable de projet',
+          [Role.Tester]: 'Testeur'
         },
         tags: {
           [Tag.Archived]: 'archivé',

@@ -1,6 +1,7 @@
 // TODO: have a glossary on the website
 // TODO: explain myProjects series
 export enum Tag {
+  All = 'All',
   ThreeDimensional = '3D',
   AIML = 'AIML',
   Archived = 'archived',
@@ -52,8 +53,8 @@ export enum Role {
   Algorithm = 'Algorithm',
   Developer = 'Developer',
   Designer = 'Designer',
-  Tester = 'Tester',
-  WebsiteConcept = 'Website Concept'
+  ProductOwner = 'Product Owner',
+  Tester = 'Tester'
 }
 
 export type Contributor = {

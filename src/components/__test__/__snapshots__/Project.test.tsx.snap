@@ -3,7 +3,7 @@
 exports[`Project 1`] = `
 NodeList [
   <div
-    class="flex flex-col bg-white px-4 py-4 border-2 w-96 mx-4 sm:mx-2 my-2 rounded-lg border-solid border-gray-50"
+    class="flex flex-col bg-white px-4 py-4 border-2 mx-4 lg:w-2/5 w-full my-2 rounded-lg border-solid border-gray-50"
   >
     <h2
       class="font-bold text-xl"

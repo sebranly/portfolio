@@ -9,6 +9,12 @@ const en = {
       },
       website: 'Website version '
     },
+    selector: {
+      [Tag.All]: 'All',
+      [Tag.CLI]: 'CLI',
+      [Tag.GUI]: 'GUI',
+      [Tag.Website]: 'Website'
+    },
     header: {
       author: {
         prefix: `I'm `,
@@ -118,8 +124,8 @@ const en = {
           [Role.Algorithm]: Role.Algorithm,
           [Role.Developer]: Role.Developer,
           [Role.Designer]: Role.Designer,
-          [Role.Tester]: Role.Tester,
-          [Role.WebsiteConcept]: Role.WebsiteConcept
+          [Role.ProductOwner]: Role.ProductOwner,
+          [Role.Tester]: Role.Tester
         },
         tags: {
           [Tag.Archived]: Tag.Archived,

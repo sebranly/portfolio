@@ -1,6 +1,6 @@
 import { Color, Contributor, Project, Tag } from '../types';
-import { flatten, uniq } from 'lodash';
 import { AUTHOR_GITHUB, GITHUB_PAGES_URL } from '../constants/general';
+import { PROJECTS_PER_PAGE } from '../constants';
 
 /**
  * @name getGitHubRepo
@@ -186,50 +186,67 @@ const getTailwindHoverBackgroundColor = (color: Color) => {
 };
 
 /**
- * @name getAllYears
- * @description Returns all unique years from projects
+ * @name filterProjectsByTag
+ * @description Returns all projects filtered by selected tag
  */
-const getAllYears = (projects: Project[]) => {
-  const allYears = projects.map((project: Project) => {
-    const { years } = project;
-    return years;
+const filterProjectsByTag = (projects: Project[], tag: Tag) => {
+  if (tag === Tag.All) return projects;
+
+  const filteredProjects = projects.filter((project: Project) => {
+    const { tags } = project;
+    return tags.includes(tag);
   });
 
-  const allYearsFlatten = flatten(allYears);
-  const allYearsUniq = uniq(allYearsFlatten);
-  const allYearsSort = allYearsUniq.sort();
-
-  return allYearsSort;
+  return filteredProjects;
 };
 
 /**
- * @name getAllTags
- * @description Returns all unique tags from projects
+ * @name generatePages
+ * @description Returns all the pages possible for projects
  */
-const getAllTags = (projects: Project[]) => {
-  const allTags = projects.map((project: Project) => {
-    const { tags } = project;
-    return tags;
-  });
+const generatePages = (projectsCount: number, projectsPerPage = PROJECTS_PER_PAGE) => {
+  if (projectsCount === 0) return [];
 
-  const allTagsFlatten = flatten(allTags);
-  const allTagsUniq = uniq(allTagsFlatten);
-  const allTagsSort = alphabetizeTags(allTagsUniq);
+  const rest = projectsCount % projectsPerPage;
+  const areCompletePages = rest === 0;
+  const delta = areCompletePages ? 0 : 1;
+  const maxPage = projectsCount / projectsPerPage + delta;
 
-  return allTagsSort;
+  return numberRange(1, maxPage);
+};
+
+/**
+ * @name numberRange
+ * @description Returns an array containing all numbers from min to max included
+ */
+const numberRange = (min: number, max: number) => {
+  const numbers = [];
+  for (let i = min; i <= max; i += 1) numbers.push(i);
+  return numbers;
+};
+
+const getProjectsForPage = (projects: Project[], pageNumber: number, projectsPerPage = PROJECTS_PER_PAGE) => {
+  const pageIndex = pageNumber - 1;
+  const projectsIndexStart = pageIndex * projectsPerPage;
+  const projectsIndexEnd = (pageIndex + 1) * projectsPerPage;
+
+  const projectsForPage = projects.slice(projectsIndexStart, projectsIndexEnd);
+  return projectsForPage;
 };
 
 export {
   alphabetizeTags,
   areFemaleContributors,
   enhanceTags,
-  getAllTags,
-  getAllYears,
+  filterProjectsByTag,
+  generatePages,
   getGitHubRepo,
+  getProjectsForPage,
   getTagColor,
   getTailwindBackgroundColor,
   getTailwindHoverBackgroundColor,
   getWebsite,
   hasTagTranslation,
+  numberRange,
   pluralize
 };

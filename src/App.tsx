@@ -1,45 +1,50 @@
 import React from 'react';
 import { Footer } from './components/Footer';
 import { projects } from './data/projects';
+import { Pagination } from './components/Pagination';
 import { Project } from './components/Project';
-import { Language, Project as ProjectType } from './types';
-import { Filter } from './components/Filter';
-import { useTranslation } from 'react-i18next';
-import { languages } from './languages';
+import { Tabs } from './components/Tabs';
+import { Project as ProjectType } from './types';
 import { HeaderText } from './components/HeaderText';
+import { LanguageSelector } from './components/LanguageSelector';
+import { Tag } from './types';
+import { filterProjectsByTag, generatePages, getProjectsForPage } from './utils';
 
 function App() {
-  const { i18n } = useTranslation();
+  const onClickTab = (tag: Tag) => {
+    const newProjects = filterProjectsByTag(projects, tag);
+    setApplicationType(tag);
+    setSelectedProjects(newProjects);
+    setPageNumber(1);
+  };
+
+  const onClickPage = (page: number) => {
+    setPageNumber(page);
+    ref?.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const ref = React.useRef<null | HTMLDivElement>(null);
+  const [applicationType, setApplicationType] = React.useState(Tag.All);
+  const [selectedProjects, setSelectedProjects] = React.useState(projects);
+  const [pageNumber, setPageNumber] = React.useState(1);
+
+  const projectsForPage = getProjectsForPage(selectedProjects, pageNumber);
+  const allPages = generatePages(selectedProjects.length);
 
   return (
     <>
-      <header className="mx-4 my-8 text-center">
-        <div>
-          {languages.map((language: Language) => {
-            const { shortName, name } = language;
-
-            return (
-              <button
-                className="rounded mr-2"
-                key={shortName}
-                style={{ fontWeight: i18n.resolvedLanguage === shortName ? 'bold' : 'normal' }}
-                type="submit"
-                onClick={() => i18n.changeLanguage(shortName)}
-              >
-                {name}
-              </button>
-            );
-          })}
-        </div>
-        <HeaderText />
-        <Filter className="my-4 max-w-3xl mx-auto" />
+      <header className="mx-4 mt-8 mb-4 text-center">
+        <LanguageSelector />
+        <HeaderText className="mb-8" />
       </header>
-      <div className="py-4 flex flex-wrap  justify-center bg-black">
-        {projects.map((project: ProjectType) => {
+      <Tabs applicationType={applicationType} onClickTab={onClickTab} ref={ref} />
+      <div className="py-4 border border-black flex flex-wrap justify-center bg-black">
+        {projectsForPage.map((project: ProjectType) => {
           const { title } = project;
           return <Project key={title} project={project} />;
         })}
       </div>
+      <Pagination allPages={allPages} onClickPage={onClickPage} pageNumber={pageNumber} />
       <Footer />
     </>
   );
