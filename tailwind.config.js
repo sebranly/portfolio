@@ -5,6 +5,7 @@ module.exports = {
   content: ['./src/**/*.{html,ts,tsx}'],
   // TODO: verify if better method
   safelist: [
+    'w-1/4',
     'bg-color-black',
     'bg-color-white',
     ...colors.map((color) => {

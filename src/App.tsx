@@ -75,7 +75,7 @@ function App() {
           );
         })}
       </div>
-      <div className="py-4 flex flex-wrap  justify-center bg-black">
+      <div className="py-4 flex flex-wrap justify-center bg-black">
         {selectedProjects.map((project: ProjectType) => {
           const { title } = project;
           return <Project key={title} project={project} />;
