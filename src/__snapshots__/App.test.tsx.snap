@@ -53,28 +53,28 @@ NodeList [
     class="mt-4 flex w-full"
   >
     <button
-      class="bg-black text-white rounded-tr-lg p-2 w-1/4"
+      class="bg-black text-white rounded-tr-lg p-2 flex-1"
       style="font-weight: bold;"
       type="submit"
     >
       selector.All
     </button>
     <button
-      class="p-2 w-1/4"
+      class="p-2 flex-1"
       style="font-weight: normal;"
       type="submit"
     >
       selector.CLI
     </button>
     <button
-      class="p-2 w-1/4"
+      class="p-2 flex-1"
       style="font-weight: normal;"
       type="submit"
     >
       selector.GUI
     </button>
     <button
-      class="p-2 w-1/4"
+      class="p-2 flex-1"
       style="font-weight: normal;"
       type="submit"
     >
