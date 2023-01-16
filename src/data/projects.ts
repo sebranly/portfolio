@@ -3,6 +3,7 @@ import { Project, Role, Tag } from '../types';
 import { getGitHubRepo, getWebsite } from '../utils';
 import { isMobile } from 'react-device-detect';
 
+// TODO: add manille and chez as npm
 const projects: Project[] = [
   {
     description: ['projects.ctr2d.desc1', 'projects.ctr2d.desc2', 'projects.ctr2d.desc3'],
