@@ -220,7 +220,7 @@ const projects: Project[] = [
       {
         female: true,
         name: 'Faith',
-        roles: [Role.WebsiteConcept]
+        roles: [Role.ProductOwner]
       }
     ],
     description: [

@@ -118,8 +118,8 @@ const en = {
           [Role.Algorithm]: Role.Algorithm,
           [Role.Developer]: Role.Developer,
           [Role.Designer]: Role.Designer,
-          [Role.Tester]: Role.Tester,
-          [Role.WebsiteConcept]: Role.WebsiteConcept
+          [Role.ProductOwner]: Role.ProductOwner,
+          [Role.Tester]: Role.Tester
         },
         tags: {
           [Tag.Archived]: Tag.Archived,

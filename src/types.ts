@@ -52,8 +52,8 @@ export enum Role {
   Algorithm = 'Algorithm',
   Developer = 'Developer',
   Designer = 'Designer',
-  Tester = 'Tester',
-  WebsiteConcept = 'Website Concept'
+  ProductOwner = 'Product Owner',
+  Tester = 'Tester'
 }
 
 export type Contributor = {
