@@ -8,7 +8,7 @@ import { languages } from './languages';
 import { HeaderText } from './components/HeaderText';
 import { Tag } from './types';
 import classnames from 'classnames';
-import { filterProjectsByTag } from './utils';
+import { filterProjectsByTag, generatePages, getProjectsForPage } from './utils';
 import { TAB_COUNT } from './constants';
 
 function App() {
@@ -16,11 +16,22 @@ function App() {
     const newProjects = filterProjectsByTag(projects, tag);
     setApplicationType(tag);
     setSelectedProjects(newProjects);
+    setPageNumber(1);
   };
 
+  const onClickPage = (page: number) => {
+    setPageNumber(page);
+    ref?.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const ref = React.useRef<null | HTMLDivElement>(null);
   const { i18n, t } = useTranslation();
   const [applicationType, setApplicationType] = React.useState(Tag.All);
   const [selectedProjects, setSelectedProjects] = React.useState(projects);
+  const [pageNumber, setPageNumber] = React.useState(1);
+
+  const projectsForPage = getProjectsForPage(selectedProjects, pageNumber);
+  const allPages = generatePages(selectedProjects.length);
 
   return (
     <>
@@ -48,7 +59,7 @@ function App() {
         </div>
         <HeaderText className="mb-8" />
       </header>
-      <div className="mt-4 flex w-full">
+      <div ref={ref} className="mt-4 flex w-full">
         {[Tag.All, Tag.CLI, Tag.GUI, Tag.Website].map((tag: Tag, index: number) => {
           const text = t(`selector.${tag}`);
           const isSelected = applicationType === tag;
@@ -75,10 +86,36 @@ function App() {
           );
         })}
       </div>
-      <div className="py-4 flex flex-wrap justify-center bg-black">
-        {selectedProjects.map((project: ProjectType) => {
+      <div className="py-4 border border-black flex flex-wrap justify-center bg-black">
+        {projectsForPage.map((project: ProjectType) => {
           const { title } = project;
           return <Project key={title} project={project} />;
+        })}
+      </div>
+      <div className="flex w-full">
+        {allPages.map((page: number, index: number) => {
+          const isSelected = pageNumber === page;
+          const classnamesTab = classnames(
+            {
+              'bg-black': isSelected,
+              'text-white': isSelected,
+              'rounded-bl-lg': isSelected && index !== 0,
+              'rounded-br-lg': isSelected && index !== allPages.length - 1
+            },
+            `p-2 flex-1`
+          );
+
+          return (
+            <button
+              className={classnamesTab}
+              key={page}
+              style={{ fontWeight: isSelected ? 'bold' : 'normal' }}
+              type="submit"
+              onClick={() => onClickPage(page)}
+            >
+              {page}
+            </button>
+          );
         })}
       </div>
       <Footer />

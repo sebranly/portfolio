@@ -210,11 +210,11 @@ test('filterProjectsByTag', () => {
     years: [2014]
   };
 
-  expect(filterProjectsByTag([], Tag.All)).toStrictEqual([])
-  expect(filterProjectsByTag([project1, project2, project3], Tag.All)).toStrictEqual([project1, project2, project3])
-  expect(filterProjectsByTag([project1, project2, project3], Tag.GUI)).toStrictEqual([project1])
-  expect(filterProjectsByTag([project1, project2, project3], Tag.CLI)).toStrictEqual([project2])
-  expect(filterProjectsByTag([project1, project2, project3], Tag.Website)).toStrictEqual([project3])
+  expect(filterProjectsByTag([], Tag.All)).toStrictEqual([]);
+  expect(filterProjectsByTag([project1, project2, project3], Tag.All)).toStrictEqual([project1, project2, project3]);
+  expect(filterProjectsByTag([project1, project2, project3], Tag.GUI)).toStrictEqual([project1]);
+  expect(filterProjectsByTag([project1, project2, project3], Tag.CLI)).toStrictEqual([project2]);
+  expect(filterProjectsByTag([project1, project2, project3], Tag.Website)).toStrictEqual([project3]);
 });
 
 test('numberRange', () => {
@@ -223,19 +223,19 @@ test('numberRange', () => {
 });
 
 test('generatePages', () => {
-  expect(generatePages(0, 2)).toStrictEqual([])
-  expect(generatePages(1, 2)).toStrictEqual([1])
-  expect(generatePages(2, 2)).toStrictEqual([1])
-  expect(generatePages(3, 2)).toStrictEqual([1, 2])
-  expect(generatePages(4, 2)).toStrictEqual([1, 2])
-  expect(generatePages(5, 2)).toStrictEqual([1, 2, 3])
+  expect(generatePages(0, 2)).toStrictEqual([]);
+  expect(generatePages(1, 2)).toStrictEqual([1]);
+  expect(generatePages(2, 2)).toStrictEqual([1]);
+  expect(generatePages(3, 2)).toStrictEqual([1, 2]);
+  expect(generatePages(4, 2)).toStrictEqual([1, 2]);
+  expect(generatePages(5, 2)).toStrictEqual([1, 2, 3]);
 
-  expect(generatePages(0, 4)).toStrictEqual([])
-  expect(generatePages(1, 4)).toStrictEqual([1])
-  expect(generatePages(2, 4)).toStrictEqual([1])
-  expect(generatePages(3, 4)).toStrictEqual([1])
-  expect(generatePages(4, 4)).toStrictEqual([1])
-  expect(generatePages(5, 4)).toStrictEqual([1, 2])
+  expect(generatePages(0, 4)).toStrictEqual([]);
+  expect(generatePages(1, 4)).toStrictEqual([1]);
+  expect(generatePages(2, 4)).toStrictEqual([1]);
+  expect(generatePages(3, 4)).toStrictEqual([1]);
+  expect(generatePages(4, 4)).toStrictEqual([1]);
+  expect(generatePages(5, 4)).toStrictEqual([1, 2]);
 });
 
 test('getProjectsForPage', () => {
@@ -263,6 +263,6 @@ test('getProjectsForPage', () => {
     years: [2014]
   };
 
-  expect(getProjectsForPage([project1, project2, project3], 1, 2)).toStrictEqual([project1, project2])
-  expect(getProjectsForPage([project1, project2, project3], 2, 2)).toStrictEqual([project3])
-})
+  expect(getProjectsForPage([project1, project2, project3], 1, 2)).toStrictEqual([project1, project2]);
+  expect(getProjectsForPage([project1, project2, project3], 2, 2)).toStrictEqual([project3]);
+});

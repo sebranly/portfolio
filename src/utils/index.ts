@@ -1,6 +1,7 @@
 import { Color, Contributor, Project, Tag } from '../types';
 import { flatten, uniq } from 'lodash';
-import { AUTHOR_GITHUB, GITHUB_PAGES_URL, PROJECTS_PER_PAGE } from '../constants/general';
+import { AUTHOR_GITHUB, GITHUB_PAGES_URL } from '../constants/general';
+import { PROJECTS_PER_PAGE } from '../constants';
 
 /**
  * @name getGitHubRepo
@@ -247,7 +248,7 @@ const generatePages = (projectsCount: number, projectsPerPage = PROJECTS_PER_PAG
   const maxPage = projectsCount / projectsPerPage + delta;
 
   return numberRange(1, maxPage);
-}
+};
 
 /**
  * @name numberRange
@@ -260,7 +261,7 @@ const numberRange = (min: number, max: number) => {
 };
 
 const getProjectsForPage = (projects: Project[], pageNumber: number, projectsPerPage = PROJECTS_PER_PAGE) => {
-  const pageIndex=  pageNumber - 1;
+  const pageIndex = pageNumber - 1;
   const projectsIndexStart = pageIndex * projectsPerPage;
   const projectsIndexEnd = (pageIndex + 1) * projectsPerPage;
 
