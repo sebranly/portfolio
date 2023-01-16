@@ -1,6 +1,7 @@
 // TODO: have a glossary on the website
 // TODO: explain myProjects series
 export enum Tag {
+  All = 'All',
   ThreeDimensional = '3D',
   AIML = 'AIML',
   Archived = 'archived',

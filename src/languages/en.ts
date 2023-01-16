@@ -9,6 +9,12 @@ const en = {
       },
       website: 'Website version '
     },
+    selector: {
+      [Tag.All]: 'All',
+      [Tag.CLI]: 'CLI',
+      [Tag.GUI]: 'GUI',
+      [Tag.Website]: 'Website'
+    },
     header: {
       author: {
         prefix: `I'm `,

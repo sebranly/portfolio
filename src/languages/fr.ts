@@ -9,6 +9,12 @@ const fr = {
       },
       website: 'Site web version '
     },
+    selector: {
+      [Tag.All]: 'Tous',
+      [Tag.CLI]: 'CLI',
+      [Tag.GUI]: 'GUI',
+      [Tag.Website]: 'Site Web'
+    },
     header: {
       author: {
         prefix: 'Je suis ',

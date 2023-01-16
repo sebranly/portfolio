@@ -2,26 +2,28 @@
 
 exports[`HeaderText 1`] = `
 NodeList [
-  <h1
-    class="font-bold sm:text-6xl text-2xl"
-  >
-    header.welcome
-  </h1>,
-  <h2
-    class="sm:text-4xl text-2xl"
-  >
-    header.author.prefix
-    <div
-      class="italic inline"
+  <div>
+    <h1
+      class="font-bold sm:text-6xl text-2xl"
     >
-      sebranly
+      header.welcome
+    </h1>
+    <h2
+      class="sm:text-4xl text-2xl"
+    >
+      header.author.prefix
+      <div
+        class="italic inline"
+      >
+        sebranly
+      </div>
+      header.author.suffix
+    </h2>
+    <div
+      class="sm:text-2xl text-xl"
+    >
+      header.introduction
     </div>
-    header.author.suffix
-  </h2>,
-  <div
-    class="sm:text-2xl text-xl"
-  >
-    header.introduction
   </div>,
 ]
 `;

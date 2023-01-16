@@ -219,10 +219,26 @@ const getAllTags = (projects: Project[]) => {
   return allTagsSort;
 };
 
+/**
+ * @name filterProjectsByTag
+ * @description Returns all projects filtered by selected tag
+ */
+const filterProjectsByTag = (projects: Project[], tag: Tag) => {
+  if (tag === Tag.All) return projects;
+
+  const filteredProjects = projects.filter((project: Project) => {
+    const { tags } = project;
+    return tags.includes(tag);
+  });
+
+  return filteredProjects;
+};
+
 export {
   alphabetizeTags,
   areFemaleContributors,
   enhanceTags,
+  filterProjectsByTag,
   getAllTags,
   getAllYears,
   getGitHubRepo,
