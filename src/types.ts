@@ -1,12 +1,11 @@
 // TODO: have a glossary on the website
 export enum Tag {
-  All = 'All',
-  ThreeDimensional = '3D',
   AIML = 'AIML',
+  All = 'All',
   Archived = 'archived',
   C = 'C',
-  CSS = 'CSS',
   CLI = 'CLI',
+  CSS = 'CSS',
   DNS = 'DNS',
   GitHub = 'GitHub',
   GUI = 'GUI',
@@ -16,18 +15,19 @@ export enum Tag {
   Live = 'live',
   NintendoDS = 'Nintendo DS',
   OpenGL = 'OpenGL',
+  PAlib = 'PAlib',
+  PHP = 'PHP',
   Puzzle = 'puzzle',
   Python = 'Python',
   React = 'React',
   SchoolProject = 'school project',
   SDL = 'SDL',
-  VideoGame = 'video game',
-  Website = 'website',
-  PAlib = 'PAlib',
-  PHP = 'PHP',
   SQL = 'SQL',
   TailwindCSS = 'TailwindCSS',
+  ThreeDimensional = '3D',
   TypeScript = 'TypeScript',
+  VideoGame = 'video game',
+  Website = 'website',
   Windows = 'Windows'
 }
 
