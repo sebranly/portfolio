@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Contributor, Project as ProjectType, Role, Tag as TagType } from '../types';
-import { alphabetizeTags, areFemaleContributors, enhanceTags, pluralize } from '../utils';
+import { areFemaleContributors, pluralize } from '../utils';
+import { alphabetizeTags, enhanceTags } from '../utils/tags';
 import { Tag } from './Tag';
 import { useTranslation } from 'react-i18next';
 import { Code } from './Code';
@@ -61,10 +62,10 @@ const Project: React.FC<ProjectProps> = (props) => {
           })}
         </div>
       )}
-      {github && <Link keyword='github' link={github} sectionKeyword='code' title={title} />}
-      {website && <Link keyword='link' link={website} sectionKeyword='website' title={title} />}
-      {video && <Link keyword='demo' link={video} sectionKeyword='video' title={title} />}
-      {download && <Link keyword='executable' link={download} sectionKeyword='download' title={title} />}
+      {github && <Link keyword="github" link={github} sectionKeyword="code" title={title} />}
+      {website && <Link keyword="link" link={website} sectionKeyword="website" title={title} />}
+      {video && <Link keyword="demo" link={video} sectionKeyword="video" title={title} />}
+      {download && <Link keyword="executable" link={download} sectionKeyword="download" title={title} />}
       <div className="grow h-4" />
       <div>
         {allTags.map((tag: TagType | number) => {
