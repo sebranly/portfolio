@@ -324,9 +324,9 @@ NodeList [
           href="https://github.com/sebranly/eight-queens-puzzle"
           rel="noopener noreferrer"
           target="_blank"
-          title="projects.general.altText.github projects.eightQueensPuzzle.title"
+          title="projects.general.altText.code projects.eightQueensPuzzle.title"
         >
-          GitHub
+          projects.general.github
         </a>
       </div>
       <div

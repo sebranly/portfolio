@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link 1`] = `
+NodeList [
+  <div
+    class="inline"
+  >
+    <div
+      class="font-bold inline"
+    >
+      projects.general.code
+      projects.general.colon
+       
+    </div>
+    <a
+      class="underline inline"
+      href="some github link"
+      rel="noopener noreferrer"
+      target="_blank"
+      title="projects.general.altText.code some title"
+    >
+      projects.general.github
+    </a>
+  </div>,
+]
+`;

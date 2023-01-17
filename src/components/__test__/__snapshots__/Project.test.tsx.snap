@@ -85,9 +85,9 @@ NodeList [
         href="some github link"
         rel="noopener noreferrer"
         target="_blank"
-        title="projects.general.altText.github Some project"
+        title="projects.general.altText.code Some project"
       >
-        GitHub
+        projects.general.github
       </a>
     </div>
     <div

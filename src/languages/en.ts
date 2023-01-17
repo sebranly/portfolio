@@ -116,9 +116,10 @@ const en = {
         demo: 'demo',
         download: 'Download',
         executable: 'executable',
+        github: 'GitHub',
         altText: {
           download: 'Download link for',
-          github: 'GitHub repository for',
+          code: 'Source code for',
           video: 'Video for',
           website: 'Website for'
         },

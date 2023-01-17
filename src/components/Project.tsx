@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { Contributor, Project as ProjectType, Role, Tag as TagType } from '../types';
-import { alphabetizeTags, areFemaleContributors, enhanceTags, pluralize } from '../utils';
+import { areFemaleContributors, pluralize } from '../utils';
+import { alphabetizeTags, enhanceTags } from '../utils/tags';
 import { Tag } from './Tag';
 import { useTranslation } from 'react-i18next';
 import { Code } from './Code';
+import { Link } from './Link';
 
 export interface ProjectProps {
   project: ProjectType;
@@ -22,11 +24,6 @@ const Project: React.FC<ProjectProps> = (props) => {
     t(`projects.general.contributor.${contributorGender}`),
     contributors ? contributors.length : 0
   );
-
-  const downloadAltText = `${t('projects.general.altText.download')} ${t(title)}`;
-  const githubAltText = `${t('projects.general.altText.github')} ${t(title)}`;
-  const videoAltText = `${t('projects.general.altText.video')} ${t(title)}`;
-  const websiteAltText = `${t('projects.general.altText.website')} ${t(title)}`;
 
   return (
     <div className="flex flex-col bg-white px-4 py-4 border-2 mx-4 lg:w-2/5 w-full my-2 rounded-lg border-solid border-gray-50">
@@ -65,62 +62,10 @@ const Project: React.FC<ProjectProps> = (props) => {
           })}
         </div>
       )}
-      {github && (
-        <div className="inline">
-          <div className="font-bold inline">
-            {t('projects.general.code')}
-            {t('projects.general.colon')}{' '}
-          </div>
-          <a className="underline inline" href={github} rel="noopener noreferrer" title={githubAltText} target="_blank">
-            GitHub
-          </a>
-        </div>
-      )}
-      {website && (
-        <div className="inline">
-          <div className="font-bold inline">
-            {t('projects.general.website')}
-            {t('projects.general.colon')}{' '}
-          </div>
-          <a
-            className="underline inline"
-            href={website}
-            rel="noopener noreferrer"
-            title={websiteAltText}
-            target="_blank"
-          >
-            {t('projects.general.link')}
-          </a>
-        </div>
-      )}
-      {video && (
-        <div className="inline">
-          <div className="font-bold inline">
-            {t('projects.general.video')}
-            {t('projects.general.colon')}{' '}
-          </div>
-          <a className="underline inline" href={video} rel="noopener noreferrer" title={videoAltText} target="_blank">
-            {t('projects.general.demo')}
-          </a>
-        </div>
-      )}
-      {download && (
-        <div className="inline">
-          <div className="font-bold inline">
-            {t('projects.general.download')}
-            {t('projects.general.colon')}{' '}
-          </div>
-          <a
-            className="underline inline"
-            href={download}
-            rel="noopener noreferrer"
-            title={downloadAltText}
-            target="_blank"
-          >
-            {t('projects.general.executable')}
-          </a>
-        </div>
-      )}
+      {github && <Link keyword="github" link={github} sectionKeyword="code" title={title} />}
+      {website && <Link keyword="link" link={website} sectionKeyword="website" title={title} />}
+      {video && <Link keyword="demo" link={video} sectionKeyword="video" title={title} />}
+      {download && <Link keyword="executable" link={download} sectionKeyword="download" title={title} />}
       <div className="grow h-4" />
       <div>
         {allTags.map((tag: TagType | number) => {
