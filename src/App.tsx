@@ -8,7 +8,8 @@ import { Project as ProjectType } from './types';
 import { HeaderText } from './components/HeaderText';
 import { LanguageSelector } from './components/LanguageSelector';
 import { Tag } from './types';
-import { filterProjectsByTag, generatePages, getProjectsForPage } from './utils';
+import { filterProjectsByTag } from './utils';
+import { generatePages, getProjectsForPage } from './utils/pages';
 
 function App() {
   const onClickTab = (tag: Tag) => {
