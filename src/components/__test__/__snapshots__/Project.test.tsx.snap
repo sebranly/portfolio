@@ -15,6 +15,31 @@ NodeList [
     >
       Some subtitle
     </h3>
+    <code
+      class="text-black text-sm"
+    >
+      <pre>
+        +---+---+---+---+
+      </pre>
+      <pre>
+        | #   # |       |
+      </pre>
+      <pre>
+        +---+   +   +---+
+      </pre>
+      <pre>
+        |     # |   |   |
+      </pre>
+      <pre>
+        +   +   +   +   +
+      </pre>
+      <pre>
+        |   | #   #   # |
+      </pre>
+      <pre>
+        +---+---+---+---+
+      </pre>
+    </code>
     <div
       class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
     >
@@ -30,6 +55,102 @@ NodeList [
       </div>
     </div>
     <div
+      class="inline"
+    >
+      <div
+        class="font-bold inline"
+      >
+        projects.general.contributor.male
+        projects.general.colon
+         
+      </div>
+      <div
+        class="inline"
+      >
+        projects.people.anonymousPerson (projects.general.roles.Developer)
+      </div>
+    </div>
+    <div
+      class="inline"
+    >
+      <div
+        class="font-bold inline"
+      >
+        projects.general.code
+        projects.general.colon
+         
+      </div>
+      <a
+        class="underline inline"
+        href="some github link"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="projects.general.altText.github Some project"
+      >
+        GitHub
+      </a>
+    </div>
+    <div
+      class="inline"
+    >
+      <div
+        class="font-bold inline"
+      >
+        projects.general.website
+        projects.general.colon
+         
+      </div>
+      <a
+        class="underline inline"
+        href="some website link"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="projects.general.altText.website Some project"
+      >
+        projects.general.link
+      </a>
+    </div>
+    <div
+      class="inline"
+    >
+      <div
+        class="font-bold inline"
+      >
+        projects.general.video
+        projects.general.colon
+         
+      </div>
+      <a
+        class="underline inline"
+        href="some video link"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="projects.general.altText.video Some project"
+      >
+        projects.general.demo
+      </a>
+    </div>
+    <div
+      class="inline"
+    >
+      <div
+        class="font-bold inline"
+      >
+        projects.general.download
+        projects.general.colon
+         
+      </div>
+      <a
+        class="underline inline"
+        href="some download link"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="projects.general.altText.download Some project"
+      >
+        projects.general.executable
+      </a>
+    </div>
+    <div
       class="grow h-4"
     />
     <div>
@@ -37,6 +158,11 @@ NodeList [
         class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-600 hover:bg-red-700"
       >
         2013
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-black bg-white hover:bg-gray-300"
+      >
+        GitHub
       </div>
       <div
         class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
@@ -47,6 +173,11 @@ NodeList [
         class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
       >
         projects.general.tags.archived
+      </div>
+      <div
+        class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
+      >
+        projects.general.tags.website
       </div>
     </div>
   </div>,
