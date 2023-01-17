@@ -117,7 +117,7 @@ const fr = {
       general: {
         altText: {
           download: 'Lien de téléchargement pour',
-          github: 'Dépôt GitHub pour',
+          code: 'Code source pour',
           video: 'Vidéo pour',
           website: 'Site web pour'
         },
@@ -130,6 +130,7 @@ const fr = {
         demo: 'démo',
         download: 'Téléchargement',
         executable: 'exécutable',
+        github: 'GitHub',
         link: 'lien',
         video: 'Vidéo',
         website: 'Site web',
