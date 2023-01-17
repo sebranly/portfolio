@@ -19,14 +19,14 @@ const getWebsite = (project: string) => `${GITHUB_PAGES_URL}/${project}`;
  * @name alphabetizeTags
  * @description Returns an alphabetized list of the tags
  */
-const alphabetizeTags = (tags: Tag[], t: TFunction<"translation", undefined, "translation">) => {
+const alphabetizeTags = (tags: Tag[], t: TFunction<'translation', undefined, 'translation'>) => {
   const sortedTags = tags.sort((a: Tag, b: Tag) => {
     const tag1 = hasTagTranslation(a) ? t(`projects.general.tags.${a}`) : a;
     const tag2 = hasTagTranslation(b) ? t(`projects.general.tags.${b}`) : b;
 
     const aLowercase = tag1.toLowerCase();
     const bLowercase = tag2.toLowerCase();
-    
+
     if (aLowercase === bLowercase) return 0;
     return aLowercase > bLowercase ? 1 : -1;
   });
@@ -79,18 +79,17 @@ const getTagColor = (tag: Tag | number) => {
       return Color.Amber;
     case 2023:
       return Color.Pink;
-    case Tag.ThreeDimensional:
-      return Color.Red;
     case Tag.AIML:
       return Color.Indigo;
     case Tag.Archived:
       return Color.Gray;
     case Tag.C:
       return Color.Yellow;
-    case Tag.CSS:
-      return Color.Indigo;
     case Tag.CLI:
       return Color.Black;
+    case Tag.CSS:
+      return Color.Indigo;
+
     case Tag.DNS:
       return Color.Purple;
     case Tag.GitHub:
@@ -115,26 +114,30 @@ const getTagColor = (tag: Tag | number) => {
       return Color.Orange;
     case Tag.PHP:
       return Color.Indigo;
-    case Tag.Python:
-      return Color.Blue;
     case Tag.Puzzle:
       return Color.Purple;
+    case Tag.Python:
+      return Color.Blue;
+
     case Tag.React:
       return Color.Blue;
     case Tag.SchoolProject:
       return Color.Amber;
     case Tag.SDL:
       return Color.Blue;
+    case Tag.SQL:
+      return Color.Orange;
+    case Tag.TailwindCSS:
+      return Color.Blue;
+    case Tag.ThreeDimensional:
+      return Color.Red;
+    case Tag.TypeScript:
+      return Color.Blue;
     case Tag.VideoGame:
       return Color.Amber;
     case Tag.Website:
       return Color.Purple;
-    case Tag.TailwindCSS:
-      return Color.Blue;
-    case Tag.TypeScript:
-      return Color.Blue;
-    case Tag.SQL:
-      return Color.Orange;
+
     case Tag.Windows:
       return Color.Blue;
     default:

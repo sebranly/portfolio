@@ -24,7 +24,12 @@ test('alphabetizeTags', () => {
   }) as any;
 
   expect(alphabetizeTags([], t)).toStrictEqual([]);
-  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website, Tag.TypeScript], t)).toStrictEqual([Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Website]);
+  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website, Tag.TypeScript], t)).toStrictEqual([
+    Tag.CSS,
+    Tag.GitHub,
+    Tag.TypeScript,
+    Tag.Website
+  ]);
 
   const tFrench = ((value: string) => {
     const splits = value.split('.');
@@ -34,10 +39,15 @@ test('alphabetizeTags', () => {
         return 'Site web';
       default:
         return word;
-    };
+    }
   }) as any;
 
-  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website, Tag.TypeScript], tFrench)).toStrictEqual([Tag.CSS, Tag.GitHub, Tag.Website, Tag.TypeScript]);
+  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website, Tag.TypeScript], tFrench)).toStrictEqual([
+    Tag.CSS,
+    Tag.GitHub,
+    Tag.Website,
+    Tag.TypeScript
+  ]);
 });
 
 test('enhanceTags', () => {
