@@ -1,5 +1,5 @@
-import { Color } from "../../types";
-import { getTailwindBackgroundColor, getTailwindHoverBackgroundColor } from "../tailwind";
+import { Color } from '../../types';
+import { getTailwindBackgroundColor, getTailwindHoverBackgroundColor } from '../tailwind';
 
 test('getTailwindBackgroundColor', () => {
   expect(getTailwindBackgroundColor(Color.Black)).toBe('bg-black');

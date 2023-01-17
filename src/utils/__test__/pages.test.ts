@@ -1,4 +1,4 @@
-import { generatePages, getProjectsForPage, numberRange } from "../pages";
+import { generatePages, getProjectsForPage, numberRange } from '../pages';
 import { Project, Tag } from '../../types';
 
 test('generatePages', () => {

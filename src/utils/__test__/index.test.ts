@@ -1,10 +1,4 @@
-import {
-  areFemaleContributors,
-  filterProjectsByTag,
-  getGitHubRepo,
-  getWebsite,
-  pluralize
-} from '../index';
+import { areFemaleContributors, filterProjectsByTag, getGitHubRepo, getWebsite, pluralize } from '../index';
 import { Tag, Color, Project, Role } from '../../types';
 
 test('areFemaleContributors', () => {

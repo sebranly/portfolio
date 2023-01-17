@@ -1,4 +1,4 @@
-import { PROJECTS_PER_PAGE } from "../constants";
+import { PROJECTS_PER_PAGE } from '../constants';
 import { Project } from '../types';
 
 /**
@@ -39,4 +39,4 @@ const numberRange = (min: number, max: number) => {
   return numbers;
 };
 
-export { generatePages, getProjectsForPage, numberRange};
+export { generatePages, getProjectsForPage, numberRange };

@@ -46,10 +46,4 @@ const filterProjectsByTag = (projects: Project[], tag: Tag) => {
   return filteredProjects;
 };
 
-export {
-  areFemaleContributors,
-  filterProjectsByTag,
-  getGitHubRepo,
-  getWebsite,
-  pluralize
-};
+export { areFemaleContributors, filterProjectsByTag, getGitHubRepo, getWebsite, pluralize };
