@@ -78,7 +78,6 @@ const en = {
         subtitle: 'Turn-based multiplayer game',
         title: 'Crash Team Racing 2D'
       },
-      // TODO: video
       ctrOcr: {
         desc1:
           "Several years later and still a fan of the Crash Team Racing video game which got a remake on PlayStation 4, I've been active on Discord communities of French players.",
@@ -114,11 +113,17 @@ const en = {
           male: 'Contributor'
         },
         code: 'Source code',
+        demo: 'demo',
+        download: 'Download',
+        executable: 'executable',
         altText: {
+          download: 'Download link for',
           github: 'GitHub repository for',
+          video: 'Video for',
           website: 'Website for'
         },
         link: 'link',
+        video: 'Video',
         website: 'Website',
         roles: {
           [Role.Algorithm]: Role.Algorithm,
@@ -234,6 +239,9 @@ const en = {
           'Now familiar with the Nintendo DS, I decided to learn new things such as playing audio files and experimenting with 3D.',
         subtitle: 'TETRISpace++',
         title: 'myTetris'
+      },
+      people: {
+        anonymousPerson: 'Anonymous person'
       },
       portfolio: {
         desc1:

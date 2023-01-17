@@ -12,7 +12,8 @@ export interface ProjectProps {
 const Project: React.FC<ProjectProps> = (props) => {
   const { t } = useTranslation();
   const { project } = props;
-  const { contributors, description, github, subtitle, title, website, years, textualSnapshot } = project;
+  const { contributors, description, download, github, subtitle, title, video, website, years, textualSnapshot } =
+    project;
   const enhancedTags = enhanceTags(project);
   const allTags = [...years, ...alphabetizeTags(enhancedTags)];
   const hasContributors = contributors ? contributors.length > 0 : false;
@@ -22,7 +23,9 @@ const Project: React.FC<ProjectProps> = (props) => {
     contributors ? contributors.length : 0
   );
 
+  const downloadAltText = `${t('projects.general.altText.download')} ${t(title)}`;
   const githubAltText = `${t('projects.general.altText.github')} ${t(title)}`;
+  const videoAltText = `${t('projects.general.altText.video')} ${t(title)}`;
   const websiteAltText = `${t('projects.general.altText.website')} ${t(title)}`;
 
   return (
@@ -49,7 +52,8 @@ const Project: React.FC<ProjectProps> = (props) => {
             const { name, roles } = contributor;
             const isLastContributor = index === contributors!.length - 1;
             const suffix = isLastContributor ? '' : ', ';
-            const stringifiedContributor = `${name} (${roles
+            const contributorName = name.startsWith('projects.') ? t(name) : name;
+            const stringifiedContributor = `${contributorName} (${roles
               .map((role: Role) => t(`projects.general.roles.${role}`))
               .join(', ')})${suffix}`;
 
@@ -86,6 +90,34 @@ const Project: React.FC<ProjectProps> = (props) => {
             target="_blank"
           >
             {t('projects.general.link')}
+          </a>
+        </div>
+      )}
+      {video && (
+        <div className="inline">
+          <div className="font-bold inline">
+            {t('projects.general.video')}
+            {t('projects.general.colon')}{' '}
+          </div>
+          <a className="underline inline" href={video} rel="noopener noreferrer" title={videoAltText} target="_blank">
+            {t('projects.general.demo')}
+          </a>
+        </div>
+      )}
+      {download && (
+        <div className="inline">
+          <div className="font-bold inline">
+            {t('projects.general.download')}
+            {t('projects.general.colon')}{' '}
+          </div>
+          <a
+            className="underline inline"
+            href={download}
+            rel="noopener noreferrer"
+            title={downloadAltText}
+            target="_blank"
+          >
+            {t('projects.general.executable')}
           </a>
         </div>
       )}

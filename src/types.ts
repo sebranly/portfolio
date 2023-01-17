@@ -64,12 +64,14 @@ export type Contributor = {
 };
 
 export type Project = {
+  download?: string;
   title: string;
   contributors?: Contributor[];
   github?: string;
   subtitle: string;
   description: string[];
   tags: Tag[];
+  video?: string;
   website?: string;
   years: number[];
   textualSnapshot?: string[];

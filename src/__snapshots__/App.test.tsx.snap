@@ -403,6 +403,26 @@ NodeList [
         </div>
       </div>
       <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.video
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://www.youtube.com/watch?v=blwEK3m85Ok"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.video projects.myDraw.title"
+        >
+          projects.general.demo
+        </a>
+      </div>
+      <div
         class="grow h-4"
       />
       <div>
