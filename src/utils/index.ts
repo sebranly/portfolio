@@ -104,8 +104,6 @@ const getTagColor = (tag: Tag | number) => {
       return Color.Yellow;
     case Tag.Live:
       return Color.Green;
-    case Tag.MyProjects:
-      return Color.Green;
     case Tag.NintendoDS:
       return Color.Red;
     case Tag.OpenGL:

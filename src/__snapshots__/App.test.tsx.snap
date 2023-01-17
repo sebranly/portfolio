@@ -442,11 +442,6 @@ NodeList [
           GUI
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
-        >
-          myProjects
-        </div>
-        <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
         >
           projects.general.tags.archived

@@ -162,7 +162,6 @@ test('getTagColor', () => {
   expect(getTagColor(Tag.i18n)).toBe(Color.Orange);
   expect(getTagColor(Tag.JavaScript)).toBe(Color.Yellow);
   expect(getTagColor(Tag.Live)).toBe(Color.Green);
-  expect(getTagColor(Tag.MyProjects)).toBe(Color.Green);
   expect(getTagColor(Tag.NintendoDS)).toBe(Color.Red);
   expect(getTagColor(Tag.OpenGL)).toBe(Color.Indigo);
   expect(getTagColor(Tag.PAlib)).toBe(Color.Orange);

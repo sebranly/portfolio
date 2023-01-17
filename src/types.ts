@@ -1,5 +1,4 @@
 // TODO: have a glossary on the website
-// TODO: explain myProjects series
 export enum Tag {
   All = 'All',
   ThreeDimensional = '3D',
@@ -15,7 +14,6 @@ export enum Tag {
   i18n = 'i18n',
   JavaScript = 'JavaScript',
   Live = 'live',
-  MyProjects = 'myProjects',
   NintendoDS = 'Nintendo DS',
   OpenGL = 'OpenGL',
   Puzzle = 'puzzle',
