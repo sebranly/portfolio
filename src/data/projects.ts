@@ -43,12 +43,12 @@ const projects: Project[] = [
       '+---+---+---+---+'
     ]
   },
-  // TODO: video
   {
     description: ['projects.myDraw.desc1', 'projects.myDraw.desc2', 'projects.myDraw.desc3'],
     title: 'projects.myDraw.title',
     subtitle: 'projects.myDraw.subtitle',
-    tags: [Tag.Archived, Tag.C, Tag.MyProjects, Tag.SDL, Tag.Windows, Tag.GUI],
+    tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.Windows, Tag.GUI],
+    video: 'https://www.youtube.com/watch?v=blwEK3m85Ok',
     years: [2012]
   },
   {
@@ -80,18 +80,17 @@ const projects: Project[] = [
     description: ['projects.myLife.desc1', 'projects.myLife.desc2', 'projects.myLife.desc3'],
     title: 'projects.myLife.title',
     subtitle: 'projects.myLife.subtitle',
-    tags: [Tag.Archived, Tag.C, Tag.MyProjects, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
+    tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
     years: [2013]
   },
   {
     description: ['projects.myPixelArt.desc1', 'projects.myPixelArt.desc2', 'projects.myPixelArt.desc3'],
     title: 'projects.myPixelArt.title',
     subtitle: 'projects.myPixelArt.subtitle',
-    tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.MyProjects, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
+    tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
     years: [2013]
   },
   {
-    // TODO: PlayStation theme screenshot
     description: [
       'projects.myTetris.desc1',
       'projects.myTetris.desc2',
@@ -100,17 +99,7 @@ const projects: Project[] = [
     ],
     title: 'projects.myTetris.title',
     subtitle: 'projects.myTetris.subtitle',
-    tags: [
-      Tag.ThreeDimensional,
-      Tag.OpenGL,
-      Tag.Archived,
-      Tag.GUI,
-      Tag.C,
-      Tag.MyProjects,
-      Tag.NintendoDS,
-      Tag.VideoGame,
-      Tag.PAlib
-    ],
+    tags: [Tag.ThreeDimensional, Tag.OpenGL, Tag.Archived, Tag.GUI, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib],
     years: [2013]
   },
   {
@@ -118,10 +107,9 @@ const projects: Project[] = [
     description: ['projects.mySudokuTool.desc1', 'projects.mySudokuTool.desc2', 'projects.mySudokuTool.desc3'],
     title: 'projects.mySudokuTool.title',
     subtitle: 'projects.mySudokuTool.subtitle',
-    tags: [Tag.Archived, Tag.C, Tag.MyProjects, Tag.SDL, Tag.Windows, Tag.GUI],
+    tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.Windows, Tag.GUI],
     years: [2013]
   },
-  // TODO: remove Windows if can run on Mac
   {
     contributors: [
       {
@@ -137,11 +125,12 @@ const projects: Project[] = [
     years: [2013]
   },
   {
-    // TODO: video + guide + download link
     description: ['projects.myEnglishGame.desc1', 'projects.myEnglishGame.desc2', 'projects.myEnglishGame.desc3'],
+    download: 'https://drive.google.com/drive/folders/1vZlziuiVk13iw2XnyRuGXONLLH21e8fM',
     title: 'projects.myEnglishGame.title',
     subtitle: 'projects.myEnglishGame.subtitle',
-    tags: [Tag.Archived, Tag.C, Tag.MyProjects, Tag.SDL, Tag.VideoGame, Tag.Windows, Tag.GUI],
+    tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.VideoGame, Tag.Windows, Tag.GUI],
+    video: 'https://www.youtube.com/watch?v=P5PY8aHnYiQ',
     years: [2013, 2014]
   },
   {
@@ -158,7 +147,12 @@ const projects: Project[] = [
     years: [2014]
   },
   {
-    // TODO: remember contributors
+    contributors: [
+      {
+        name: 'projects.people.anonymousPerson',
+        roles: [Role.Developer]
+      }
+    ],
     description: ['projects.simpleBot.desc1', 'projects.simpleBot.desc2', 'projects.simpleBot.desc3'],
     github: getGitHubRepo('simple-bot'),
     tags: [Tag.Archived, Tag.AIML, Tag.SchoolProject, Tag.CLI],
@@ -252,6 +246,7 @@ const projects: Project[] = [
     title: 'projects.ctrOcr.title',
     subtitle: 'projects.ctrOcr.subtitle',
     years: [2022],
+    video: 'https://www.youtube.com/watch?v=XjwoKGtEQag',
     website: 'https://www.crashteamresults.com'
   },
   {

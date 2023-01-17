@@ -1,18 +1,13 @@
-var colors = ['gray', 'red', 'orange', 'amber', 'yellow', 'green', 'blue', 'indigo', 'purple', 'pink', 'rose'];
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{html,ts,tsx}'],
-  // TODO: verify if better method
   safelist: [
     'bg-color-black',
     'bg-color-white',
-    ...colors.map((color) => {
-      return `bg-${color}-600`;
-    }),
-    ...colors.map((color) => {
-      return `hover:bg-${color}-700`;
-    })
+    {
+      pattern: /bg-(amber|blue|gray|green|indigo|orange|pink|purple|red|rose|yellow)-(600|700)/,
+      variants: ['hover']
+    }
   ],
   theme: {
     extend: {}

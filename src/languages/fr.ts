@@ -116,7 +116,9 @@ const fr = {
       },
       general: {
         altText: {
+          download: 'Lien de téléchargement pour',
           github: 'Dépôt GitHub pour',
+          video: 'Vidéo pour',
           website: 'Site web pour'
         },
         colon: ' :',
@@ -125,7 +127,11 @@ const fr = {
           female: 'Collaboratrice'
         },
         code: 'Code source',
+        demo: 'démo',
+        download: 'Téléchargement',
+        executable: 'exécutable',
         link: 'lien',
+        video: 'Vidéo',
         website: 'Site web',
         roles: {
           [Role.Algorithm]: 'Algorithme',
@@ -233,6 +239,9 @@ const fr = {
         desc4:
           "Désormais familier avec la Nintendo DS, je décide d'apprendre de nouvelles choses tels que pouvoir lire des fichiers audio et jouer avec un rendu 3D.",
         subtitle: 'TETRISpace++'
+      },
+      people: {
+        anonymousPerson: 'Personne anonyme'
       },
       portfolio: {
         desc1:

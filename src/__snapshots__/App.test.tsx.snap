@@ -126,11 +126,6 @@ NodeList [
           2011
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
-        >
-          projects.general.tags.archived
-        </div>
-        <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
         >
           C
@@ -141,14 +136,19 @@ NodeList [
           GUI
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
         >
-          SDL
+          projects.general.tags.archived
         </div>
         <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
         >
           projects.general.tags.video game
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
+          SDL
         </div>
         <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
@@ -215,11 +215,6 @@ NodeList [
           2011
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
-        >
-          projects.general.tags.archived
-        </div>
-        <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
         >
           C
@@ -238,6 +233,11 @@ NodeList [
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-600 hover:bg-orange-700"
         >
           PAlib
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
+        >
+          projects.general.tags.archived
         </div>
         <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
@@ -339,11 +339,6 @@ NodeList [
           2012
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
-        >
-          projects.general.tags.archived
-        </div>
-        <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
         >
           C
@@ -359,14 +354,19 @@ NodeList [
           GitHub
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
         >
-          puzzle
+          projects.general.tags.archived
         </div>
         <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
         >
           projects.general.tags.school project
+        </div>
+        <div
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
+        >
+          puzzle
         </div>
       </div>
     </div>
@@ -403,6 +403,26 @@ NodeList [
         </div>
       </div>
       <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.video
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://www.youtube.com/watch?v=blwEK3m85Ok"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.video projects.myDraw.title"
+        >
+          projects.general.demo
+        </a>
+      </div>
+      <div
         class="grow h-4"
       />
       <div>
@@ -410,11 +430,6 @@ NodeList [
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
         >
           2012
-        </div>
-        <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
-        >
-          projects.general.tags.archived
         </div>
         <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
@@ -427,9 +442,9 @@ NodeList [
           GUI
         </div>
         <div
-          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
+          class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
         >
-          myProjects
+          projects.general.tags.archived
         </div>
         <div
           class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
