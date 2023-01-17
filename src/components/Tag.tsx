@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Color, Tag as TagType } from '../types';
 import classnames from 'classnames';
-import { getTailwindBackgroundColor, getTailwindHoverBackgroundColor } from '../utils';
+import { getTailwindBackgroundColor, getTailwindHoverBackgroundColor } from '../utils/tailwind';
 import { getTagColor, hasTagTranslation } from '../utils/tags';
 import { useTranslation } from 'react-i18next';
 
