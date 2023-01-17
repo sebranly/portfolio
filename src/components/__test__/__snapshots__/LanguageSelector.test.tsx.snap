@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageSelector 1`] = `
+NodeList [
+  <div
+    class="mb-4"
+  >
+    <button
+      class="rounded mr-2"
+      style="font-weight: normal; text-decoration-line: none;"
+      type="submit"
+    >
+      English
+    </button>
+    <button
+      class="rounded mr-2"
+      style="font-weight: normal; text-decoration-line: none;"
+      type="submit"
+    >
+      Français
+    </button>
+  </div>,
+]
+`;
