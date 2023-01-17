@@ -125,9 +125,50 @@ test('areFemaleContributors', () => {
   ).toBe(true);
 });
 
-// TODO: add more tests once sure about colors
 test('getTagColor', () => {
+  expect(getTagColor(2011)).toBe(Color.Black);
+  expect(getTagColor(2012)).toBe(Color.Gray);
+  expect(getTagColor(2013)).toBe(Color.Red);
+  expect(getTagColor(2014)).toBe(Color.Orange);
+  expect(getTagColor(2015)).toBe(Color.Yellow);
+  expect(getTagColor(2016)).toBe(Color.Green);
+  expect(getTagColor(2017)).toBe(Color.Blue);
+  expect(getTagColor(2018)).toBe(Color.Indigo);
+  expect(getTagColor(2019)).toBe(Color.Purple);
+  expect(getTagColor(2020)).toBe(Color.Rose);
+  expect(getTagColor(2021)).toBe(Color.White);
+  expect(getTagColor(2022)).toBe(Color.Amber);
+  expect(getTagColor(2023)).toBe(Color.Pink);
+
+  expect(getTagColor(Tag.AIML)).toBe(Color.Indigo);
+  expect(getTagColor(Tag.Archived)).toBe(Color.Gray);
+  expect(getTagColor(Tag.C)).toBe(Color.Yellow);
+  expect(getTagColor(Tag.CLI)).toBe(Color.Black);
+  expect(getTagColor(Tag.CSS)).toBe(Color.Indigo);
+  expect(getTagColor(Tag.DNS)).toBe(Color.Purple);
+  expect(getTagColor(Tag.GitHub)).toBe(Color.White);
+  expect(getTagColor(Tag.GUI)).toBe(Color.Green);
+  expect(getTagColor(Tag.HTML)).toBe(Color.Orange);
+  expect(getTagColor(Tag.i18n)).toBe(Color.Orange);
+  expect(getTagColor(Tag.JavaScript)).toBe(Color.Yellow);
+  expect(getTagColor(Tag.Live)).toBe(Color.Green);
+  expect(getTagColor(Tag.MyProjects)).toBe(Color.Green);
+  expect(getTagColor(Tag.NintendoDS)).toBe(Color.Red);
+  expect(getTagColor(Tag.OpenGL)).toBe(Color.Indigo);
+  expect(getTagColor(Tag.PAlib)).toBe(Color.Orange);
+  expect(getTagColor(Tag.PHP)).toBe(Color.Indigo);
+  expect(getTagColor(Tag.Puzzle)).toBe(Color.Purple);
+  expect(getTagColor(Tag.Python)).toBe(Color.Blue);
+  expect(getTagColor(Tag.React)).toBe(Color.Blue);
+  expect(getTagColor(Tag.SchoolProject)).toBe(Color.Amber);
+  expect(getTagColor(Tag.SDL)).toBe(Color.Blue);
+  expect(getTagColor(Tag.SQL)).toBe(Color.Orange);
+  expect(getTagColor(Tag.TailwindCSS)).toBe(Color.Blue);
   expect(getTagColor(Tag.ThreeDimensional)).toBe(Color.Red);
+  expect(getTagColor(Tag.TypeScript)).toBe(Color.Blue);
+  expect(getTagColor(Tag.VideoGame)).toBe(Color.Amber);
+  expect(getTagColor(Tag.Website)).toBe(Color.Purple);
+  expect(getTagColor(Tag.Windows)).toBe(Color.Blue);
 });
 
 test('hasTagTranslation', () => {
