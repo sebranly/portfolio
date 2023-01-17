@@ -15,7 +15,7 @@ const Project: React.FC<ProjectProps> = (props) => {
   const { contributors, description, download, github, subtitle, title, video, website, years, textualSnapshot } =
     project;
   const enhancedTags = enhanceTags(project);
-  const allTags = [...years, ...alphabetizeTags(enhancedTags)];
+  const allTags = [...years, ...alphabetizeTags(enhancedTags, t)];
   const hasContributors = contributors ? contributors.length > 0 : false;
   const contributorGender = hasContributors && areFemaleContributors(contributors!) ? 'female' : 'male';
   const contributorText = pluralize(

@@ -1,6 +1,7 @@
 import { Color, Contributor, Project, Tag } from '../types';
 import { AUTHOR_GITHUB, GITHUB_PAGES_URL } from '../constants/general';
 import { PROJECTS_PER_PAGE } from '../constants';
+import { TFunction } from 'i18next';
 
 /**
  * @name getGitHubRepo
@@ -17,12 +18,15 @@ const getWebsite = (project: string) => `${GITHUB_PAGES_URL}/${project}`;
 /**
  * @name alphabetizeTags
  * @description Returns an alphabetized list of the tags
- * TODO: alphabetize with translation if possible
  */
-const alphabetizeTags = (tags: Tag[]) => {
+const alphabetizeTags = (tags: Tag[], t: TFunction<"translation", undefined, "translation">) => {
   const sortedTags = tags.sort((a: Tag, b: Tag) => {
-    const aLowercase = a.toLowerCase();
-    const bLowercase = b.toLowerCase();
+    const tag1 = hasTagTranslation(a) ? t(`projects.general.tags.${a}`) : a;
+    const tag2 = hasTagTranslation(b) ? t(`projects.general.tags.${b}`) : b;
+
+    const aLowercase = tag1.toLowerCase();
+    const bLowercase = tag2.toLowerCase();
+    
     if (aLowercase === bLowercase) return 0;
     return aLowercase > bLowercase ? 1 : -1;
   });

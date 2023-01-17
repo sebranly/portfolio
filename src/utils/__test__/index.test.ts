@@ -17,8 +17,27 @@ import {
 import { Tag, Color, Project, Role } from '../../types';
 
 test('alphabetizeTags', () => {
-  expect(alphabetizeTags([])).toStrictEqual([]);
-  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website])).toStrictEqual([Tag.CSS, Tag.GitHub, Tag.Website]);
+  const t = ((value: string) => {
+    const splits = value.split('.');
+    const word = splits[splits.length - 1];
+    return word;
+  }) as any;
+
+  expect(alphabetizeTags([], t)).toStrictEqual([]);
+  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website, Tag.TypeScript], t)).toStrictEqual([Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Website]);
+
+  const tFrench = ((value: string) => {
+    const splits = value.split('.');
+    const word = splits[splits.length - 1];
+    switch (word) {
+      case Tag.Website:
+        return 'Site web';
+      default:
+        return word;
+    };
+  }) as any;
+
+  expect(alphabetizeTags([Tag.GitHub, Tag.CSS, Tag.Website, Tag.TypeScript], tFrench)).toStrictEqual([Tag.CSS, Tag.GitHub, Tag.Website, Tag.TypeScript]);
 });
 
 test('enhanceTags', () => {
