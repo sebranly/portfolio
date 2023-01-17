@@ -32,25 +32,25 @@ export enum Tag {
 }
 
 export enum Color {
-  Black = 'black',
-  White = 'white',
-  Gray = 'gray',
-  Red = 'red',
-  Orange = 'orange',
   Amber = 'amber',
-  Yellow = 'yellow',
-  Green = 'green',
+  Black = 'black',
   Blue = 'blue',
+  Gray = 'gray',
+  Green = 'green',
   Indigo = 'indigo',
-  Purple = 'purple',
+  Orange = 'orange',
   Pink = 'pink',
-  Rose = 'rose'
+  Purple = 'purple',
+  Red = 'red',
+  Rose = 'rose',
+  White = 'white',
+  Yellow = 'yellow'
 }
 
 export enum Role {
   Algorithm = 'Algorithm',
-  Developer = 'Developer',
   Designer = 'Designer',
+  Developer = 'Developer',
   ProductOwner = 'Product Owner',
   Tester = 'Tester'
 }
@@ -62,20 +62,20 @@ export type Contributor = {
 };
 
 export type Project = {
-  download?: string;
-  title: string;
   contributors?: Contributor[];
+  description: string[];
+  download?: string;
   github?: string;
   subtitle: string;
-  description: string[];
   tags: Tag[];
-  video?: string;
-  website?: string;
-  years: number[];
   textualSnapshot?: string[];
+  title: string;
+  website?: string;
+  video?: string;
+  years: number[];
 };
 
 export type Language = {
-  shortName: string;
   name: string;
+  shortName: string;
 };
