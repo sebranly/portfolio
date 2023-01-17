@@ -89,7 +89,6 @@ const getTagColor = (tag: Tag | number) => {
       return Color.Black;
     case Tag.CSS:
       return Color.Indigo;
-
     case Tag.DNS:
       return Color.Purple;
     case Tag.GitHub:
@@ -116,7 +115,6 @@ const getTagColor = (tag: Tag | number) => {
       return Color.Purple;
     case Tag.Python:
       return Color.Blue;
-
     case Tag.React:
       return Color.Blue;
     case Tag.SchoolProject:
@@ -135,7 +133,6 @@ const getTagColor = (tag: Tag | number) => {
       return Color.Amber;
     case Tag.Website:
       return Color.Purple;
-
     case Tag.Windows:
       return Color.Blue;
     default:
