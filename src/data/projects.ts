@@ -99,16 +99,7 @@ const projects: Project[] = [
     ],
     title: 'projects.myTetris.title',
     subtitle: 'projects.myTetris.subtitle',
-    tags: [
-      Tag.ThreeDimensional,
-      Tag.OpenGL,
-      Tag.Archived,
-      Tag.GUI,
-      Tag.C,
-      Tag.NintendoDS,
-      Tag.VideoGame,
-      Tag.PAlib
-    ],
+    tags: [Tag.ThreeDimensional, Tag.OpenGL, Tag.Archived, Tag.GUI, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib],
     years: [2013]
   },
   {
