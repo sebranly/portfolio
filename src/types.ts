@@ -55,6 +55,24 @@ export enum Role {
   Tester = 'Tester'
 }
 
+export enum ImageFolder {
+  BobolsSokoban3D = 'BobolsSokoban3D',
+  ConnectFour = 'ConnectFour',
+  CrashTeamRacing2D = 'CrashTeamRacing2D',
+  GTAVShowYourCars = 'GTAVShowYourCars',
+  TETRISpace = 'TETRISpace',
+  myDraw = 'myDraw',
+  myEnglishGame = 'myEnglishGame',
+  myLife = 'myLife',
+  myMaze = 'myMaze',
+  mySudokuTool = 'mySudokuTool'
+}
+
+export enum ImageExtension {
+  JPG = 'jpg',
+  PNG = 'png'
+}
+
 export type Contributor = {
   female?: boolean;
   name: string;
@@ -66,6 +84,7 @@ export type Project = {
   description: string[];
   download?: string;
   github?: string;
+  images?: ProjectImages;
   subtitle: string;
   tags: Tag[];
   textualSnapshot?: string[];
@@ -78,4 +97,15 @@ export type Project = {
 export type Language = {
   name: string;
   shortName: string;
+};
+
+export type ProjectImages = {
+  folder: ImageFolder;
+  images: Image[];
+};
+
+export type Image = {
+  alt: string;
+  nb: number;
+  extension: ImageExtension;
 };

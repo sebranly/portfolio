@@ -1,5 +1,5 @@
 import { STEPHANE } from '../constants';
-import { Project, Role, Tag } from '../types';
+import { ImageExtension, ImageFolder, Project, Role, Tag } from '../types';
 import { getGitHubRepo, getWebsite } from '../utils/urls';
 import { isMobile } from 'react-device-detect';
 
@@ -45,6 +45,10 @@ const projects: Project[] = [
   },
   {
     description: ['projects.myDraw.desc1', 'projects.myDraw.desc2', 'projects.myDraw.desc3'],
+    images: {
+      folder: ImageFolder.myDraw,
+      images: [{ alt: 'Homer Simpson drawn in myDraw by Sebas', nb: 1, extension: ImageExtension.PNG }]
+    },
     title: 'projects.myDraw.title',
     subtitle: 'projects.myDraw.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.Windows, Tag.GUI],
@@ -105,6 +109,16 @@ const projects: Project[] = [
   {
     contributors: [{ name: 'Julien', roles: [Role.Algorithm] }],
     description: ['projects.mySudokuTool.desc1', 'projects.mySudokuTool.desc2', 'projects.mySudokuTool.desc3'],
+    images: {
+      folder: ImageFolder.mySudokuTool,
+      images: [
+        {
+          alt: 'Graphical user interface of mySudokuTool showing the user adding digit 4 in the center block of the Sudoku grid',
+          nb: 1,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.mySudokuTool.title',
     subtitle: 'projects.mySudokuTool.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.Windows, Tag.GUI],
@@ -119,6 +133,16 @@ const projects: Project[] = [
     ],
     description: ['projects.connectFour.desc1', 'projects.connectFour.desc2', 'projects.connectFour.desc3'],
     github: getGitHubRepo('connect-four'),
+    images: {
+      folder: ImageFolder.ConnectFour,
+      images: [
+        {
+          alt: 'Game of Connect Four played between two human players with red and yellow tokens',
+          nb: 1,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     tags: [Tag.Archived, Tag.GitHub, Tag.Python, Tag.SchoolProject, Tag.Windows, Tag.GUI],
     title: 'projects.connectFour.title',
     subtitle: 'projects.connectFour.subtitle',
@@ -127,6 +151,16 @@ const projects: Project[] = [
   {
     description: ['projects.myEnglishGame.desc1', 'projects.myEnglishGame.desc2', 'projects.myEnglishGame.desc3'],
     download: 'https://drive.google.com/drive/folders/1vZlziuiVk13iw2XnyRuGXONLLH21e8fM',
+    images: {
+      folder: ImageFolder.myEnglishGame,
+      images: [
+        {
+          alt: 'Game of myEnglishGame showing that letter B can replace C in COOK in order to turn it into BOOK which is the French translation for Livre',
+          nb: 1,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.myEnglishGame.title',
     subtitle: 'projects.myEnglishGame.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.VideoGame, Tag.Windows, Tag.GUI],

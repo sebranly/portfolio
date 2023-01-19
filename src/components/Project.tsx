@@ -5,6 +5,7 @@ import { alphabetizeTags, enhanceTags } from '../utils/tags';
 import { Tag } from './Tag';
 import { useTranslation } from 'react-i18next';
 import { Code } from './Code';
+import { Image } from './Image';
 import { Link } from './Link';
 
 export interface ProjectProps {
@@ -14,9 +15,21 @@ export interface ProjectProps {
 const Project: React.FC<ProjectProps> = (props) => {
   const { t } = useTranslation();
   const { project } = props;
-  const { contributors, description, download, github, subtitle, title, video, website, years, textualSnapshot } =
-    project;
+  const {
+    contributors,
+    description,
+    download,
+    github,
+    images,
+    subtitle,
+    title,
+    video,
+    website,
+    years,
+    textualSnapshot
+  } = project;
   const enhancedTags = enhanceTags(project);
+  const hasOneImage = !!images && images.images.length === 1;
   const allTags = [...years, ...alphabetizeTags(enhancedTags, t)];
   const hasContributors = contributors ? contributors.length > 0 : false;
   const contributorGender = hasContributors && areFemaleContributors(contributors!) ? 'female' : 'male';
@@ -29,6 +42,13 @@ const Project: React.FC<ProjectProps> = (props) => {
     <div className="flex flex-col bg-white px-4 py-4 border-2 mx-4 lg:w-2/5 w-full my-2 rounded-lg border-solid border-gray-50">
       <h2 className="font-bold text-xl">{t(title)}</h2>
       <h3 className="text-lg">{t(subtitle)}</h3>
+      {hasOneImage && (
+        <Image
+          className="my-2 lg:w-1/2 md:w-3/5 sm:w-2/3 w-full m-auto"
+          folder={images.folder}
+          image={images.images[0]}
+        />
+      )}
       {textualSnapshot && <Code className="text-black text-sm" lines={textualSnapshot} />}
       <div className="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify">
         {description.map((sentence: string, index: number) => {

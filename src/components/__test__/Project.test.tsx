@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import { Project as ProjectType, Role, Tag } from '../../types';
+import { ImageExtension, ImageFolder, Project as ProjectType, Role, Tag } from '../../types';
 import { Project } from '../Project';
 
 test('Project', () => {
@@ -13,6 +13,10 @@ test('Project', () => {
     ],
     description: ['Some description', 'And another sentence'],
     download: 'some download link',
+    images: {
+      folder: ImageFolder.ConnectFour,
+      images: [{ alt: 'some alt', nb: 1, extension: ImageExtension.PNG }]
+    },
     github: 'some github link',
     video: 'some video link',
     website: 'some website link',

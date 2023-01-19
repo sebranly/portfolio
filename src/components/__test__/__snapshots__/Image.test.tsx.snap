@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image 1`] = `
+NodeList [
+  <img
+    alt="some alt"
+    src="https://raw.githubusercontent.com/sebranly/portfolio/main/public/img/projects/ConnectFour/img1.png"
+  />,
+]
+`;
