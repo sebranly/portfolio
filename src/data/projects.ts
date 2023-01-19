@@ -7,6 +7,26 @@ import { isMobile } from 'react-device-detect';
 const projects: Project[] = [
   {
     description: ['projects.ctr2d.desc1', 'projects.ctr2d.desc2', 'projects.ctr2d.desc3'],
+    images: {
+      folder: ImageFolder.CrashTeamRacing2D,
+      images: [
+        {
+          alt: 'Game menu that allows up to 4 players to select their characters',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Game screenshot that shows Polar character currently playing its turn on Crash Cove track',
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'End of game screenshot that shows the podium for top 3 characters',
+          nb: 3,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     subtitle: 'projects.ctr2d.subtitle',
     title: 'projects.ctr2d.title',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.VideoGame, Tag.Windows, Tag.GUI],
@@ -15,6 +35,46 @@ const projects: Project[] = [
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
     description: ['projects.tetrisSpace.desc1', 'projects.tetrisSpace.desc2', 'projects.tetrisSpace.desc3'],
+    images: {
+      folder: ImageFolder.TETRISpace,
+      images: [
+        {
+          alt: 'Screenshot of lower screen of Nintendo DS with Tetris game being played',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of lower screen of Nintendo DS with Tetris game being continued with a 4-block line about to score lots of points',
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of TETRISpace menu referencing Site du Zero, former name for OpenClassrooms',
+          nb: 3,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of replay menu',
+          nb: 4,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of current TETRISpace game (1/3)',
+          nb: 5,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of current TETRISpace game (2/3)',
+          nb: 6,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of current TETRISpace game (3/3)',
+          nb: 7,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.tetrisSpace.title',
     subtitle: 'projects.tetrisSpace.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib, Tag.GUI],
@@ -200,6 +260,21 @@ const projects: Project[] = [
       }
     ],
     description: ['projects.GTAV.desc1', 'projects.GTAV.desc2', 'projects.GTAV.desc3'],
+    images: {
+      folder: ImageFolder.GTAVShowYourCars,
+      images: [
+        {
+          alt: 'Version 2 of the website that shows pictures of vehicles posted by users',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Version 1 of the website that shows pictures of vehicles posted by users',
+          nb: 2,
+          extension: ImageExtension.JPG
+        }
+      ]
+    },
     tags: [Tag.Archived, Tag.JavaScript, Tag.Website, Tag.HTML, Tag.CSS, Tag.PHP, Tag.SQL],
     title: 'projects.GTAV.title',
     subtitle: 'projects.GTAV.subtitle',
