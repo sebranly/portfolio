@@ -1,4 +1,4 @@
-import { areFemaleContributors, filterProjectsByTag, getGitHubRepo, getWebsite, pluralize } from '../index';
+import { areFemaleContributors, filterProjectsByTag, pluralize } from '../index';
 import { Tag, Color, Project, Role } from '../../types';
 
 test('areFemaleContributors', () => {
@@ -34,14 +34,6 @@ test('pluralize', () => {
   expect(pluralize('word', 1)).toBe('word');
   expect(pluralize('word', 2)).toBe('words');
   expect(pluralize('word', 100)).toBe('words');
-});
-
-test('getGitHubRepo', () => {
-  expect(getGitHubRepo('connect-four')).toBe('https://github.com/sebranly/connect-four');
-});
-
-test('getWebsite', () => {
-  expect(getWebsite('dmz')).toBe('https://sebranly.github.io/dmz');
 });
 
 test('filterProjectsByTag', () => {

@@ -1,6 +1,6 @@
 import { STEPHANE } from '../constants';
 import { Project, Role, Tag } from '../types';
-import { getGitHubRepo, getWebsite } from '../utils';
+import { getGitHubRepo, getWebsite } from '../utils/urls';
 import { isMobile } from 'react-device-detect';
 
 // TODO: add manille and chez as npm
