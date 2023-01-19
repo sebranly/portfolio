@@ -58,6 +58,31 @@ const projects: Project[] = [
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
     description: ['projects.bobolsSokoban3d.desc1', 'projects.bobolsSokoban3d.desc2', 'projects.bobolsSokoban3d.desc3'],
+    images: {
+      folder: ImageFolder.BobolsSokoban3D,
+      images: [
+        {
+          alt: 'Menu of the game with adventure mode icon, level editor play mode, help and level editor edition mode',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: `Game of Sokoban in Adventure Mode where purple ice cubes is on a crystal while cyan ice cubes need to be put on a crystal`,
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Level editor of Sokoban game where user can place several different items including walls, ice cubes and crystals',
+          nb: 3,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Credits of Sokoban game with four help pages (second page is shown with tutorial text)',
+          nb: 4,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.bobolsSokoban3d.title',
     subtitle: 'projects.bobolsSokoban3d.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib, Tag.GUI],
