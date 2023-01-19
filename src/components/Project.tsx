@@ -8,6 +8,7 @@ import { Code } from './Code';
 import { Image } from './Image';
 import { Link } from './Link';
 import { Swiper } from './Swiper';
+import { IS_TEST } from '../constants/general';
 
 export interface ProjectProps {
   project: ProjectType;
@@ -47,7 +48,7 @@ const Project: React.FC<ProjectProps> = (props) => {
       <h2 className="font-bold text-xl">{t(title)}</h2>
       <h3 className="text-lg">{t(subtitle)}</h3>
       {hasOneImage && <Image className={classnamesImages} folder={images.folder} image={images.images[0]} />}
-      {hasSeveralImages && <Swiper className={classnamesImages} projectImages={images} />}
+      {!IS_TEST && hasSeveralImages && <Swiper className={classnamesImages} projectImages={images} />}
       {textualSnapshot && <Code className="text-black text-sm" lines={textualSnapshot} />}
       <div className="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify">
         {description.map((sentence: string, index: number) => {
