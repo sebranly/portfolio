@@ -1,4 +1,4 @@
-import { getFromEnv } from "../utils";
+import { getFromEnv } from '../utils';
 
 export const AUTHOR_NAME = 'sebranly';
 export const AUTHOR_GITHUB = `https://github.com/${AUTHOR_NAME}`;

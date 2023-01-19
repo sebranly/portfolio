@@ -37,7 +37,7 @@ const filterProjectsByTag = (projects: Project[], tag: Tag) => {
  * @name getFromEnv
  * @description Returns environment key if it exists
  */
-const getFromEnv = (key: string) => process && process.env ? (process.env[key] || "") : "";
+const getFromEnv = (key: string) => (process && process.env ? process.env[key] || '' : '');
 
 /**
  * @name getSlideDuration
