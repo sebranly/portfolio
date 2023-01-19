@@ -2,6 +2,7 @@ import * as React from 'react';
 import { ProjectImages } from '../types';
 import { Swiper as SwiperContainer, SwiperSlide } from 'swiper/react';
 import { Image as ImageType } from '../types';
+import { getSlideDuration } from '../utils';
 import { Image } from './Image';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -10,7 +11,6 @@ import 'swiper/css/navigation';
 import '../index.css';
 
 import { Autoplay, Pagination, Navigation } from 'swiper';
-import { IMG_AUTOPLAY_DURATION } from '../constants/general';
 
 export interface SwiperProps {
   className?: string;
@@ -24,13 +24,15 @@ const Swiper: React.FC<SwiperProps> = (props) => {
   const { folder, images } = projectImages;
   if (images.length <= 1) return null;
 
+  const duration = getSlideDuration(images.length);
+
   return (
     <SwiperContainer
       className={className}
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: IMG_AUTOPLAY_DURATION,
+        delay: duration,
         disableOnInteraction: false
       }}
       pagination={{

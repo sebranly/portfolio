@@ -167,6 +167,26 @@ const projects: Project[] = [
   },
   {
     description: ['projects.myLife.desc1', 'projects.myLife.desc2', 'projects.myLife.desc3'],
+    images: {
+      folder: ImageFolder.myLife,
+      images: [
+        {
+          alt: '5th generation shown on upper and lower screens of Nintendo DS in green visual theme of myLife game',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: '1st generation shown on upper and lower screens of Nintendo DS in black and white visual theme of myLife game',
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'The 1st generation from the previous screenshot becomes a clown at exactly the 111th generation',
+          nb: 3,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.myLife.title',
     subtitle: 'projects.myLife.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
@@ -313,6 +333,21 @@ const projects: Project[] = [
   {
     description: ['projects.maze.desc1', 'projects.maze.desc2', 'projects.maze.desc3', 'projects.maze.desc4'],
     github: getGitHubRepo('maze-generators'),
+    images: {
+      folder: ImageFolder.myMaze,
+      images: [
+        {
+          alt: 'Top down view of a perfect maze displayed on Nintendo DS with OpenGL',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'First person view of a perfect maze displayed on Nintendo DS with OpenGL',
+          nb: 2,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     tags: [Tag.Archived, Tag.C, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'projects.maze.title',
     subtitle: 'projects.maze.subtitle',
