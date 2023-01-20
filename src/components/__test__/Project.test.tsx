@@ -3,7 +3,11 @@ import { render } from '@testing-library/react';
 import { ImageExtension, ImageFolder, Project as ProjectType, Role, Tag } from '../../types';
 import { Project } from '../Project';
 
-jest.mock('../Swiper', () => 'MockedSwiper');
+jest.mock('../Swiper', () => ({
+  Swiper: () => {
+    return <div data-testid="swiper" />;
+  }
+}));
 
 test('Project', () => {
   const project: ProjectType = {
