@@ -1,4 +1,4 @@
-import { areFemaleContributors, filterProjectsByTag, getFromEnv, getSlideDuration, pluralize } from '../index';
+import { areFemaleContributors, filterProjectsByTag, getSlideDuration, pluralize } from '../index';
 import { Tag, Project, Role } from '../../types';
 
 test('areFemaleContributors', () => {
@@ -58,11 +58,6 @@ test('filterProjectsByTag', () => {
   expect(filterProjectsByTag([project1, project2, project3], Tag.GUI)).toStrictEqual([project1]);
   expect(filterProjectsByTag([project1, project2, project3], Tag.CLI)).toStrictEqual([project2]);
   expect(filterProjectsByTag([project1, project2, project3], Tag.Website)).toStrictEqual([project3]);
-});
-
-test('getFromEnv', () => {
-  expect(getFromEnv('NODE_ENV')).toBe('test');
-  expect(getFromEnv('UNKNOWN')).toBe('');
 });
 
 test('getSlideDuration', () => {

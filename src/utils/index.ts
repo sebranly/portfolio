@@ -34,12 +34,6 @@ const filterProjectsByTag = (projects: Project[], tag: Tag) => {
 };
 
 /**
- * @name getFromEnv
- * @description Returns environment key if it exists
- */
-const getFromEnv = (key: string) => (process && process.env ? process.env[key] || '' : '');
-
-/**
  * @name getSlideDuration
  * @description Returns the duration of each slide for a Swiper set
  */
@@ -51,4 +45,4 @@ const getSlideDuration = (slideCount: number) => {
   return 3_000;
 };
 
-export { areFemaleContributors, filterProjectsByTag, getFromEnv, getSlideDuration, pluralize };
+export { areFemaleContributors, filterProjectsByTag, getSlideDuration, pluralize };
