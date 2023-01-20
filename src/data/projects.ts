@@ -1,12 +1,32 @@
 import { STEPHANE } from '../constants';
-import { Project, Role, Tag } from '../types';
-import { getGitHubRepo, getWebsite } from '../utils';
+import { ImageExtension, ImageFolder, Project, Role, Tag } from '../types';
+import { getGitHubRepo, getWebsite } from '../utils/urls';
 import { isMobile } from 'react-device-detect';
 
 // TODO: add manille and chez as npm
 const projects: Project[] = [
   {
     description: ['projects.ctr2d.desc1', 'projects.ctr2d.desc2', 'projects.ctr2d.desc3'],
+    images: {
+      folder: ImageFolder.CrashTeamRacing2D,
+      images: [
+        {
+          alt: 'Game menu that allows up to 4 players to select their characters',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Game screenshot that shows Polar character currently playing its turn on Crash Cove track',
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'End of game screenshot that shows the podium for top 3 characters',
+          nb: 3,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     subtitle: 'projects.ctr2d.subtitle',
     title: 'projects.ctr2d.title',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.VideoGame, Tag.Windows, Tag.GUI],
@@ -15,6 +35,46 @@ const projects: Project[] = [
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
     description: ['projects.tetrisSpace.desc1', 'projects.tetrisSpace.desc2', 'projects.tetrisSpace.desc3'],
+    images: {
+      folder: ImageFolder.TETRISpace,
+      images: [
+        {
+          alt: 'Screenshot of lower screen of Nintendo DS with Tetris game being played',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of lower screen of Nintendo DS with Tetris game being continued with a 4-block line about to score lots of points',
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of TETRISpace menu referencing Site du Zero, former name for OpenClassrooms',
+          nb: 3,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of replay menu',
+          nb: 4,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of current TETRISpace game (1/3)',
+          nb: 5,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of current TETRISpace game (2/3)',
+          nb: 6,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Screenshot of current TETRISpace game (3/3)',
+          nb: 7,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.tetrisSpace.title',
     subtitle: 'projects.tetrisSpace.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib, Tag.GUI],
@@ -45,6 +105,10 @@ const projects: Project[] = [
   },
   {
     description: ['projects.myDraw.desc1', 'projects.myDraw.desc2', 'projects.myDraw.desc3'],
+    images: {
+      folder: ImageFolder.myDraw,
+      images: [{ alt: 'Homer Simpson drawn in myDraw by Sebas', nb: 1, extension: ImageExtension.PNG }]
+    },
     title: 'projects.myDraw.title',
     subtitle: 'projects.myDraw.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.Windows, Tag.GUI],
@@ -54,6 +118,31 @@ const projects: Project[] = [
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
     description: ['projects.bobolsSokoban3d.desc1', 'projects.bobolsSokoban3d.desc2', 'projects.bobolsSokoban3d.desc3'],
+    images: {
+      folder: ImageFolder.BobolsSokoban3D,
+      images: [
+        {
+          alt: 'Menu of the game with adventure mode icon, level editor play mode, help and level editor edition mode',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: `Game of Sokoban in Adventure Mode where purple ice cubes is on a crystal while cyan ice cubes need to be put on a crystal`,
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Level editor of Sokoban game where user can place several different items including walls, ice cubes and crystals',
+          nb: 3,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Credits of Sokoban game with four help pages (second page is shown with tutorial text)',
+          nb: 4,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.bobolsSokoban3d.title',
     subtitle: 'projects.bobolsSokoban3d.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.VideoGame, Tag.PAlib, Tag.GUI],
@@ -78,6 +167,26 @@ const projects: Project[] = [
   },
   {
     description: ['projects.myLife.desc1', 'projects.myLife.desc2', 'projects.myLife.desc3'],
+    images: {
+      folder: ImageFolder.myLife,
+      images: [
+        {
+          alt: '5th generation shown on upper and lower screens of Nintendo DS in green visual theme of myLife game',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: '1st generation shown on upper and lower screens of Nintendo DS in black and white visual theme of myLife game',
+          nb: 2,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'The 1st generation from the previous screenshot becomes a clown at exactly the 111th generation',
+          nb: 3,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.myLife.title',
     subtitle: 'projects.myLife.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
@@ -105,6 +214,16 @@ const projects: Project[] = [
   {
     contributors: [{ name: 'Julien', roles: [Role.Algorithm] }],
     description: ['projects.mySudokuTool.desc1', 'projects.mySudokuTool.desc2', 'projects.mySudokuTool.desc3'],
+    images: {
+      folder: ImageFolder.mySudokuTool,
+      images: [
+        {
+          alt: 'Graphical user interface of mySudokuTool showing the user adding digit 4 in the center block of the Sudoku grid',
+          nb: 1,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.mySudokuTool.title',
     subtitle: 'projects.mySudokuTool.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.Windows, Tag.GUI],
@@ -119,6 +238,16 @@ const projects: Project[] = [
     ],
     description: ['projects.connectFour.desc1', 'projects.connectFour.desc2', 'projects.connectFour.desc3'],
     github: getGitHubRepo('connect-four'),
+    images: {
+      folder: ImageFolder.ConnectFour,
+      images: [
+        {
+          alt: 'Game of Connect Four played between two human players with red and yellow tokens',
+          nb: 1,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     tags: [Tag.Archived, Tag.GitHub, Tag.Python, Tag.SchoolProject, Tag.Windows, Tag.GUI],
     title: 'projects.connectFour.title',
     subtitle: 'projects.connectFour.subtitle',
@@ -127,6 +256,16 @@ const projects: Project[] = [
   {
     description: ['projects.myEnglishGame.desc1', 'projects.myEnglishGame.desc2', 'projects.myEnglishGame.desc3'],
     download: 'https://drive.google.com/drive/folders/1vZlziuiVk13iw2XnyRuGXONLLH21e8fM',
+    images: {
+      folder: ImageFolder.myEnglishGame,
+      images: [
+        {
+          alt: 'Game of myEnglishGame showing that letter B can replace C in COOK in order to turn it into BOOK which is the French translation for Livre',
+          nb: 1,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     title: 'projects.myEnglishGame.title',
     subtitle: 'projects.myEnglishGame.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.VideoGame, Tag.Windows, Tag.GUI],
@@ -141,6 +280,21 @@ const projects: Project[] = [
       }
     ],
     description: ['projects.GTAV.desc1', 'projects.GTAV.desc2', 'projects.GTAV.desc3'],
+    images: {
+      folder: ImageFolder.GTAVShowYourCars,
+      images: [
+        {
+          alt: 'Version 2 of the website that shows pictures of vehicles posted by users',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'Version 1 of the website that shows pictures of vehicles posted by users',
+          nb: 2,
+          extension: ImageExtension.JPG
+        }
+      ]
+    },
     tags: [Tag.Archived, Tag.JavaScript, Tag.Website, Tag.HTML, Tag.CSS, Tag.PHP, Tag.SQL],
     title: 'projects.GTAV.title',
     subtitle: 'projects.GTAV.subtitle',
@@ -179,6 +333,21 @@ const projects: Project[] = [
   {
     description: ['projects.maze.desc1', 'projects.maze.desc2', 'projects.maze.desc3', 'projects.maze.desc4'],
     github: getGitHubRepo('maze-generators'),
+    images: {
+      folder: ImageFolder.myMaze,
+      images: [
+        {
+          alt: 'Top down view of a perfect maze displayed on Nintendo DS with OpenGL',
+          nb: 1,
+          extension: ImageExtension.PNG
+        },
+        {
+          alt: 'First person view of a perfect maze displayed on Nintendo DS with OpenGL',
+          nb: 2,
+          extension: ImageExtension.PNG
+        }
+      ]
+    },
     tags: [Tag.Archived, Tag.C, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'projects.maze.title',
     subtitle: 'projects.maze.subtitle',

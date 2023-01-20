@@ -1,17 +1,4 @@
 import { Contributor, Project, Tag } from '../types';
-import { AUTHOR_GITHUB, GITHUB_PAGES_URL } from '../constants/general';
-
-/**
- * @name getGitHubRepo
- * @description Returns the link to the project repository
- */
-const getGitHubRepo = (project: string) => `${AUTHOR_GITHUB}/${project}`;
-
-/**
- * @name getWebsite
- * @description Returns the link to the project website
- */
-const getWebsite = (project: string) => `${GITHUB_PAGES_URL}/${project}`;
 
 /**
  * @name areFemaleContributors
@@ -46,4 +33,16 @@ const filterProjectsByTag = (projects: Project[], tag: Tag) => {
   return filteredProjects;
 };
 
-export { areFemaleContributors, filterProjectsByTag, getGitHubRepo, getWebsite, pluralize };
+/**
+ * @name getSlideDuration
+ * @description Returns the duration of each slide for a Swiper set
+ */
+const getSlideDuration = (slideCount: number) => {
+  if ([0, 1].includes(slideCount)) return 1_000;
+  if (slideCount === 2) return 5_000;
+  if (slideCount === 3) return 4_000;
+
+  return 3_000;
+};
+
+export { areFemaleContributors, filterProjectsByTag, getSlideDuration, pluralize };
