@@ -106,17 +106,17 @@ NodeList [
         <div
           class="mb-2"
         >
-          projects.ctr2d.desc1
+          projects.ctr2d.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.ctr2d.desc2
+          projects.ctr2d.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.ctr2d.desc3
+          projects.ctr2d.desc.3
         </div>
       </div>
       <div
@@ -182,17 +182,17 @@ NodeList [
         <div
           class="mb-2"
         >
-          projects.tetrisSpace.desc1
+          projects.tetrisSpace.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.tetrisSpace.desc2
+          projects.tetrisSpace.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.tetrisSpace.desc3
+          projects.tetrisSpace.desc.3
         </div>
       </div>
       <div
@@ -302,17 +302,17 @@ NodeList [
         <div
           class="mb-2"
         >
-          projects.eightQueensPuzzle.desc1
+          projects.eightQueensPuzzle.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.eightQueensPuzzle.desc2
+          projects.eightQueensPuzzle.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.eightQueensPuzzle.desc3
+          projects.eightQueensPuzzle.desc.3
         </div>
       </div>
       <div
@@ -400,17 +400,17 @@ NodeList [
         <div
           class="mb-2"
         >
-          projects.myDraw.desc1
+          projects.myDraw.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.myDraw.desc2
+          projects.myDraw.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.myDraw.desc3
+          projects.myDraw.desc.3
         </div>
       </div>
       <div
