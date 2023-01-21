@@ -12,7 +12,7 @@ const getGitHubRepo = (project: string) => `${AUTHOR_GITHUB}/${project}`;
  * @description Returns the public URL for said image
  */
 const getImageLink = (folder: ImageFolder, imgNumber: number, extension: ImageExtension) => {
-  const link = `${IMG_URL}/projects_wrong/${folder}/img${imgNumber}.${extension}`;
+  const link = `${IMG_URL}/projects/${folder}/img${imgNumber}.${extension}`;
 
   return link;
 };
