@@ -1,4 +1,3 @@
-// TODO: have a glossary on the website
 export enum Tag {
   AIML = 'AIML',
   All = 'All',
