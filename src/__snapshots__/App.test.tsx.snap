@@ -392,6 +392,7 @@ NodeList [
       <img
         alt="projects.myDraw.alt.1"
         class="my-2 lg:w-1/2 md:w-3/5 sm:w-2/3 w-full m-auto"
+        loading="lazy"
         src="https://raw.githubusercontent.com/sebranly/portfolio/main/public/img/projects/myDraw/img1.png"
       />
       <div
