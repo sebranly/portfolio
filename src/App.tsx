@@ -45,7 +45,7 @@ function App() {
     }, SCROLL_TIMEOUT);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pageNumber]);
+  }, [applicationType, pageNumber]);
 
   return (
     <>
