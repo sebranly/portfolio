@@ -10,6 +10,7 @@ import { LanguageSelector } from './components/LanguageSelector';
 import { Tag } from './types';
 import { filterProjectsByTag } from './utils';
 import { generatePages, getProjectsForPage } from './utils/pages';
+import { SCROLL_TIMEOUT } from './constants';
 
 function App() {
   const onClickTab = (tag: Tag) => {
@@ -21,16 +22,30 @@ function App() {
 
   const onClickPage = (page: number) => {
     setPageNumber(page);
-    ref?.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   const ref = React.useRef<null | HTMLDivElement>(null);
+  const [hasMounted, setHasMounted] = React.useState(false);
   const [applicationType, setApplicationType] = React.useState(Tag.All);
   const [selectedProjects, setSelectedProjects] = React.useState(projects);
   const [pageNumber, setPageNumber] = React.useState(1);
 
   const projectsForPage = getProjectsForPage(selectedProjects, pageNumber);
   const allPages = generatePages(selectedProjects.length);
+
+  React.useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  React.useEffect(() => {
+    if (!hasMounted) return;
+
+    const timer = setTimeout(() => {
+      ref?.current?.scrollIntoView({ behavior: 'smooth' });
+    }, SCROLL_TIMEOUT);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pageNumber]);
 
   return (
     <>

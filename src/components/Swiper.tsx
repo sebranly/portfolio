@@ -27,28 +27,30 @@ const Swiper: React.FC<SwiperProps> = (props) => {
   const duration = getSlideDuration(images.length);
 
   return (
-    <SwiperContainer
-      className={className}
-      spaceBetween={30}
-      centeredSlides={true}
-      autoplay={{
-        delay: duration,
-        disableOnInteraction: false
-      }}
-      pagination={{
-        clickable: true
-      }}
-      navigation={true}
-      modules={[Autoplay, Pagination, Navigation]}
-    >
-      {images.map((image: ImageType) => {
-        return (
-          <SwiperSlide key={image.alt}>
-            <Image folder={folder} image={image} />
-          </SwiperSlide>
-        );
-      })}
-    </SwiperContainer>
+    <div className="sm:w-full w-80 mx-auto mb-2">
+      <SwiperContainer
+        className={className}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: duration,
+          disableOnInteraction: false
+        }}
+        pagination={{
+          clickable: true
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+      >
+        {images.map((image: ImageType) => {
+          return (
+            <SwiperSlide key={image.alt}>
+              <Image folder={folder} image={image} />
+            </SwiperSlide>
+          );
+        })}
+      </SwiperContainer>
+    </div>
   );
 };
 

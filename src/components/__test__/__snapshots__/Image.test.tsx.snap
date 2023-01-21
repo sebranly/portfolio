@@ -4,6 +4,7 @@ exports[`Image 1`] = `
 NodeList [
   <img
     alt="some alt"
+    loading="lazy"
     src="https://raw.githubusercontent.com/sebranly/portfolio/main/public/img/projects/ConnectFour/img1.png"
   />,
 ]

@@ -17,7 +17,7 @@ const Image: React.FC<ImageProps> = (props) => {
   const altText = t(alt);
   const src = getImageLink(folder, nb, extension);
 
-  return <img className={className} alt={altText} src={src} />;
+  return <img className={className} alt={altText} loading="lazy" src={src} />;
 };
 
 export { Image };
