@@ -10,6 +10,7 @@ import { LanguageSelector } from './components/LanguageSelector';
 import { Tag } from './types';
 import { filterProjectsByTag } from './utils';
 import { generatePages, getProjectsForPage } from './utils/pages';
+import { SCROLL_TIMEOUT } from './constants';
 
 function App() {
   const onClickTab = (tag: Tag) => {
@@ -41,7 +42,7 @@ function App() {
 
     const timer = setTimeout(() => {
       ref?.current?.scrollIntoView({ behavior: 'smooth' });
-    }, 1000);
+    }, SCROLL_TIMEOUT);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageNumber]);
