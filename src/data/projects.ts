@@ -6,7 +6,7 @@ import { isMobile } from 'react-device-detect';
 // TODO: add manille and chez as npm
 const projects: Project[] = [
   {
-    description: ['projects.ctr2d.desc1', 'projects.ctr2d.desc2', 'projects.ctr2d.desc3'],
+    description: ['projects.ctr2d.desc.1', 'projects.ctr2d.desc.2', 'projects.ctr2d.desc.3'],
     images: {
       folder: ImageFolder.CrashTeamRacing2D,
       images: [
@@ -34,7 +34,7 @@ const projects: Project[] = [
   },
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
-    description: ['projects.tetrisSpace.desc1', 'projects.tetrisSpace.desc2', 'projects.tetrisSpace.desc3'],
+    description: ['projects.tetrisSpace.desc.1', 'projects.tetrisSpace.desc.2', 'projects.tetrisSpace.desc.3'],
     images: {
       folder: ImageFolder.TETRISpace,
       images: [
@@ -82,9 +82,9 @@ const projects: Project[] = [
   },
   {
     description: [
-      'projects.eightQueensPuzzle.desc1',
-      'projects.eightQueensPuzzle.desc2',
-      'projects.eightQueensPuzzle.desc3'
+      'projects.eightQueensPuzzle.desc.1',
+      'projects.eightQueensPuzzle.desc.2',
+      'projects.eightQueensPuzzle.desc.3'
     ],
     github: getGitHubRepo('eight-queens-puzzle'),
     title: 'projects.eightQueensPuzzle.title',
@@ -104,7 +104,7 @@ const projects: Project[] = [
     ]
   },
   {
-    description: ['projects.myDraw.desc1', 'projects.myDraw.desc2', 'projects.myDraw.desc3'],
+    description: ['projects.myDraw.desc.1', 'projects.myDraw.desc.2', 'projects.myDraw.desc.3'],
     images: {
       folder: ImageFolder.myDraw,
       images: [{ alt: 'projects.myDraw.alt.1', nb: 1, extension: ImageExtension.PNG }]
@@ -117,7 +117,11 @@ const projects: Project[] = [
   },
   {
     contributors: [{ name: STEPHANE, roles: [Role.Designer, Role.Tester] }],
-    description: ['projects.bobolsSokoban3d.desc1', 'projects.bobolsSokoban3d.desc2', 'projects.bobolsSokoban3d.desc3'],
+    description: [
+      'projects.bobolsSokoban3d.desc.1',
+      'projects.bobolsSokoban3d.desc.2',
+      'projects.bobolsSokoban3d.desc.3'
+    ],
     images: {
       folder: ImageFolder.BobolsSokoban3D,
       images: [
@@ -149,7 +153,7 @@ const projects: Project[] = [
     years: [2012]
   },
   {
-    description: ['projects.magicSquares.desc1', 'projects.magicSquares.desc2', 'projects.magicSquares.desc3'],
+    description: ['projects.magicSquares.desc.1', 'projects.magicSquares.desc.2', 'projects.magicSquares.desc.3'],
     github: getGitHubRepo('magic-squares'),
     title: 'projects.magicSquares.title',
     subtitle: 'projects.magicSquares.subtitle',
@@ -166,7 +170,7 @@ const projects: Project[] = [
     ]
   },
   {
-    description: ['projects.myLife.desc1', 'projects.myLife.desc2', 'projects.myLife.desc3'],
+    description: ['projects.myLife.desc.1', 'projects.myLife.desc.2', 'projects.myLife.desc.3'],
     images: {
       folder: ImageFolder.myLife,
       images: [
@@ -193,7 +197,7 @@ const projects: Project[] = [
     years: [2013]
   },
   {
-    description: ['projects.myPixelArt.desc1', 'projects.myPixelArt.desc2', 'projects.myPixelArt.desc3'],
+    description: ['projects.myPixelArt.desc.1', 'projects.myPixelArt.desc.2', 'projects.myPixelArt.desc.3'],
     title: 'projects.myPixelArt.title',
     subtitle: 'projects.myPixelArt.subtitle',
     tags: [Tag.Archived, Tag.C, Tag.SDL, Tag.NintendoDS, Tag.PAlib, Tag.GUI],
@@ -201,10 +205,10 @@ const projects: Project[] = [
   },
   {
     description: [
-      'projects.myTetris.desc1',
-      'projects.myTetris.desc2',
-      'projects.myTetris.desc3',
-      'projects.myTetris.desc4'
+      'projects.myTetris.desc.1',
+      'projects.myTetris.desc.2',
+      'projects.myTetris.desc.3',
+      'projects.myTetris.desc.4'
     ],
     title: 'projects.myTetris.title',
     subtitle: 'projects.myTetris.subtitle',
@@ -213,7 +217,7 @@ const projects: Project[] = [
   },
   {
     contributors: [{ name: 'Julien', roles: [Role.Algorithm] }],
-    description: ['projects.mySudokuTool.desc1', 'projects.mySudokuTool.desc2', 'projects.mySudokuTool.desc3'],
+    description: ['projects.mySudokuTool.desc.1', 'projects.mySudokuTool.desc.2', 'projects.mySudokuTool.desc.3'],
     images: {
       folder: ImageFolder.mySudokuTool,
       images: [
@@ -236,7 +240,7 @@ const projects: Project[] = [
         roles: [Role.Developer]
       }
     ],
-    description: ['projects.connectFour.desc1', 'projects.connectFour.desc2', 'projects.connectFour.desc3'],
+    description: ['projects.connectFour.desc.1', 'projects.connectFour.desc.2', 'projects.connectFour.desc.3'],
     github: getGitHubRepo('connect-four'),
     images: {
       folder: ImageFolder.ConnectFour,
@@ -254,7 +258,7 @@ const projects: Project[] = [
     years: [2013]
   },
   {
-    description: ['projects.myEnglishGame.desc1', 'projects.myEnglishGame.desc2', 'projects.myEnglishGame.desc3'],
+    description: ['projects.myEnglishGame.desc.1', 'projects.myEnglishGame.desc.2', 'projects.myEnglishGame.desc.3'],
     download: 'https://drive.google.com/drive/folders/1vZlziuiVk13iw2XnyRuGXONLLH21e8fM',
     images: {
       folder: ImageFolder.myEnglishGame,
@@ -279,7 +283,7 @@ const projects: Project[] = [
         roles: [Role.Developer]
       }
     ],
-    description: ['projects.GTAV.desc1', 'projects.GTAV.desc2', 'projects.GTAV.desc3'],
+    description: ['projects.GTAV.desc.1', 'projects.GTAV.desc.2', 'projects.GTAV.desc.3'],
     images: {
       folder: ImageFolder.GTAVShowYourCars,
       images: [
@@ -307,7 +311,7 @@ const projects: Project[] = [
         roles: [Role.Developer]
       }
     ],
-    description: ['projects.simpleBot.desc1', 'projects.simpleBot.desc2', 'projects.simpleBot.desc3'],
+    description: ['projects.simpleBot.desc.1', 'projects.simpleBot.desc.2', 'projects.simpleBot.desc.3'],
     github: getGitHubRepo('simple-bot'),
     tags: [Tag.Archived, Tag.AIML, Tag.SchoolProject, Tag.CLI],
     title: 'projects.simpleBot.title',
@@ -315,7 +319,7 @@ const projects: Project[] = [
     years: [2016]
   },
   {
-    description: ['projects.aoc2017.desc1', 'projects.aoc2017.desc2', 'projects.aoc2017.desc3'],
+    description: ['projects.aoc2017.desc.1', 'projects.aoc2017.desc.2', 'projects.aoc2017.desc.3'],
     github: getGitHubRepo('advent-of-code-2017'),
     tags: [Tag.Archived, Tag.C, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'projects.aoc2017.title',
@@ -323,7 +327,7 @@ const projects: Project[] = [
     years: [2017]
   },
   {
-    description: ['projects.projectEuler.desc1', 'projects.projectEuler.desc2'],
+    description: ['projects.projectEuler.desc.1', 'projects.projectEuler.desc.2'],
     github: getGitHubRepo('project-euler'),
     tags: [Tag.Archived, Tag.Python, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'projects.projectEuler.title',
@@ -331,7 +335,7 @@ const projects: Project[] = [
     years: [2017]
   },
   {
-    description: ['projects.maze.desc1', 'projects.maze.desc2', 'projects.maze.desc3', 'projects.maze.desc4'],
+    description: ['projects.maze.desc.1', 'projects.maze.desc.2', 'projects.maze.desc.3', 'projects.maze.desc.4'],
     github: getGitHubRepo('maze-generators'),
     images: {
       folder: ImageFolder.myMaze,
@@ -363,7 +367,7 @@ const projects: Project[] = [
     ]
   },
   {
-    description: ['projects.resume.desc1', 'projects.resume.desc2', 'projects.resume.desc3'],
+    description: ['projects.resume.desc.1', 'projects.resume.desc.2', 'projects.resume.desc.3'],
     github: getGitHubRepo('sebranly-resume'),
     tags: [Tag.Archived, Tag.GitHub, Tag.HTML, Tag.JavaScript, Tag.Live, Tag.Website, Tag.CSS],
     title: 'projects.resume.title',
@@ -372,7 +376,7 @@ const projects: Project[] = [
     years: [2018]
   },
   {
-    description: ['projects.aoc.desc1', 'projects.aoc.desc2', 'projects.aoc.desc3'],
+    description: ['projects.aoc.desc.1', 'projects.aoc.desc.2', 'projects.aoc.desc.3'],
     github: getGitHubRepo('advent-of-code'),
     tags: [Tag.Archived, Tag.JavaScript, Tag.GitHub, Tag.CLI, Tag.Puzzle],
     title: 'projects.aoc.title',
@@ -388,9 +392,9 @@ const projects: Project[] = [
       }
     ],
     description: [
-      'projects.englishPronunciation.desc1',
-      'projects.englishPronunciation.desc2',
-      'projects.englishPronunciation.desc3'
+      'projects.englishPronunciation.desc.1',
+      'projects.englishPronunciation.desc.2',
+      'projects.englishPronunciation.desc.3'
     ],
     github: 'https://github.com/fbpellas/fbpellas.github.io',
     tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
@@ -400,7 +404,7 @@ const projects: Project[] = [
     years: [2020, 2022]
   },
   {
-    description: ['projects.coolr.desc1', 'projects.coolr.desc2', 'projects.coolr.desc3'],
+    description: ['projects.coolr.desc.1', 'projects.coolr.desc.2', 'projects.coolr.desc.3'],
     github: getGitHubRepo('coolr'),
     tags: [Tag.Archived, Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Puzzle, Tag.Website],
     title: 'projects.coolr.title',
@@ -409,7 +413,7 @@ const projects: Project[] = [
     website: isMobile ? undefined : getWebsite('coolr')
   },
   {
-    description: ['projects.ctrOcr.desc1', 'projects.ctrOcr.desc2', 'projects.ctrOcr.desc3'],
+    description: ['projects.ctrOcr.desc.1', 'projects.ctrOcr.desc.2', 'projects.ctrOcr.desc.3'],
     github: getGitHubRepo('ctr-ocr'),
     tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website, Tag.DNS],
     title: 'projects.ctrOcr.title',
@@ -419,7 +423,7 @@ const projects: Project[] = [
     website: 'https://www.crashteamresults.com'
   },
   {
-    description: ['projects.templateTs.desc1', 'projects.templateTs.desc2', 'projects.templateTs.desc3'],
+    description: ['projects.templateTs.desc.1', 'projects.templateTs.desc.2', 'projects.templateTs.desc.3'],
     github: getGitHubRepo('template-ts'),
     tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
     title: 'projects.templateTs.title',
@@ -434,7 +438,7 @@ const projects: Project[] = [
         roles: [Role.Designer]
       }
     ],
-    description: ['projects.kaleidoscope.desc1', 'projects.kaleidoscope.desc2', 'projects.kaleidoscope.desc3'],
+    description: ['projects.kaleidoscope.desc.1', 'projects.kaleidoscope.desc.2', 'projects.kaleidoscope.desc.3'],
     github: getGitHubRepo('kaleidoscope'),
     tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
     title: 'projects.kaleidoscope.title',
@@ -443,7 +447,7 @@ const projects: Project[] = [
     website: getWebsite('kaleidoscope')
   },
   {
-    description: ['projects.dmz.desc1', 'projects.dmz.desc2', 'projects.dmz.desc3'],
+    description: ['projects.dmz.desc.1', 'projects.dmz.desc.2', 'projects.dmz.desc.3'],
     github: getGitHubRepo('dmz'),
     tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
     title: 'projects.dmz.title',
@@ -452,7 +456,7 @@ const projects: Project[] = [
     website: getWebsite('dmz')
   },
   {
-    description: ['projects.portfolio.desc1', 'projects.portfolio.desc2', 'projects.portfolio.desc3'],
+    description: ['projects.portfolio.desc.1', 'projects.portfolio.desc.2', 'projects.portfolio.desc.3'],
     github: getGitHubRepo('portfolio'),
     tags: [Tag.React, Tag.TailwindCSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website, Tag.i18n],
     title: 'projects.portfolio.title',
