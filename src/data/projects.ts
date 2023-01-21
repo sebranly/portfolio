@@ -11,17 +11,17 @@ const projects: Project[] = [
       folder: ImageFolder.CrashTeamRacing2D,
       images: [
         {
-          alt: 'Game menu that allows up to 4 players to select their characters',
+          alt: 'projects.ctr2d.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Game screenshot that shows Polar character currently playing its turn on Crash Cove track',
+          alt: 'projects.ctr2d.alt.2',
           nb: 2,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'End of game screenshot that shows the podium for top 3 characters',
+          alt: 'projects.ctr2d.alt.3',
           nb: 3,
           extension: ImageExtension.PNG
         }
@@ -39,37 +39,37 @@ const projects: Project[] = [
       folder: ImageFolder.TETRISpace,
       images: [
         {
-          alt: 'Screenshot of lower screen of Nintendo DS with Tetris game being played',
+          alt: 'projects.tetrisSpace.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Screenshot of lower screen of Nintendo DS with Tetris game being continued with a 4-block line about to score lots of points',
+          alt: 'projects.tetrisSpace.alt.2',
           nb: 2,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Screenshot of TETRISpace menu referencing Site du Zero, former name for OpenClassrooms',
+          alt: 'projects.tetrisSpace.alt.3',
           nb: 3,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Screenshot of replay menu',
+          alt: 'projects.tetrisSpace.alt.4',
           nb: 4,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Screenshot of current TETRISpace game (1/3)',
+          alt: 'projects.tetrisSpace.alt.5',
           nb: 5,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Screenshot of current TETRISpace game (2/3)',
+          alt: 'projects.tetrisSpace.alt.6',
           nb: 6,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Screenshot of current TETRISpace game (3/3)',
+          alt: 'projects.tetrisSpace.alt.7',
           nb: 7,
           extension: ImageExtension.PNG
         }
@@ -107,7 +107,7 @@ const projects: Project[] = [
     description: ['projects.myDraw.desc1', 'projects.myDraw.desc2', 'projects.myDraw.desc3'],
     images: {
       folder: ImageFolder.myDraw,
-      images: [{ alt: 'Homer Simpson drawn in myDraw by Sebas', nb: 1, extension: ImageExtension.PNG }]
+      images: [{ alt: 'projects.myDraw.alt.1', nb: 1, extension: ImageExtension.PNG }]
     },
     title: 'projects.myDraw.title',
     subtitle: 'projects.myDraw.subtitle',
@@ -122,22 +122,22 @@ const projects: Project[] = [
       folder: ImageFolder.BobolsSokoban3D,
       images: [
         {
-          alt: 'Menu of the game with adventure mode icon, level editor play mode, help and level editor edition mode',
+          alt: 'projects.bobolsSokoban3d.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         },
         {
-          alt: `Game of Sokoban in Adventure Mode where purple ice cubes is on a crystal while cyan ice cubes need to be put on a crystal`,
+          alt: 'projects.bobolsSokoban3d.alt.2',
           nb: 2,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Level editor of Sokoban game where user can place several different items including walls, ice cubes and crystals',
+          alt: 'projects.bobolsSokoban3d.alt.3',
           nb: 3,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Credits of Sokoban game with four help pages (second page is shown with tutorial text)',
+          alt: 'projects.bobolsSokoban3d.alt.4',
           nb: 4,
           extension: ImageExtension.PNG
         }
@@ -171,17 +171,17 @@ const projects: Project[] = [
       folder: ImageFolder.myLife,
       images: [
         {
-          alt: '5th generation shown on upper and lower screens of Nintendo DS in green visual theme of myLife game',
+          alt: 'projects.myLife.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         },
         {
-          alt: '1st generation shown on upper and lower screens of Nintendo DS in black and white visual theme of myLife game',
+          alt: 'projects.myLife.alt.2',
           nb: 2,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'The 1st generation from the previous screenshot becomes a clown at exactly the 111th generation',
+          alt: 'projects.myLife.alt.3',
           nb: 3,
           extension: ImageExtension.PNG
         }
@@ -218,7 +218,7 @@ const projects: Project[] = [
       folder: ImageFolder.mySudokuTool,
       images: [
         {
-          alt: 'Graphical user interface of mySudokuTool showing the user adding digit 4 in the center block of the Sudoku grid',
+          alt: 'projects.mySudokuTool.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         }
@@ -242,7 +242,7 @@ const projects: Project[] = [
       folder: ImageFolder.ConnectFour,
       images: [
         {
-          alt: 'Game of Connect Four played between two human players with red and yellow tokens',
+          alt: 'projects.connectFour.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         }
@@ -260,7 +260,7 @@ const projects: Project[] = [
       folder: ImageFolder.myEnglishGame,
       images: [
         {
-          alt: 'Game of myEnglishGame showing that letter B can replace C in COOK in order to turn it into BOOK which is the French translation for Livre',
+          alt: 'projects.myEnglishGame.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         }
@@ -284,12 +284,12 @@ const projects: Project[] = [
       folder: ImageFolder.GTAVShowYourCars,
       images: [
         {
-          alt: 'Version 2 of the website that shows pictures of vehicles posted by users',
+          alt: 'projects.GTAV.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'Version 1 of the website that shows pictures of vehicles posted by users',
+          alt: 'projects.GTAV.alt.2',
           nb: 2,
           extension: ImageExtension.JPG
         }
@@ -337,12 +337,12 @@ const projects: Project[] = [
       folder: ImageFolder.myMaze,
       images: [
         {
-          alt: 'Top down view of a perfect maze displayed on Nintendo DS with OpenGL',
+          alt: 'projects.maze.alt.1',
           nb: 1,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'First person view of a perfect maze displayed on Nintendo DS with OpenGL',
+          alt: 'projects.maze.alt.2',
           nb: 2,
           extension: ImageExtension.PNG
         }

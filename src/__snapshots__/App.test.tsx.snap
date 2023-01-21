@@ -390,7 +390,7 @@ NodeList [
         projects.myDraw.subtitle
       </h3>
       <img
-        alt="Homer Simpson drawn in myDraw by Sebas"
+        alt="projects.myDraw.alt.1"
         class="my-2 lg:w-1/2 md:w-3/5 sm:w-2/3 w-full m-auto"
         src="https://raw.githubusercontent.com/sebranly/portfolio/main/public/img/projects_wrong/myDraw/img1.png"
       />

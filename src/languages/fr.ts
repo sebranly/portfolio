@@ -44,6 +44,12 @@ const fr = {
         subtitle: "Ensemble de puzzles pour finir l'année"
       },
       bobolsSokoban3d: {
+        alt: {
+          1: "Menu du jeu Sokoban avec plusieurs icônes : mode aventure, éditeur de niveau (mode jouer), écran d'aide et éditeur de niveau (mode édition)",
+          2: 'Partie de jeu Sokoban en mode aventure dans laquelle les blocs de glace violets sont positionnés sur un joyau, tandis que ceux cyans doivent être déplacés sur un joyau',
+          3: 'Éditeur de niveau du jeu Sokoban dans lequel le joueur peut placer plusieurs éléments tels que des murs, des blocs de glace et des joyaux, dans le but de créer un niveau',
+          4: "Crédits du jeu Sokoban avec quatre pages d'aide (la deuxième page est montrée et inclut un tutoriel sous forme de texte)"
+        },
         desc1:
           'Par curiosité, je réinvente la roue intentionnellement dans le but de créer une vue en 2D-isométrique, à partir de zéro, pour un jeu.',
         desc2:
@@ -53,6 +59,9 @@ const fr = {
         subtitle: 'Introduction à la 2D-isométrique'
       },
       connectFour: {
+        alt: {
+          1: 'Jeu de Puissance 4 joué entre deux joueurs humains avec des jetons rouges et jaunes'
+        },
         desc1: 'Pour un projet scolaire, nous créons un Puissance 4 en binôme.',
         desc2:
           'Le language de programmation imposé est Python donc nous y apprenons quelques unes de ses bibliothèques graphiques.',
@@ -70,6 +79,11 @@ const fr = {
         subtitle: 'Jeu de puzzles basé sur les mélanges de couleurs'
       },
       ctr2d: {
+        alt: {
+          1: 'Menu du jeu qui permet à jusque 4 joueurs de sélectionner leur personnage',
+          2: "Capture d'écran du jeu qui montre le personnage Polar en train de jouer son tour sur le circuit Crash Cove",
+          3: "Capture d'écran du podium de fin de partie qui montre les 3 meilleurs joueurs"
+        },
         desc1:
           'Étant fan du jeu vidéo sur PlayStation 1, je décide de mettre en oeuvre mes connaissances en programmation en créant une version simplifiée de Crash Team Racing.',
         desc2:
@@ -150,6 +164,10 @@ const fr = {
         }
       },
       GTAV: {
+        alt: {
+          1: 'Version 2 (thème vert) du site web montrant les photos de véhicules postées par les utilisateurs',
+          2: 'Version 1 (thème sombre) du site web montrant les photos de véhicules postées par les utilisateurs'
+        },
         desc1:
           "Mon frère accepte mon aide avec joie sur un projet qu'il a entrepris. Ensemble nous développons notre premier vrai site web.",
         desc2:
@@ -178,6 +196,9 @@ const fr = {
         title: 'Carrés magiques'
       },
       myDraw: {
+        alt: {
+          1: 'Homer Simpson dessiné dans myDraw par Sebas'
+        },
         desc1: "Intrigué par le traitement d'images, je décide de créer ma propre version de Paint.",
         desc2:
           'La version finale offre de nombreux outils : stylo, gomme, sélecteur de couleur, pinceau, rectangle, mode miroir et couleurs inversées.',
@@ -186,6 +207,10 @@ const fr = {
         subtitle: 'Version simplifiée de Paint'
       },
       maze: {
+        alt: {
+          1: "Vue de haut d'un labyrinthe parfait généré en 3D à l'aide d'OpenGL sur Nintendo DS",
+          2: "Vue en première personne d'un labyrinthe parfait généré en 3D à l'aide d'OpenGL sur Nintendo DS"
+        },
         desc1: `J'ai toujours aimé les labyrinthes étant plus petit, notamment grâce à celui présent dans la maison de Lara dans le jeu vidéo Tomb Raider 2.`,
         desc2:
           'Je suis un algorithme dans le but de générer des labyrinthes parfaits (étant donné que ceux imparfaits sont simplement des labyrinthes parfaits auxquels nous avons retiré quelques murs).',
@@ -196,6 +221,9 @@ const fr = {
         title: 'Générateur de labyrinthes'
       },
       myEnglishGame: {
+        alt: {
+          1: "Partie de myEnglishGame montrant que la lettre B peut remplacer le C dans COOK dans le but de le transformer en BOOK, qui est la traduction en anglais du mot français 'Livre'"
+        },
         desc1:
           "Ayant l'envie d'inviter les étudiants à apprendre l'anglais, j'implémente une idée originale à partir de zéro.",
         desc2:
@@ -205,6 +233,11 @@ const fr = {
         subtitle: 'Apprendre du vocabulaire anglais en jouant'
       },
       myLife: {
+        alt: {
+          1: '5ème génération montrée sur le double écran de myLife sur Nintendo DS, utilisant le thème visuel vert',
+          2: '1ère génération montrée sur le double écran de myLife sur Nintendo DS, utilisant le thème visuel noir et blanc',
+          3: "La 1ère génération de l'image précédente devient un clown après avoir évolué, à la 111ème génération"
+        },
         desc1:
           'Au sein de la communauté OpenClassrooms, je découvre et participe à un atelier/compétition dans lesquels les membres du forum discutent entre eux et implémentent des versions variées du jeu de la vie de Conway.',
         desc2:
@@ -222,6 +255,9 @@ const fr = {
         subtitle: 'Du pixel art de votre DS vers votre PC'
       },
       mySudokuTool: {
+        alt: {
+          1: "Interface graphique de mySudokuTool montrant l'utilisateur ajoutant le chiffre 4 dans le bloc central de la grille de Sudoku"
+        },
         desc1:
           'Avec un camarade de classe, nous travaillons ensemble sur un résolveur de Sudoku en tant que projet personnel.',
         desc2:
@@ -288,6 +324,15 @@ const fr = {
         title: 'Modèle TS'
       },
       tetrisSpace: {
+        alt: {
+          1: "Capture d'écran de l'écran du bas de la Nintendo DS montrant une partie en cours du jeu TETRISpace",
+          2: "Capture d'écran de l'écran du bas de la Nintendo DS montrant la même partie de TETRISpace dans laquelle une ligne de 4 blocs est sur le point de marquer beaucoup de points",
+          3: "Capture d'écran de TETRISpace faisant référence au Site du Zero, ancien nom de Classrooms",
+          4: "Capture d'écran pour rejouer",
+          5: "Capture d'écran d'une partie en cours du jeu TETRISpace (1/3)",
+          6: "Capture d'écran d'une partie en cours du jeu TETRISpace (2/3)",
+          7: "Capture d'écran d'une partie en cours du jeu TETRISpace (3/3)"
+        },
         desc1:
           "Suivant les conseils de la communauté d'OpenClassrooms, je développe une version du célèbre jeu Tetris lors d'un weekend.",
         desc2:
