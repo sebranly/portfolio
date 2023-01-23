@@ -13,7 +13,7 @@ const en = {
       [Tag.All]: 'All',
       [Tag.CLI]: 'CLI',
       [Tag.GUI]: 'GUI',
-      [Tag.Website]: 'Website'
+      [Tag.Website]: 'Websites'
     },
     header: {
       author: {

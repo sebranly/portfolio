@@ -236,7 +236,7 @@ const projects: Project[] = [
   {
     contributors: [
       {
-        name: 'Alex',
+        name: 'Axel',
         roles: [Role.Developer]
       }
     ],
