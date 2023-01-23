@@ -91,7 +91,7 @@ const fr = {
       ctrOcr: {
         desc: {
           1: 'Plusieurs années plus tard et toujours fan du jeu vidéo Crash Team Racing qui a reçu un remake sur PlayStation 4, je deviens actif sur la communauté Discord des joueurs francophones.',
-          2: "Également intéressé par la reconnaissance optique de caractères, je combine les deux intérêts en créant un site web sur lequel les utilisateurs téléchargent en amont leurs captures d'écran de fin de course, et obtiennent en retour un classement complet des positions. En effet le jeu manque cette fonctionnalité sur plusieurs courses.",
+          2: "Également intéressé par la reconnaissance optique de caractères, je combine les deux intérêts en créant un site web sur lequel les utilisateurs téléchargent en amont leurs captures d'écran de fin de course, et obtiennent en retour un classement complet des positions. En effet le jeu ne propose pas cette fonctionnalité sur plusieurs courses.",
           3: "Par curiosité j'achète également un nom de domaine pour l'hébergement de mon site web."
         },
         subtitle: 'Reconnaissance optique de caractères'
