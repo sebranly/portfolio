@@ -51,7 +51,7 @@ const en = {
         },
         desc: {
           1: 'Out of curiosity, I willingly decided to reinvent the wheel by creating a 2D isometric view from scratch.',
-          2: 'With pen and paper, I came up with the rendering formulae which I implemented as a Sokoban game.',
+          2: 'With pen and paper, I came up with the pixel rendering formulae which I implemented as a Sokoban game.',
           3: 'It became a full-fledged game consisting of: a 20-level adventure mode with an increasing difficulty, a level editor with validation rules, and a file save for both modes.'
         },
         subtitle: 'First 2D isometric experiment',
@@ -62,9 +62,9 @@ const en = {
           1: 'Game of Connect Four played between two human players with red and yellow tokens'
         },
         desc: {
-          1: 'As part of a school project, we created a Connect Four as a duo.',
+          1: 'As part of a school project, our assignment was to recreate Connect Four as a duo.',
           2: 'The imposed programming language was Python so we learnt some of its graphical libraries.',
-          3: 'The final project included a 2-player mode, as well as a basic artificial intelligence (attack/defense) in order to play against the computer.'
+          3: 'The final version included a 2-player mode, as well as a basic artificial intelligence (attack/defense) in order to play against the computer.'
         },
         subtitle: 'Play against your friend or the computer',
         title: 'Connect Four'
@@ -94,8 +94,8 @@ const en = {
       },
       ctrOcr: {
         desc: {
-          1: "Several years later, and still a fan of the Crash Team Racing video game which got a remake on PlayStation 4, I've been active on Discord communities of French players.",
-          2: 'Also interested by optical character recognition, I combined both interests and created a website in which users can upload screenshots of in-game end results. In return, they can obtain a leaderboard showing all racing positions and points. The video game does not offer this feature.',
+          1: "Several years later, and still a fan of the Crash Team Racing video game which got a remake on PlayStation 4, I've been active on Discord communities of French-speaking players.",
+          2: 'Also interested by optical character recognition, I combined both interests and created a website in which users can upload screenshots of in-game end results. In return, they can obtain a leaderboard showing all racing positions and points. The video game does not offer this feature for several races.',
           3: 'Out of curiosity, I also bought a domain name to host my website.'
         },
         subtitle: 'Optical character recognition',
@@ -114,7 +114,7 @@ const en = {
         desc: {
           1: "For her Master's Degree's thesis, Faith asked my help to gather her resources into a website.",
           2: 'I implemented the pronunciation tables with the audio files she provided, as well as the quizzes she invented.',
-          3: 'The website is hosted on GitHub Pages so that anyone can learn more about English pronunciation. With her thesis being validated, and no more strict deadline, a mobile-optimized version was developed in 2022.'
+          3: 'The website is hosted on GitHub Pages so that anyone can learn more about English pronunciation. With her thesis being validated, and no more strict deadline, I developed a mobile-optimized version in 2022.'
         },
         subtitle: 'Website for a Thesis',
         title: 'English Pronunciation'
@@ -160,7 +160,7 @@ const en = {
           2: 'We started generating all the permutations for a set of letters thanks to a stack (abstract data type).',
           3: "After learning that the eight queens puzzle is actually really similar to letters' permutations, we solved the main puzzle."
         },
-        subtitle: 'A famous chess puzzle',
+        subtitle: 'A well-known chess puzzle',
         title: 'Eight Queens Puzzle'
       },
       GTAV: {
@@ -179,7 +179,7 @@ const en = {
       kaleidoscope: {
         desc: {
           1: 'I really liked Bandersnatch interactive movie on Netflix. When I heard of Kaleidoscope on Netflix, a story told in a non-linear way, I wanted to create a quick website about it.',
-          2: 'The website allows users to modify the viewing order of the total of eight episodes of the TV show.',
+          2: 'It allows users to modify the viewing order of the total of eight episodes of the TV show.',
           3: 'Inspired by Wordle, I also included a sharing feature so that users can discuss their viewing order with other users on social media.'
         },
         subtitle: 'Share your non-linear viewing order',
@@ -189,7 +189,7 @@ const en = {
         desc: {
           1: 'After playing the first episode of Professor Layton, a puzzle adventure video game, I learnt the existence of magic squares.',
           2: 'Those are squares of numbers in which the sum of each row, column and diagonal is the same.',
-          3: 'In love with the concept, I followed an algorithm in order to recreate said magic squares.'
+          3: 'In love with the concept, I followed an algorithm in order to recreate said magic squares with variable dimensions.'
         },
         subtitle: 'Squares with interesting properties',
         title: 'Magic Squares'
@@ -215,7 +215,7 @@ const en = {
         desc: {
           1: 'Intrigued by digital image processing, I decided to create my own version of Paint.',
           2: 'The final version offers lots of tools: pen, eraser, color picker, brush, rectangle, horizontal mirror and inverted modes, etc.',
-          3: 'The most complicated tool I implemented happened to be the bucket tool (used to fill an area), which made me practice recursion.'
+          3: 'The most complicated tool I implemented happened to be the bucket tool (used to fill an area), which made me practice recursion further.'
         },
         subtitle: 'Mini version of Paint',
         title: 'myDraw'
@@ -272,7 +272,7 @@ const en = {
           1: 'This project re-used two previous ones: TETRISpace for its core gameplay, and myPixelArt for drawing its "sprites".',
           2: 'I pushed the gameplay even further by incorporating challenges (e.g. remove 4 lines at once, score 10,000 points, etc.), which unlocked several visual themes (Classic, Gameboy, Bubble Bobble, Super Mario Bros, PlayStation, Dice).',
           3: 'The player also unlocked avatars (also made within myPixelArt) so that they could edit their player card, along with their caption and background color.',
-          4: 'As I was getting more and more familiar with the Nintendo DS system, I learnt new things such as playing audio files (the video game had a main theme) and experimenting with 3D thanks to OpenGL (the video game had a 3D visual theme).'
+          4: 'As I was getting more and more familiar with the Nintendo DS system, I learnt new things such as playing audio files (the video game had a main theme) and experimenting with 3D (the video game had a 3D visual theme).'
         },
         subtitle: 'TETRISpace++',
         title: 'myTetris'
@@ -300,7 +300,7 @@ const en = {
       resume: {
         desc: {
           1: 'Trying to come up with an interesting résumé idea for a job search abroad, I spent a day creating a quick online résumé with basic web technologies.',
-          2: 'I took inspiration from ebay in order to create a parody of it, in which the product was myself. It also became my first experience with GitHub Pages.',
+          2: 'I took inspiration from ebay in order to create a parody of it, in which the product was myself. It also became my first experience with GitHub Pages for hosting the website.',
           3: 'This project is now really outdated but I decided to keep it available for fun.'
         },
         subtitle: 'An ebay parody featuring myself',
