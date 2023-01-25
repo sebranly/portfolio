@@ -3,7 +3,7 @@
 exports[`Footer 1`] = `
 NodeList [
   <div
-    class="my-4 text-lg text-center"
+    class="my-4 text-md text-center"
   >
     <div>
       footer.author.prefix
@@ -27,7 +27,7 @@ NodeList [
         target="_blank"
         title="Website changelog"
       >
-        0.0.1
+        1.0.0
       </a>
     </div>
   </div>,

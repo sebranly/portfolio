@@ -11,13 +11,13 @@ const projects: Project[] = [
       folder: ImageFolder.CrashTeamRacing2D,
       images: [
         {
-          alt: 'projects.ctr2d.alt.1',
-          nb: 1,
+          alt: 'projects.ctr2d.alt.2',
+          nb: 2,
           extension: ImageExtension.PNG
         },
         {
-          alt: 'projects.ctr2d.alt.2',
-          nb: 2,
+          alt: 'projects.ctr2d.alt.1',
+          nb: 1,
           extension: ImageExtension.PNG
         },
         {
