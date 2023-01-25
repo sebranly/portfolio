@@ -17,6 +17,7 @@ import { sanitizePageCookie, sanitizeTabCookie } from './utils/cookie';
 
 function App() {
   const [cookies, setCookie] = useCookies([COOKIE_PAGE, COOKIE_TAB]);
+
   const onClickTab = (tag: Tag) => {
     const newProjects = filterProjectsByTag(projects, tag);
     setApplicationType(tag);
