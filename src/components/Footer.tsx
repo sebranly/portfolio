@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="my-4 text-lg text-center">
+    <div className="my-4 text-md text-center">
       <div>
         {t('footer.author.prefix')}
         <a
