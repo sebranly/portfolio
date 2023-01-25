@@ -258,7 +258,7 @@ const fr = {
       },
       myTetris: {
         desc: {
-          1: 'Ce projet réutilise deux de mes anciens projets : TETRISpace pour le gameplay de base, et myPixelArt pour la création de ses sprites.',
+          1: 'Ce projet réutilise deux de mes anciens projets : TETRISpace pour le gameplay de base, et myPixelArt pour la création de ses "sprites".',
           2: "Je pousse le gameplay plus loin en incorporant des défis (par exemple, détruire 4 lignes d'un coup, atteindre 10000 points, etc.) qui débloquent plusieurs thèmes visuels (Classic, Gameboy, Bubble Bobble, Super Mario Bros, PlayStation, Dice).",
           3: "Les joueurs débloquent également des avatars (également faits dans myPixelArt) qu'ils peuvent sélectionner pour pouvoir éditer leur carte de joueur, avec une légende textuelle et une couleur de fond.",
           4: "Désormais familier avec la Nintendo DS, je décide d'apprendre de nouvelles choses tels que pouvoir lire des fichiers audio (une musique est ajoutée au jeu) et produire un rendu 3D (un thème 3D peut être débloqué)."
@@ -322,7 +322,7 @@ const fr = {
         },
         desc: {
           1: "J'écoute les conseils de la communauté d'OpenClassrooms et je développe une version du célèbre jeu Tetris pendant un weekend.",
-          2: "Je décide de m'imposer une difficulté supplémentaire en le produisant sur la Nintendo DS qui est connue pour ses limitations sur les 'sprites'.",
+          2: `Je décide de m'imposer une difficulté supplémentaire en le produisant sur la Nintendo DS qui est connue pour ses limitations sur les "sprites".`,
           3: 'Cela devient TETRISpace, un Tetris en 4-bit jouable sur une arène carrée de 11x11 blocs. La première version inclut un système de score et une sauvegarde pour le meilleur score.'
         },
         subtitle: 'Version jouable de Tetris sur Nintendo DS'
