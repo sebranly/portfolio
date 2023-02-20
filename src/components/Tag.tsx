@@ -17,7 +17,7 @@ const Tag: React.FC<TagProps> = (props) => {
   const isWhite = color === Color.White;
 
   const classnamesTag = classnames(
-    'border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1',
+    'border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1',
     { 'text-white': !isWhite, 'text-black': isWhite },
     getTailwindBackgroundColor(color),
     getTailwindHoverBackgroundColor(color)

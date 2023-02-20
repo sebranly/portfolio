@@ -100,7 +100,7 @@ const fr = {
         desc: {
           1: "Suite à la sortie récente du jeu vidéo Warzone 2.0, je joue au mode DMZ et remarque qu'un élément de gameplay est un peu confus pour ses fans.",
           2: "Je crée un site pour y pallier, il permet la mise en place de minuteurs et affiche la conversion en temps réel de l'équivalent en argent virtuel.",
-          3: 'La communauté sur reddit a accueilli ce projet de manière très positive, je prévois donc de le maintenir à jour pendant toute la durée de vie du jeu vidéo.'
+          3: 'La communauté sur reddit a accueilli ce projet de manière très positive, je prévois donc de le maintenir à jour pendant toute la durée de vie du jeu vidéo (en ce moment, à jour pour la saison 2).'
         },
         subtitle: "Le temps c'est de l'argent !",
         title: 'Convertisseur pour DMZ'
