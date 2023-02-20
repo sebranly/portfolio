@@ -3,7 +3,7 @@
 exports[`Tag 1`] = `
 NodeList [
   <div
-    class="border-2 border-black border-solid cursor-pointer inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
+    class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
   >
     JavaScript
   </div>,
