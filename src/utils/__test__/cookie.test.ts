@@ -2,24 +2,26 @@ import { sanitizePageCookie, sanitizeTabCookie } from '../cookie';
 import { Tag } from '../../types';
 
 test('sanitizePageCookie', () => {
-  expect(sanitizePageCookie(null)).toBe(1);
-  expect(sanitizePageCookie('')).toBe(1);
-  expect(sanitizePageCookie(0)).toBe(1);
-  expect(sanitizePageCookie('0')).toBe(1);
-  expect(sanitizePageCookie([])).toBe(1);
-  expect(sanitizePageCookie(undefined)).toBe(1);
-  expect(sanitizePageCookie({})).toBe(1);
+  const defaultValue = 2;
 
-  expect(sanitizePageCookie([null])).toBe(1);
-  expect(sanitizePageCookie([''])).toBe(1);
-  expect(sanitizePageCookie([0])).toBe(1);
-  expect(sanitizePageCookie(['0'])).toBe(1);
-  expect(sanitizePageCookie([[]])).toBe(1);
-  expect(sanitizePageCookie([undefined])).toBe(1);
-  expect(sanitizePageCookie([{}])).toBe(1);
+  expect(sanitizePageCookie(null)).toBe(defaultValue);
+  expect(sanitizePageCookie('')).toBe(defaultValue);
+  expect(sanitizePageCookie(0)).toBe(defaultValue);
+  expect(sanitizePageCookie('0')).toBe(defaultValue);
+  expect(sanitizePageCookie([])).toBe(defaultValue);
+  expect(sanitizePageCookie(undefined)).toBe(defaultValue);
+  expect(sanitizePageCookie({})).toBe(defaultValue);
 
-  expect(sanitizePageCookie(-1)).toBe(1);
-  expect(sanitizePageCookie('-1')).toBe(1);
+  expect(sanitizePageCookie([null])).toBe(defaultValue);
+  expect(sanitizePageCookie([''])).toBe(defaultValue);
+  expect(sanitizePageCookie([0])).toBe(defaultValue);
+  expect(sanitizePageCookie(['0'])).toBe(defaultValue);
+  expect(sanitizePageCookie([[]])).toBe(defaultValue);
+  expect(sanitizePageCookie([undefined])).toBe(defaultValue);
+  expect(sanitizePageCookie([{}])).toBe(defaultValue);
+
+  expect(sanitizePageCookie(-1)).toBe(defaultValue);
+  expect(sanitizePageCookie('-1')).toBe(defaultValue);
 
   expect(sanitizePageCookie(1)).toBe(1);
   expect(sanitizePageCookie(2)).toBe(2);
@@ -41,23 +43,25 @@ test('sanitizePageCookie', () => {
 });
 
 test('sanitizeTabCookie', () => {
-  expect(sanitizeTabCookie(null)).toBe(Tag.All);
-  expect(sanitizeTabCookie('')).toBe(Tag.All);
-  expect(sanitizeTabCookie(0)).toBe(Tag.All);
-  expect(sanitizeTabCookie('0')).toBe(Tag.All);
-  expect(sanitizeTabCookie([])).toBe(Tag.All);
-  expect(sanitizeTabCookie(undefined)).toBe(Tag.All);
-  expect(sanitizeTabCookie({})).toBe(Tag.All);
+  const defaultValue = Tag.Website;
 
-  expect(sanitizeTabCookie([null])).toBe(Tag.All);
-  expect(sanitizeTabCookie([''])).toBe(Tag.All);
-  expect(sanitizeTabCookie([0])).toBe(Tag.All);
-  expect(sanitizeTabCookie(['0'])).toBe(Tag.All);
-  expect(sanitizeTabCookie([[]])).toBe(Tag.All);
-  expect(sanitizeTabCookie([undefined])).toBe(Tag.All);
-  expect(sanitizeTabCookie([{}])).toBe(Tag.All);
+  expect(sanitizeTabCookie(null)).toBe(defaultValue);
+  expect(sanitizeTabCookie('')).toBe(defaultValue);
+  expect(sanitizeTabCookie(0)).toBe(defaultValue);
+  expect(sanitizeTabCookie('0')).toBe(defaultValue);
+  expect(sanitizeTabCookie([])).toBe(defaultValue);
+  expect(sanitizeTabCookie(undefined)).toBe(defaultValue);
+  expect(sanitizeTabCookie({})).toBe(defaultValue);
 
-  expect(sanitizeTabCookie(Tag.React)).toBe(Tag.All);
+  expect(sanitizeTabCookie([null])).toBe(defaultValue);
+  expect(sanitizeTabCookie([''])).toBe(defaultValue);
+  expect(sanitizeTabCookie([0])).toBe(defaultValue);
+  expect(sanitizeTabCookie(['0'])).toBe(defaultValue);
+  expect(sanitizeTabCookie([[]])).toBe(defaultValue);
+  expect(sanitizeTabCookie([undefined])).toBe(defaultValue);
+  expect(sanitizeTabCookie([{}])).toBe(defaultValue);
+
+  expect(sanitizeTabCookie(Tag.React)).toBe(defaultValue);
 
   expect(sanitizeTabCookie(Tag.All)).toBe(Tag.All);
   expect(sanitizeTabCookie(Tag.CLI)).toBe(Tag.CLI);

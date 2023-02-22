@@ -53,8 +53,8 @@ NodeList [
     class="mt-4 flex w-full"
   >
     <button
-      class="bg-black text-white rounded-tr-lg p-2 flex-1"
-      style="font-weight: bold;"
+      class="p-2 flex-1"
+      style="font-weight: normal;"
       type="submit"
     >
       selector.All
@@ -74,8 +74,8 @@ NodeList [
       selector.GUI
     </button>
     <button
-      class="p-2 flex-1"
-      style="font-weight: normal;"
+      class="bg-black text-white rounded-tl-lg p-2 flex-1"
+      style="font-weight: bold;"
       type="submit"
     >
       selector.website
@@ -90,73 +90,135 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        projects.ctr2d.title
+        projects.ctrOcr.title
       </h2>
       <h3
         class="text-lg"
       >
-        projects.ctr2d.subtitle
+        projects.ctrOcr.subtitle
       </h3>
-      <div
-        data-testid="swiper"
-      />
       <div
         class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
       >
         <div
           class="mb-2"
         >
-          projects.ctr2d.desc.1
+          projects.ctrOcr.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.ctr2d.desc.2
+          projects.ctrOcr.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.ctr2d.desc.3
+          projects.ctrOcr.desc.3
         </div>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.code
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://github.com/sebranly/ctr-ocr"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.code projects.ctrOcr.title"
+        >
+          projects.general.github
+        </a>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.website
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://www.crashteamresults.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.website projects.ctrOcr.title"
+        >
+          projects.general.link
+        </a>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.video
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://www.youtube.com/watch?v=XjwoKGtEQag"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.video projects.ctrOcr.title"
+        >
+          projects.general.demo
+        </a>
       </div>
       <div
         class="grow h-4"
       />
       <div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
         >
-          2011
+          2022
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-600 hover:bg-indigo-700"
         >
-          C
+          CSS
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
+        >
+          DNS
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-black bg-white hover:bg-gray-300"
+        >
+          GitHub
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
         >
-          GUI
+          projects.general.tags.live
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
         >
-          projects.general.tags.archived
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
-        >
-          projects.general.tags.video game
+          projects.general.tags.website
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
         >
-          SDL
+          React
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
         >
-          Windows
+          TypeScript
         </div>
       </div>
     </div>
@@ -166,33 +228,143 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        projects.tetrisSpace.title
+        projects.templateTs.title
       </h2>
       <h3
         class="text-lg"
       >
-        projects.tetrisSpace.subtitle
+        projects.templateTs.subtitle
       </h3>
-      <div
-        data-testid="swiper"
-      />
       <div
         class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
       >
         <div
           class="mb-2"
         >
-          projects.tetrisSpace.desc.1
+          projects.templateTs.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.tetrisSpace.desc.2
+          projects.templateTs.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.tetrisSpace.desc.3
+          projects.templateTs.desc.3
+        </div>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.code
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://github.com/sebranly/template-ts"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.code projects.templateTs.title"
+        >
+          projects.general.github
+        </a>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.website
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://sebranly.github.io/template-ts"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.website projects.templateTs.title"
+        >
+          projects.general.link
+        </a>
+      </div>
+      <div
+        class="grow h-4"
+      />
+      <div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
+        >
+          2022
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-600 hover:bg-indigo-700"
+        >
+          CSS
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-black bg-white hover:bg-gray-300"
+        >
+          GitHub
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
+        >
+          projects.general.tags.live
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
+        >
+          projects.general.tags.website
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
+          React
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
+          TypeScript
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col bg-white px-4 py-4 border-2 mx-4 lg:w-2/5 w-full my-2 rounded-lg border-solid border-gray-50"
+    >
+      <h2
+        class="font-bold text-xl"
+      >
+        projects.kaleidoscope.title
+      </h2>
+      <h3
+        class="text-lg"
+      >
+        projects.kaleidoscope.subtitle
+      </h3>
+      <div
+        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
+      >
+        <div
+          class="mb-2"
+        >
+          projects.kaleidoscope.desc.1
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.kaleidoscope.desc.2
+        </div>
+        <div
+          class="mb-2"
+        >
+          projects.kaleidoscope.desc.3
         </div>
       </div>
       <div
@@ -208,111 +380,7 @@ NodeList [
         <div
           class="inline"
         >
-          Stéphane (projects.general.roles.Designer, projects.general.roles.Tester)
-        </div>
-      </div>
-      <div
-        class="grow h-4"
-      />
-      <div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
-        >
-          2011
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
-        >
-          C
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
-        >
-          GUI
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-red-600 hover:bg-red-700"
-        >
-          Nintendo DS
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-orange-600 hover:bg-orange-700"
-        >
-          PAlib
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
-        >
-          projects.general.tags.archived
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
-        >
-          projects.general.tags.video game
-        </div>
-      </div>
-    </div>
-    <div
-      class="flex flex-col bg-white px-4 py-4 border-2 mx-4 lg:w-2/5 w-full my-2 rounded-lg border-solid border-gray-50"
-    >
-      <h2
-        class="font-bold text-xl"
-      >
-        projects.eightQueensPuzzle.title
-      </h2>
-      <h3
-        class="text-lg"
-      >
-        projects.eightQueensPuzzle.subtitle
-      </h3>
-      <code
-        class="text-black text-sm"
-      >
-        <pre>
-          +---+---+---+---+
-        </pre>
-        <pre>
-          | . | Q | . | . |
-        </pre>
-        <pre>
-          +---+---+---+---+
-        </pre>
-        <pre>
-          | . | . | . | Q |
-        </pre>
-        <pre>
-          +---+---+---+---+
-        </pre>
-        <pre>
-          | Q | . | . | . |
-        </pre>
-        <pre>
-          +---+---+---+---+
-        </pre>
-        <pre>
-          | . | . | Q | . |
-        </pre>
-        <pre>
-          +---+---+---+---+
-        </pre>
-      </code>
-      <div
-        class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
-      >
-        <div
-          class="mb-2"
-        >
-          projects.eightQueensPuzzle.desc.1
-        </div>
-        <div
-          class="mb-2"
-        >
-          projects.eightQueensPuzzle.desc.2
-        </div>
-        <div
-          class="mb-2"
-        >
-          projects.eightQueensPuzzle.desc.3
+          Stéphane (projects.general.roles.Designer)
         </div>
       </div>
       <div
@@ -327,12 +395,32 @@ NodeList [
         </div>
         <a
           class="underline inline"
-          href="https://github.com/sebranly/eight-queens-puzzle"
+          href="https://github.com/sebranly/kaleidoscope"
           rel="noopener noreferrer"
           target="_blank"
-          title="projects.general.altText.code projects.eightQueensPuzzle.title"
+          title="projects.general.altText.code projects.kaleidoscope.title"
         >
           projects.general.github
+        </a>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.website
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://sebranly.github.io/kaleidoscope"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.website projects.kaleidoscope.title"
+        >
+          projects.general.link
         </a>
       </div>
       <div
@@ -340,19 +428,19 @@ NodeList [
       />
       <div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
         >
-          2012
+          2022
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-pink-600 hover:bg-pink-700"
         >
-          C
+          2023
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-black hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-600 hover:bg-indigo-700"
         >
-          CLI
+          CSS
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-black bg-white hover:bg-gray-300"
@@ -360,19 +448,24 @@ NodeList [
           GitHub
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
         >
-          projects.general.tags.archived
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-amber-600 hover:bg-amber-700"
-        >
-          projects.general.tags.school project
+          projects.general.tags.live
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
         >
-          puzzle
+          projects.general.tags.website
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
+          React
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
+          TypeScript
         </div>
       </div>
     </div>
@@ -382,36 +475,30 @@ NodeList [
       <h2
         class="font-bold text-xl"
       >
-        projects.myDraw.title
+        projects.dmz.title
       </h2>
       <h3
         class="text-lg"
       >
-        projects.myDraw.subtitle
+        projects.dmz.subtitle
       </h3>
-      <img
-        alt="projects.myDraw.alt.1"
-        class="my-2 lg:w-1/2 md:w-3/5 sm:w-2/3 w-full m-auto"
-        loading="lazy"
-        src="https://raw.githubusercontent.com/sebranly/portfolio/main/public/img/projects/myDraw/img1.png"
-      />
       <div
         class="border-solid border-black border-2 bg-gray-200 p-2 my-2 text-justify"
       >
         <div
           class="mb-2"
         >
-          projects.myDraw.desc.1
+          projects.dmz.desc.1
         </div>
         <div
           class="mb-2"
         >
-          projects.myDraw.desc.2
+          projects.dmz.desc.2
         </div>
         <div
           class="mb-2"
         >
-          projects.myDraw.desc.3
+          projects.dmz.desc.3
         </div>
       </div>
       <div
@@ -420,18 +507,38 @@ NodeList [
         <div
           class="font-bold inline"
         >
-          projects.general.video
+          projects.general.code
           projects.general.colon
            
         </div>
         <a
           class="underline inline"
-          href="https://www.youtube.com/watch?v=blwEK3m85Ok"
+          href="https://github.com/sebranly/dmz"
           rel="noopener noreferrer"
           target="_blank"
-          title="projects.general.altText.video projects.myDraw.title"
+          title="projects.general.altText.code projects.dmz.title"
         >
-          projects.general.demo
+          projects.general.github
+        </a>
+      </div>
+      <div
+        class="inline"
+      >
+        <div
+          class="font-bold inline"
+        >
+          projects.general.website
+          projects.general.colon
+           
+        </div>
+        <a
+          class="underline inline"
+          href="https://sebranly.github.io/dmz"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="projects.general.altText.website projects.dmz.title"
+        >
+          projects.general.link
         </a>
       </div>
       <div
@@ -439,34 +546,39 @@ NodeList [
       />
       <div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-pink-600 hover:bg-pink-700"
         >
-          2012
+          2023
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-yellow-600 hover:bg-yellow-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-indigo-600 hover:bg-indigo-700"
         >
-          C
+          CSS
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-black bg-white hover:bg-gray-300"
+        >
+          GitHub
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
         >
-          GUI
+          projects.general.tags.live
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
         >
-          projects.general.tags.archived
-        </div>
-        <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
-        >
-          SDL
+          projects.general.tags.website
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
         >
-          Windows
+          React
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
+          TypeScript
         </div>
       </div>
     </div>
@@ -475,15 +587,15 @@ NodeList [
     class="flex w-full"
   >
     <button
-      class="bg-black text-white rounded-br-lg p-2 flex-1"
-      style="font-weight: bold;"
+      class="p-2 flex-1"
+      style="font-weight: normal;"
       type="submit"
     >
       1
     </button>
     <button
-      class="p-2 flex-1"
-      style="font-weight: normal;"
+      class="bg-black text-white rounded-bl-lg rounded-br-lg p-2 flex-1"
+      style="font-weight: bold;"
       type="submit"
     >
       2
@@ -494,34 +606,6 @@ NodeList [
       type="submit"
     >
       3
-    </button>
-    <button
-      class="p-2 flex-1"
-      style="font-weight: normal;"
-      type="submit"
-    >
-      4
-    </button>
-    <button
-      class="p-2 flex-1"
-      style="font-weight: normal;"
-      type="submit"
-    >
-      5
-    </button>
-    <button
-      class="p-2 flex-1"
-      style="font-weight: normal;"
-      type="submit"
-    >
-      6
-    </button>
-    <button
-      class="p-2 flex-1"
-      style="font-weight: normal;"
-      type="submit"
-    >
-      7
     </button>
   </div>,
   <div
@@ -549,7 +633,7 @@ NodeList [
         target="_blank"
         title="Website changelog"
       >
-        1.0.1
+        1.0.2
       </a>
     </div>
   </div>,
