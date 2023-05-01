@@ -18,7 +18,7 @@ const fr = {
     header: {
       author: {
         prefix: 'Je suis ',
-        suffix: ', un Ingénieur en Développement Web.'
+        suffix: ', Software Engineer.'
       },
       introduction: 'Voici quelques uns de mes projets personnels.',
       welcome: 'Bienvenue sur mon Portfolio !'
@@ -100,7 +100,7 @@ const fr = {
         desc: {
           1: "Suite à la sortie récente du jeu vidéo Warzone 2.0, je joue au mode DMZ et remarque qu'un élément de gameplay est un peu confus pour ses fans.",
           2: "Je crée un site pour y pallier, il permet la mise en place de minuteurs et affiche la conversion en temps réel de l'équivalent en argent virtuel.",
-          3: 'La communauté sur reddit a accueilli ce projet de manière très positive, je prévois donc de le maintenir à jour pendant toute la durée de vie du jeu vidéo (en ce moment, à jour pour la saison 2).'
+          3: 'La communauté sur reddit a accueilli ce projet de manière très positive, je prévois donc de le maintenir à jour pendant toute la durée de vie du jeu vidéo (en ce moment, à jour pour la saison 03).'
         },
         subtitle: "Le temps c'est de l'argent !",
         title: 'Convertisseur pour DMZ'
@@ -305,7 +305,8 @@ const fr = {
         desc: {
           1: "Ayant plusieurs idées de sites web en tête, je me rends compte qu'il faudrait d'abord créer un modèle afin d'accélérer le procédé par la suite.",
           2: 'Une après-midi, je crée un dossier modèle qui me permet de commencer des sites web hébergés sur GitHub Pages gratuitement avec les technologies les plus récentes, de manière rapide.',
-          3: 'Grâce à ce modèle, plusieurs sites web voient le jour y compris Kaleidoscope, DMZ et ce Portfolio que vous êtes en train de consulter.'
+          3: 'Grâce à ce modèle, plusieurs sites web voient le jour y compris Kaleidoscope, DMZ et ce Portfolio que vous êtes en train de consulter.',
+          4: "En 2023, des meilleures technologies que Create React App prennent de l'ampleur comme Vite, donc je décide d'archiver ce projet modèle."
         },
         subtitle: 'Modèle React + TypeScript pour sites web',
         title: 'Modèle TS'

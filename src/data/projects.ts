@@ -423,9 +423,14 @@ const projects: Project[] = [
     website: 'https://www.crashteamresults.com'
   },
   {
-    description: ['projects.templateTs.desc.1', 'projects.templateTs.desc.2', 'projects.templateTs.desc.3'],
+    description: [
+      'projects.templateTs.desc.1',
+      'projects.templateTs.desc.2',
+      'projects.templateTs.desc.3',
+      'projects.templateTs.desc.4'
+    ],
     github: getGitHubRepo('template-ts'),
-    tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
+    tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Archived, Tag.Website],
     title: 'projects.templateTs.title',
     subtitle: 'projects.templateTs.subtitle',
     years: [2022],
@@ -449,7 +454,7 @@ const projects: Project[] = [
   {
     description: ['projects.dmz.desc.1', 'projects.dmz.desc.2', 'projects.dmz.desc.3'],
     github: getGitHubRepo('dmz'),
-    tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TypeScript, Tag.Live, Tag.Website],
+    tags: [Tag.React, Tag.CSS, Tag.GitHub, Tag.TailwindCSS, Tag.TypeScript, Tag.Live, Tag.Website],
     title: 'projects.dmz.title',
     subtitle: 'projects.dmz.subtitle',
     years: [2023],

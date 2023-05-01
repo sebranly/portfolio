@@ -18,7 +18,7 @@ const en = {
     header: {
       author: {
         prefix: `I'm `,
-        suffix: ', a Software Engineer.'
+        suffix: ', Software Engineer.'
       },
       introduction: 'Here are some of my personal projects.',
       welcome: 'Welcome to my Portfolio!'
@@ -105,7 +105,7 @@ const en = {
         desc: {
           1: 'Following the release of the Warzone 2.0 video game, I took part in its DMZ mode and noticed that a gameplay element was a bit confusing for fans.',
           2: 'I created a website for it: it focuses on setting up timers and displaying a live conversion from said timers to their equivalent in virtual money.',
-          3: 'The reddit community welcomed this project in a very positive way, which is one of the reasons why I plan to keep this project up-to-date with the video game lifespan (currently updated for Season 2).'
+          3: 'The reddit community welcomed this project in a very positive way, which is one of the reasons why I plan to keep this project up-to-date with the video game lifespan (currently updated for Season 03).'
         },
         subtitle: 'Currency to Cooldown Converter',
         title: 'DMZ Converter'
@@ -319,7 +319,8 @@ const en = {
         desc: {
           1: "Having some websites' ideas in mind, I figured that I should create a template first, to speed things up.",
           2: 'One afternoon, I created a repository template which allows developers to start websites hosted for free on GitHub Pages with up-to-date technologies, in a fast way.',
-          3: 'Thanks to this template, lots of websites were started including Kaleidoscope, DMZ and this Portfolio that you are currently browsing.'
+          3: 'Thanks to this template, lots of websites were started including Kaleidoscope, DMZ and this Portfolio that you are currently browsing.',
+          4: 'In 2023, better technologies than Create React App arise such as Vite, so I decided to archive this template project.'
         },
         subtitle: 'React + TypeScript Template for websites',
         title: 'Template TS'

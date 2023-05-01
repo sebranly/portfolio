@@ -7,18 +7,19 @@ import { Tabs } from './components/Tabs';
 import { Project as ProjectType } from './types';
 import { HeaderText } from './components/HeaderText';
 import { LanguageSelector } from './components/LanguageSelector';
-import { Tag } from './types';
+import { Tag as TagType } from './types';
 import { filterProjectsByTag } from './utils';
 import { generatePages, getProjectsForPage } from './utils/pages';
 import { SCROLL_TIMEOUT } from './constants';
 import { useCookies } from 'react-cookie';
 import { COOKIE_PAGE, COOKIE_TAB } from './constants';
 import { sanitizePageCookie, sanitizeTabCookie } from './utils/cookie';
+import { Tag } from './components/Tag';
 
 function App() {
   const [cookies, setCookie] = useCookies([COOKIE_PAGE, COOKIE_TAB]);
 
-  const onClickTab = (tag: Tag) => {
+  const onClickTab = (tag: TagType) => {
     const newProjects = filterProjectsByTag(projects, tag);
     setApplicationType(tag);
     setSelectedProjects(newProjects);
@@ -62,7 +63,12 @@ function App() {
     <>
       <header className="mx-4 mt-8 mb-4 text-center">
         <LanguageSelector />
-        <HeaderText className="mb-8" />
+        <HeaderText className="mb-4" />
+        <div className="mb-4">
+          <Tag tag={TagType.React} />
+          <Tag tag={TagType.TypeScript} />
+          <Tag tag={TagType.TailwindCSS} />
+        </div>
       </header>
       <Tabs applicationType={applicationType} onClickTab={onClickTab} ref={ref} />
       <div className="py-4 border border-black flex flex-wrap justify-center bg-black">

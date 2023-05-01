@@ -24,7 +24,7 @@ NodeList [
       </button>
     </div>
     <div
-      class="mb-8"
+      class="mb-4"
     >
       <h1
         class="font-bold md:text-6xl text-2xl"
@@ -46,6 +46,25 @@ NodeList [
         class="md:text-2xl text-xl"
       >
         header.introduction
+      </div>
+    </div>
+    <div
+      class="mb-4"
+    >
+      <div
+        class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+      >
+        React
+      </div>
+      <div
+        class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+      >
+        TypeScript
+      </div>
+      <div
+        class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+      >
+        TailwindCSS
       </div>
     </div>
   </header>,
@@ -253,6 +272,11 @@ NodeList [
         >
           projects.templateTs.desc.3
         </div>
+        <div
+          class="mb-2"
+        >
+          projects.templateTs.desc.4
+        </div>
       </div>
       <div
         class="inline"
@@ -314,9 +338,9 @@ NodeList [
           GitHub
         </div>
         <div
-          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-green-600 hover:bg-green-700"
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-gray-600 hover:bg-gray-700"
         >
-          projects.general.tags.live
+          projects.general.tags.archived
         </div>
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-purple-600 hover:bg-purple-700"
@@ -578,6 +602,11 @@ NodeList [
         <div
           class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
         >
+          TailwindCSS
+        </div>
+        <div
+          class="border-2 border-black border-solid inline-block rounded mr-2 my-1 px-4 py-1 text-white bg-blue-600 hover:bg-blue-700"
+        >
           TypeScript
         </div>
       </div>
@@ -633,7 +662,7 @@ NodeList [
         target="_blank"
         title="Website changelog"
       >
-        1.0.2
+        1.0.3
       </a>
     </div>
   </div>,
