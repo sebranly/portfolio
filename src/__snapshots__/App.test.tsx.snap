@@ -167,7 +167,7 @@ NodeList [
         </div>
         <a
           class="underline inline"
-          href="https://www.crashteamresults.com"
+          href="https://sebranly.github.io/ctr-ocr"
           rel="noopener noreferrer"
           target="_blank"
           title="projects.general.altText.website projects.ctrOcr.title"
@@ -662,7 +662,7 @@ NodeList [
         target="_blank"
         title="Website changelog"
       >
-        1.0.3
+        1.0.4
       </a>
     </div>
   </div>,

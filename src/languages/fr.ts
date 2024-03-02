@@ -92,15 +92,15 @@ const fr = {
         desc: {
           1: 'Plusieurs années plus tard et toujours fan du jeu vidéo Crash Team Racing qui a reçu un remake sur PlayStation 4, je deviens actif sur la communauté Discord des joueurs francophones.',
           2: "Également intéressé par la reconnaissance optique de caractères, je combine les deux intérêts en créant un site web sur lequel les utilisateurs téléchargent en amont leurs captures d'écran de fin de course, et obtiennent en retour un classement complet des positions. En effet le jeu ne propose pas cette fonctionnalité sur plusieurs courses.",
-          3: "Par curiosité j'achète également un nom de domaine pour l'hébergement de mon site web."
+          3: "Par curiosité j'achète également un nom de domaine (fermé désormais) pour l'hébergement de mon site web."
         },
-        subtitle: 'Reconnaissance optique de caractères'
+        subtitle: 'Reconnaissance Optique de Caractères'
       },
       dmz: {
         desc: {
           1: "Suite à la sortie récente du jeu vidéo Warzone 2.0, je joue au mode DMZ et remarque qu'un élément de gameplay est un peu confus pour ses fans.",
           2: "Je crée un site pour y pallier, il permet la mise en place de minuteurs et affiche la conversion en temps réel de l'équivalent en argent virtuel.",
-          3: 'La communauté sur reddit a accueilli ce projet de manière très positive, je prévois donc de le maintenir à jour pendant toute la durée de vie du jeu vidéo (en ce moment, à jour pour la saison 03).'
+          3: "La communauté sur reddit a accueilli ce projet de manière très positive, c'est pourquoi je l'ai maintenu à jour pendant toute la durée de vie du jeu vidéo."
         },
         subtitle: "Le temps c'est de l'argent !",
         title: 'Convertisseur pour DMZ'
