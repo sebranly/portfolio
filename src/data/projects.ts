@@ -420,7 +420,7 @@ const projects: Project[] = [
     subtitle: 'projects.ctrOcr.subtitle',
     years: [2022],
     video: 'https://www.youtube.com/watch?v=XjwoKGtEQag',
-    website: 'https://www.crashteamresults.com'
+    website: getWebsite('ctr-ocr')
   },
   {
     description: [

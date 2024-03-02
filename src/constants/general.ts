@@ -6,4 +6,4 @@ export const CHANGELOG_URL = `${PROJECT_URL}/releases`;
 export const GITHUB_PAGES_URL = `https://${AUTHOR_NAME}.github.io`;
 export const IMG_URL = `https://raw.githubusercontent.com/${AUTHOR_NAME}/${PROJECT_NAME}/main/public/img`;
 export const WEBSITE_TITLE = 'Portfolio';
-export const WEBSITE_VERSION = '1.0.3';
+export const WEBSITE_VERSION = '1.0.4';

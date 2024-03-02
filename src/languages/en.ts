@@ -96,16 +96,16 @@ const en = {
         desc: {
           1: "Several years later, and still a fan of the Crash Team Racing video game which got a remake on PlayStation 4, I've been active on Discord communities of French-speaking players.",
           2: 'Also interested by optical character recognition, I combined both interests and created a website in which users can upload screenshots of in-game end results. In return, they can obtain a leaderboard showing all racing positions and points. The video game does not offer this feature for several races.',
-          3: 'Out of curiosity, I also bought a domain name to host my website.'
+          3: 'Out of curiosity, I also bought a domain name (since retired) to host my website.'
         },
-        subtitle: 'Optical character recognition',
+        subtitle: 'Optical Character Recognition',
         title: 'Crash Team Results'
       },
       dmz: {
         desc: {
           1: 'Following the release of the Warzone 2.0 video game, I took part in its DMZ mode and noticed that a gameplay element was a bit confusing for fans.',
           2: 'I created a website for it: it focuses on setting up timers and displaying a live conversion from said timers to their equivalent in virtual money.',
-          3: 'The reddit community welcomed this project in a very positive way, which is one of the reasons why I plan to keep this project up-to-date with the video game lifespan (currently updated for Season 03).'
+          3: 'The reddit community welcomed this project in a very positive way, which is one of the reasons why I kept this project up-to-date with the video game lifespan.'
         },
         subtitle: 'Currency to Cooldown Converter',
         title: 'DMZ Converter'
